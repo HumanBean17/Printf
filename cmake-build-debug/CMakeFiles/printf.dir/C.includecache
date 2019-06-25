@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lcrawn/ft_printf/ft_longarifm.c
+libft.h
+/Users/lcrawn/ft_printf/libft.h
+
+/Users/lcrawn/ft_printf/libft.h
+limits.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+stdarg.h
+-
+
