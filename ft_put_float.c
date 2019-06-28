@@ -24,37 +24,36 @@ char 				*ft_put_float_2(t_double *tmp, int round)
 	long double		m;
 	int				i;
 	int 			count;
-	int 			c;
-	int 			*pow;
 	int 			*sum;
-	int 			*ar;
+	int 			*pow;
 
+	i = 0;
+	m = 0;
 	count = 45 + round;
 	sum = ft_new_malloc(count);
+	sum[0] = count;
 	if (tmp->exp - 16383 < 0)
 		tmp->man >>= (unsigned long)(ft_abs(tmp->exp - 16383));
 	else
 		tmp->man <<= (unsigned long)(ft_abs(tmp->exp - 16383));
-	i = 0;
-	m = 0;
 	//ft_print_bits(*tmp);
 	while (i < 64)
 	{
 		if (((tmp->man >> (unsigned long)(64 - i)) & 1u) != 0)
 		{
-			c = i - 1;
-			m += ft_double_pow(2, -c);
-			//pow = ft_five_pow(c);
-			//printf("p = %d || ", c);
+			m += ft_double_pow(2, -(i - 1));
+			pow = ft_five_pow(i - 1);
+			//printf("p = %d || ", i - 1);
 			//print_int(pow, i);
-			//sum = ft_sum(pow, sum, count);
+			ft_sum(&sum, pow);
+			ft_int_del(&pow);
 			//printf("sum = ");
 			//print_int(sum, count);
 		}
 		i++;
 	}
-	//printf("%Lf\n", m);
-	//print_int(sum, count);
+	printf("%Lf\n", m);
+	print_int(sum, count);
 	return (NULL);
 }
 

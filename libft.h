@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/06/27 15:38:01 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/06/28 17:38:03 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,11 +56,13 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
-int 				*ft_int_cpy(int *a);
+int 				*ft_int_cpy_2(int *a, const int *b);
+void 				ft_int_del(int **a);
+int 				*ft_int_cpy(const int *a);
 void				ft_move(int **a, int size);
-int *ft_sum(int *a, int *b, int c);
+void ft_sum(int **sum, int *b);
 int 				*ft_new_malloc(size_t size);
-int 				*ft_mlt(int *a, int *b, int n);
+int 				*ft_mlt(const int *a, const int *b, int n);
 void				print_int(int *a, int size);
 int 				*ft_five_pow(int pow);
 char 				*ft_put_float_2(t_double *tmp, int round);

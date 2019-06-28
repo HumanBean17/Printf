@@ -17,6 +17,9 @@ int 			*ft_new_malloc(size_t size)
 	int *ar;
 	int i;
 
+	ar = NULL;
+	if (size <= 0)
+		return (ar);
 	i = 0;
 	ar = (int *)malloc(sizeof(int) * size);
 	while (i < size)

@@ -15,29 +15,28 @@ int 			*ft_shift_right(int *b, int a_size, int b_size)
 	return(new_b);
 }
 
-int 			*ft_sum(int *a, int *b, int c)
+void 				ft_sum(int **sum, int *b)
 {
-	int 		a_size;
+	int 		size;
 	int 		i;
 
 	i = 1;
-	a_size = a[0];
+	size = b[0];
+	//printf("%d\n", a_size);
 	//new_b = ft_shift_right(b, a[0], b[0]);
 	//print_int(new_b, a_size + 1);
 	//print_int(a, a_size + 1);
 	//printf("size = %d\n", a_size);
-	while (i < c)
+	while (i <= size)
 	{
 		//printf("a = %d b = %d\n", a[i], new_b[i]);
-		if (i > a_size)
-			a[i] = 0;
-		else
-			a[i] += b[i];
+
+		(*sum)[i] += b[i];
 		i++;
 	}
-	ft_move(&a, a_size);
+	ft_move(sum, size);
+	//ft_int_del(b);
 	//print_int(a, 50);
-	return (a);
 }
 
 void			ft_move(int **a, int size)
@@ -59,7 +58,33 @@ void			ft_move(int **a, int size)
 	}
 }
 
-int 			*ft_int_cpy(int *a)
+void 			ft_int_del(int **a)
+{
+	if (a)
+	{
+		//printf("in del ");
+		//print_int(*a, (*a)[0] + 1);
+		free(*a);
+		*a = NULL;
+	}
+}
+
+int 			*ft_int_cpy_2(int *a, const int *b)
+{
+	int i;
+	int len;
+
+	len = b[0];
+	i = 1;
+	while (i <= len)
+	{
+		a[i] = b[i];
+		i++;
+	}
+	return (a);
+}
+
+int 			*ft_int_cpy(const int *a)
 {
 	int 	len;
 	int 	*b;
@@ -74,14 +99,10 @@ int 			*ft_int_cpy(int *a)
 		b[i] = a[i];
 		i++;
 	}
-	//printf("%d\n", len);
-	printf("a = "); print_int(a, len);
-	printf("b = "); print_int(b, len);
-	printf("\n");
 	return (b);
 }
 
-int 			*ft_mlt(int *a, int *b, int n)
+int 			*ft_mlt(const int *a, const int *b, int n)
 {
 	int *mlt;
 	int i;

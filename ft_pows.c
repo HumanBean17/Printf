@@ -9,21 +9,21 @@ int 			*ft_five_pow(int n)
 
 	i = 1;
 	b = ft_new_malloc(n + 1);
-	result = ft_new_malloc(n + 1);
 	b[n] = 5;
+	result = ft_new_malloc(n + 1);
 	result[n] = 5;
-	//print_int(result, n + 1);
-	//print_int(b, n + 1);
 	result[0] = n;
 	while (i < n)
 	{
 		tmp = ft_int_cpy(result);
-		free(result);
+		ft_int_del(&result);
 		result = ft_mlt(tmp, b, n + 1);
-		free(tmp);
+		//print_int(tmp, n + 1);
+		//print_int(result, n + 1);
+		ft_int_del(&tmp);
 		i++;
 	}
-	free(b);
+	ft_int_del(&b);
 	return (result);
 }
 
