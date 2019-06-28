@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/06/25 16:08:21 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/06/27 15:38:01 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <limits.h>
+# include <float.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
@@ -55,8 +56,9 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+int 				*ft_int_cpy(int *a);
 void				ft_move(int **a, int size);
-int 				*ft_sum(int *a, int *b, int size);
+int *ft_sum(int *a, int *b, int c);
 int 				*ft_new_malloc(size_t size);
 int 				*ft_mlt(int *a, int *b, int n);
 void				print_int(int *a, int size);

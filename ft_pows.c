@@ -5,17 +5,25 @@ int 			*ft_five_pow(int n)
 	int 	i;
 	int 	*b;
 	int 	*result;
+	int 	*tmp;
 
 	i = 1;
-	result = ft_new_malloc(n + 1);
 	b = ft_new_malloc(n + 1);
-	result[n - 1] = 5;
-	b[n - 1] = 5;
+	result = ft_new_malloc(n + 1);
+	b[n] = 5;
+	result[n] = 5;
+	//print_int(result, n + 1);
+	//print_int(b, n + 1);
+	result[0] = n;
 	while (i < n)
 	{
-		result = ft_mlt(result, b, n);
+		tmp = ft_int_cpy(result);
+		free(result);
+		result = ft_mlt(tmp, b, n + 1);
+		free(tmp);
 		i++;
 	}
+	free(b);
 	return (result);
 }
 

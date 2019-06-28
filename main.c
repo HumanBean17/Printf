@@ -2,18 +2,17 @@
 
 int main()
 {
-	double 		d = 10.0143235;
+	double 		d = 2.43323;
 	long double sum = 0;
 	int 		count = 0;
 
-	//print_int(ft_five_pow(5), 5);
-	ft_printf("%f\n", d);
-	count = 0;
-	/*while (count < 63)
-	{
-		sum = ft_double_pow(2, -count);
-		printf("%.50Lf %-25lu %5d\n\n", sum, ft_five_pow(count), count);
-		count++;
-	}*/
+	/*
+	print_int(ft_five_pow(7), ft_five_pow(7)[0]);
+	print_int(ft_five_pow(54), ft_five_pow(54)[0]);
+	print_int(ft_sum(ft_five_pow(54), ft_five_pow(7)), ft_five_pow(54)[0]);
+	*/
+	print_int(ft_five_pow(2), ft_five_pow(2)[0]);
+	printf("%.50f\n", d);
+	ft_printf("%.50f\n", d);
 	return 0;
 }
