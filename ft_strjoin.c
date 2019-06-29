@@ -21,7 +21,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	concat_str = NULL;
 	if (!s1 || !s2)
 		return (NULL);
-	concat_str = ft_strnew(ft_strlen(s1) + ft_strlen(s2), 0);
+	concat_str = ft_strnew(ft_strlen(s1) + ft_strlen(s2));
 	if (!concat_str)
 		return (NULL);
 	while (s1[i] != '\0')
@@ -43,7 +43,7 @@ char 	*ft_freejoin(char **s1, char **s2)
 	i = 0;
 	if (!(*s1) || !(*s2))
 		return (NULL);
-	concat_str = ft_strnew(ft_strlen(*s1) + ft_strlen(*s2), 0);
+	concat_str = ft_strnew(ft_strlen(*s1) + ft_strlen(*s2));
 	if (!concat_str)
 		return (NULL);
 	tmp = ft_strdup(*s1);

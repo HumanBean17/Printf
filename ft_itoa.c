@@ -59,7 +59,7 @@ char			*ft_itoa(long long int n)
 	flag = n < 0 ? -1 : 1;
 	l *= (unsigned long int)flag;
 	len = ft_num_len(l) + 1;
-	num = ft_strnew(len, 0);
+	num = ft_strnew(len);
 	if (flag == 1)
 		num[len] = '\0';
 	if (!num)

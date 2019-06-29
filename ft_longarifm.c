@@ -1,5 +1,21 @@
 #include "libft.h"
 
+char 			*ft_round(const int *a, int round)
+{
+	char 	*s;
+	int 	i;
+
+	i = 1;
+	s = ft_strnew(round + 1);
+	s[0] = '.';
+	while (i <= round)
+	{
+		s[i] = (char)(a[i] + 48);
+		i++;
+	}
+	return (s);
+}
+
 int 			*ft_shift_right(int *b, int a_size, int b_size)
 {
 	int *new_b;
@@ -15,7 +31,7 @@ int 			*ft_shift_right(int *b, int a_size, int b_size)
 	return(new_b);
 }
 
-void 				ft_sum(int **sum, int *b)
+void 				ft_sum(int **sum, const int *b)
 {
 	int 		size;
 	int 		i;
@@ -24,30 +40,32 @@ void 				ft_sum(int **sum, int *b)
 	size = b[0];
 	//printf("%d\n", a_size);
 	//new_b = ft_shift_right(b, a[0], b[0]);
-	//print_int(new_b, a_size + 1);
-	//print_int(a, a_size + 1);
-	//printf("size = %d\n", a_size);
+	/*print_int(b, size + 1);
+	print_int(*sum, (*sum)[0] + 1);
+	printf("size = %d\n", size);*/
 	while (i <= size)
 	{
 		//printf("a = %d b = %d\n", a[i], new_b[i]);
-
 		(*sum)[i] += b[i];
 		i++;
 	}
-	ft_move(sum, size);
+	ft_move(sum);
 	//ft_int_del(b);
 	//print_int(a, 50);
 }
 
-void			ft_move(int **a, int size)
+void ft_move(int **a)
 {
+	int size;
 	int i;
 	int c;
 
+	size = (*a)[0];
+	//printf("%d\n", size);
 	i = 1;
 	while (i < size)
 	{
-		if ((*a)[i] >= 10)
+		if ((*a)[i] >= 10 && i != 1)
 		{
 			c = (*a)[i] / 10;
 			(*a)[i - 1] += c;
@@ -123,7 +141,8 @@ int 			*ft_mlt(const int *a, const int *b, int n)
 		}
 		i++;
 	}
-	ft_move(&mlt, n);
+	mlt[0] = n;
+	ft_move(&mlt);
 	mlt[0] = n - 1;
 	//print_int(mlt, n);
 	return (mlt);

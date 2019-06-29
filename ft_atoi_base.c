@@ -26,7 +26,7 @@ char 			*ft_base(unsigned long num, int base)
 	int 	i;
 
 	i = 0;
-	s = ft_strnew(64, 0);
+	s = ft_strnew(64);
 	if (num == 0)
 		s[0] = '0';
 	while (num > 0)

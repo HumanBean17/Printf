@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/06/28 17:38:03 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/06/29 12:23:26 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,16 +56,17 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+char *ft_round(const int *a, int round);
 int 				*ft_int_cpy_2(int *a, const int *b);
 void 				ft_int_del(int **a);
 int 				*ft_int_cpy(const int *a);
-void				ft_move(int **a, int size);
-void ft_sum(int **sum, int *b);
+void ft_move(int **a);
+void ft_sum(int **sum, const int *b);
 int 				*ft_new_malloc(size_t size);
 int 				*ft_mlt(const int *a, const int *b, int n);
 void				print_int(int *a, int size);
 int 				*ft_five_pow(int pow);
-char 				*ft_put_float_2(t_double *tmp, int round);
+char * ft_put_float_2(t_double *tmp, int round);
 char 				*ft_put_exp(long double num, int round);
 int 				ft_zero_amount(long double num);
 char 				*ft_zero_join(long double num, int round);
@@ -144,7 +145,7 @@ int					ft_isprint(int c);
 void				ft_memdel(void **ap);
 void				*ft_memalloc(size_t size);
 char				*ft_strmap(char const *s, char (*f)(char));
-char *ft_strnew(size_t size, char c);
+char *ft_strnew(size_t size);
 void				ft_memdel(void **ap);
 void				ft_striter(char *s, void (*f)(char *));
 void				ft_striteri(char *s, void (*f)(unsigned int, char *));

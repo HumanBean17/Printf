@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/lcrawn/ft_printf/ft_longarifm.c
+libft.h
+/Users/lcrawn/ft_printf/libft.h
+
 /Users/lcrawn/ft_printf/libft.h
 limits.h
 -
@@ -21,8 +25,4 @@ stdio.h
 -
 stdarg.h
 -
-
-/Users/lcrawn/ft_printf/main.c
-libft.h
-/Users/lcrawn/ft_printf/libft.h
 

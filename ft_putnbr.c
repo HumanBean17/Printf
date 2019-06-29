@@ -18,7 +18,7 @@ char 	*ft_putnbr(int n)
 	int					i;
 	char				*c;
 
-	c = ft_strnew(21, 0);
+	c = ft_strnew(21);
 	i = 0;
 	if (n == -2147483648)
 	{

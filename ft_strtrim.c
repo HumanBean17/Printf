@@ -43,7 +43,7 @@ char			*ft_strtrim(char const *s)
 		len = right_space(s, size) - i + 1;
 		if (len < 0)
 			len *= 0;
-		new_s = ft_strnew(len, 0);
+		new_s = ft_strnew(len);
 		if (new_s)
 		{
 			while ((len--))

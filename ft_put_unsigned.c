@@ -6,7 +6,7 @@ char *ft_put_unsigned(unsigned long int n)
 	char	*c;
 
 	i = 0;
-	c = ft_strnew(20, 0);
+	c = ft_strnew(20);
 	if (n == 0)
 		c[0] = '0';
 	while (n > 0)
