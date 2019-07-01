@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/lcrawn/ft_printf/libft.h
+/home/humanbean/ecole42/Printf/libft.h
 limits.h
 -
 float.h
@@ -22,7 +22,7 @@ stdio.h
 stdarg.h
 -
 
-/Users/lcrawn/ft_printf/main.c
+/home/humanbean/ecole42/Printf/main.c
 libft.h
-/Users/lcrawn/ft_printf/libft.h
+/home/humanbean/ecole42/Printf/libft.h
 

@@ -21,7 +21,7 @@ HDR = libft.h
 all: $(NAME)
 
 $(NAME):
-		gcc -o ft_printf -I $(HDR) $(SRC)
+		gcc -o ft_printf $(SRC)
 
 clean:
 		rm -f ft_printf

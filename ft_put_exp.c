@@ -18,7 +18,7 @@ char 			*ft_put_exp_2(t_double *tmp, int round)
 	{
 		if (((tmp->man >> (unsigned long)(64 - i)) & 1u) != 0)
 		{
-			pow = ft_five_pow(i - 1);
+			pow = ft_long_pow(i - 1, 0);
 			ft_sum(&sum, pow);
 			ft_int_del(&pow);
 		}

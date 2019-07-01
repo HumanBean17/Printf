@@ -56,8 +56,12 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+void                print_check(int *a, int size);
+void 				ft_sum_2(int **sum, const int *b);
+int                 *ft_cast_1(unsigned long num, int len);
+int                 ft_len_check(const char c[]);
 char 				*ft_put_address(void *s);
-char *ft_round(int *a, int round, unsigned long first);
+char                 *ft_round(int *a, int round, unsigned long first);
 int 				*ft_int_cpy_2(int *a, const int *b);
 void 				ft_int_del(int **a);
 int 				*ft_int_cpy(const int *a);
@@ -66,7 +70,7 @@ void 				ft_sum(int **sum, const int *b);
 int 				*ft_new_malloc(size_t size);
 int 				*ft_mlt(const int *a, const int *b, int n);
 void				print_int(int *a, int size);
-int 				*ft_five_pow(int pow);
+int *ft_long_pow(int power, int num);
 char 				*ft_put_float_2(t_double *tmp, int round);
 char 				*ft_put_exp(long double num, int round);
 int 				ft_zero_amount(long double num);

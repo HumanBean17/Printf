@@ -7,16 +7,39 @@ void			ft_print_bits(t_double tmp)
 	printf("MAN : %64s (%lu)\n========\n", ft_base(tmp.man, 2), tmp.man);
 }
 
+void            print_check(int *a, int size)
+{
+    int i;
+    printf("(%d)", a[0]);
+    for (i = 1; a[i] == 0 && i < size; i++);
+    for (int j = i; j < size; j++)
+        printf("%d", a[j]);
+    printf("\n");
+}
+
 void			print_int(int *a, int size)
 {
-	for (int i = 0; i < size; i++)
+	for (int i = 1; i < size; i++)
 	{
 		if (i == 0)
 			printf("(%d)", a[i]);
 		else
 			printf("%d", a[i]);
+		printf("%d", a[i]);
 	}
 	printf("\n");
+}
+
+int             *ft_dec_initil(t_double *tmp)
+{
+    int     *r;
+
+
+    if (tmp->exp - 16383 < 64)
+        r = ft_cast_1(tmp->man >> (unsigned long) (63 - ft_abs(tmp->exp - 16383)), ft_abs(tmp->exp - 16383));
+    else
+        r = ft_cast_1(tmp->man, ft_abs(tmp->exp - 16383));
+    return (r);
 }
 
 char 			*ft_put_float_2(t_double *tmp, int round)
@@ -24,22 +47,21 @@ char 			*ft_put_float_2(t_double *tmp, int round)
 	int				i;
 	int 			*sum;
 	int 			*pow;
-	unsigned long 	r;
+	int 	        *r;
 	char 			*s;
 
 	i = 0;
 	sum = ft_new_malloc(91 + round);
 	sum[0] = 91 + round;
-	r = tmp->man >> (unsigned long)(63 - ft_abs(tmp->exp - 16383));
-	if (tmp->exp - 16383 < 0)
-		tmp->man >>= (unsigned long)(ft_abs(tmp->exp - 16383));
-	else
-		tmp->man <<= (unsigned long)(ft_abs(tmp->exp - 16383));
+	r = ft_dec_initil(tmp);
+	tmp->man = tmp->exp < 0 ? tmp->man >> (unsigned long)(ft_abs(tmp->exp - 16383)) :
+            tmp->man << (unsigned long)(ft_abs(tmp->exp - 16383));
+    exit(1);
 	while (i < 64)
 	{
 		if (((tmp->man >> (unsigned long)(64 - i)) & 1u) != 0)
 		{
-			pow = ft_five_pow(i - 1);
+			pow = ft_long_pow(i - 1, 5);
 			ft_sum(&sum, pow);
 			ft_int_del(&pow);
 		}
@@ -56,6 +78,7 @@ char 			*ft_put_float(long double num, int round)
 
 	tmp = (t_uprintf *)malloc(sizeof(t_uprintf));
 	tmp->number = num;
+	ft_print_bits(tmp->num);
 	round = round == -1 ? 6 : round;
 	str = ft_put_float_2(&(tmp->num), round);
 	free(tmp);

@@ -34,6 +34,14 @@ int 	ft_flag(const char c)
 	return (0);
 }
 
+int     ft_len_check(const char c[])
+{
+    if (c[0] == 'l' || c[1] == 'l' ||
+    c[0] == 'L' || c[1] == 'L')
+        return (1);
+    return (0);
+}
+
 int 	ft_len(const char c)
 {
 	if (c == 'h' || c == 'l' || c == 'L' ||
@@ -69,6 +77,6 @@ void	ft_print(t_printf *tmp)
 		printf("ACC : %d\n", tmp->acc);
 	else
 		printf("ACC : 0\n");
-	printf("LEN : %d%d\n", tmp->len[0], tmp->len[1]);
+	printf("LEN : %c%c\n", tmp->len[0], tmp->len[1]);
 	printf("TYPE : %c\n", tmp->type);
 }

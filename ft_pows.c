@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int 			*ft_five_pow(int n)
+int             *ft_long_pow(int power, int num)
 {
 	int 	i;
 	int 	*b;
@@ -8,18 +8,16 @@ int 			*ft_five_pow(int n)
 	int 	*tmp;
 
 	i = 1;
-	b = ft_new_malloc(n + 1);
-	b[n] = 5;
-	result = ft_new_malloc(n + 1);
-	result[n] = 5;
-	result[0] = n;
-	while (i < n)
+	b = ft_new_malloc(power + 1);
+	b[power] = num;
+	result = ft_new_malloc(power + 1);
+	result[power] = num;
+	result[0] = power;
+	while (i < power)
 	{
 		tmp = ft_int_cpy(result);
 		ft_int_del(&result);
-		result = ft_mlt(tmp, b, n + 1);
-		//print_int(tmp, n + 1);
-		//print_int(result, n + 1);
+		result = ft_mlt(tmp, b, power + 1);
 		ft_int_del(&tmp);
 		i++;
 	}

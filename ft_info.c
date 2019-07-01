@@ -19,7 +19,9 @@ int		ft_fill_info(const char *str, va_list ap)
 	else if (list->type == 'x' || list->type == 'X')
 		line = ft_base(va_arg(ap, unsigned int), 16);
 	else if (list->type == 'f' || list->type == 'F')
-		line = ft_put_float(va_arg(ap, double), list->acc);
+		line = ft_len_check(list->len) ?
+		        ft_put_float(va_arg(ap, long double), list->acc) :
+               ft_put_float(va_arg(ap, double), list->acc);
 	else if (list->type == 'e' || list->type == 'E')
 		line = ft_put_exp(va_arg(ap, double), list->acc);
 	else if (list->type == 'p')
