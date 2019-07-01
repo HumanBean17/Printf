@@ -74,6 +74,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_strupper.c.o"
   "CMakeFiles/printf.dir/ft_put_float.c.o"
   "CMakeFiles/printf.dir/ft_pows.c.o"
+  "CMakeFiles/printf.dir/ft_put_exp.c.o"
+  "CMakeFiles/printf.dir/ft_put_adress.c.o"
   "printf.pdb"
   "printf"
 )

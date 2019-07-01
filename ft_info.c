@@ -22,6 +22,8 @@ int		ft_fill_info(const char *str, va_list ap)
 		line = ft_put_float(va_arg(ap, double), list->acc);
 	else if (list->type == 'e' || list->type == 'E')
 		line = ft_put_exp(va_arg(ap, double), list->acc);
+	else if (list->type == 'p')
+		line = ft_put_address(va_arg(ap, void*));
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(line));
 	else

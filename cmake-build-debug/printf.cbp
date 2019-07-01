@@ -186,6 +186,12 @@
 		<Unit filename="/Users/lcrawn/ft_printf/ft_printf_list_func.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/lcrawn/ft_printf/ft_put_adress.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/lcrawn/ft_printf/ft_put_exp.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/lcrawn/ft_printf/ft_put_float.c">
 			<Option target="printf"/>
 		</Unit>

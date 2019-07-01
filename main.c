@@ -2,11 +2,11 @@
 
 int main()
 {
-	double 		d = 232.00063323999995;
+	double 		d = 51.2;
 	long double sum = 0;
-	int 		count = 0;
+	int 		count = 6;
 
-	printf("%.40f\n", d);
-	ft_printf("%.40f\n", d);
+	printf("%.f\n", d);
+	ft_printf("%.f\n", d);
 	return 0;
 }

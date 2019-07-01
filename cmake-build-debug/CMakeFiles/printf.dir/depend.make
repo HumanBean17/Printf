@@ -103,6 +103,12 @@ CMakeFiles/printf.dir/ft_printf_del.c.o: ../libft.h
 CMakeFiles/printf.dir/ft_printf_list_func.c.o: ../ft_printf_list_func.c
 CMakeFiles/printf.dir/ft_printf_list_func.c.o: ../libft.h
 
+CMakeFiles/printf.dir/ft_put_adress.c.o: ../ft_put_adress.c
+CMakeFiles/printf.dir/ft_put_adress.c.o: ../libft.h
+
+CMakeFiles/printf.dir/ft_put_exp.c.o: ../ft_put_exp.c
+CMakeFiles/printf.dir/ft_put_exp.c.o: ../libft.h
+
 CMakeFiles/printf.dir/ft_put_float.c.o: ../ft_put_float.c
 CMakeFiles/printf.dir/ft_put_float.c.o: ../libft.h
 

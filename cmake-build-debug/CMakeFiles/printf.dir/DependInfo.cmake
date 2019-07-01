@@ -38,6 +38,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/lcrawn/ft_printf/ft_printf.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_printf.c.o"
   "/Users/lcrawn/ft_printf/ft_printf_del.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_printf_del.c.o"
   "/Users/lcrawn/ft_printf/ft_printf_list_func.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_printf_list_func.c.o"
+  "/Users/lcrawn/ft_printf/ft_put_adress.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_put_adress.c.o"
+  "/Users/lcrawn/ft_printf/ft_put_exp.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_put_exp.c.o"
   "/Users/lcrawn/ft_printf/ft_put_float.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_put_float.c.o"
   "/Users/lcrawn/ft_printf/ft_put_unsigned.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_put_unsigned.c.o"
   "/Users/lcrawn/ft_printf/ft_putchar.c" "/Users/lcrawn/ft_printf/cmake-build-debug/CMakeFiles/printf.dir/ft_putchar.c.o"

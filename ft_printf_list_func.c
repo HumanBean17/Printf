@@ -58,14 +58,14 @@ int					ft_fill(t_printf **elem, const char *str)
 	c = -1;
 	while (str[i] != '\0' && ft_type_and(str[i]))
 	{
-		if (ft_flag(str[i]) && (*elem)->acc == 0)
+		if (ft_flag(str[i]) && (*elem)->acc == -1)
 			ft_flag_new(elem, str[i]);
-		else if (ft_isdigit(str[i]) && (*elem)->acc == 0 && (*elem)->width == 0)
+		else if (ft_isdigit(str[i]) && (*elem)->acc == -1 && (*elem)->width == 0)
 		{
 			(*elem)->width = ft_atoi(str + i);
 			i += ft_n_len((*elem)->width) - 1;
 		}
-		else if (str[i] == '.' && ft_isdigit(str[i + 1]) && (*elem)->acc == 0)
+		else if (str[i] == '.' && (*elem)->acc == -1)
 		{
 			(*elem)->acc = ft_atoi(str + i + 1);
 			i += ft_n_len((*elem)->width) - 1;
@@ -97,7 +97,7 @@ t_printf		*ft_printf_new(void)
 	{
 		tmp->flag = NULL;
 		tmp->width = 0;
-		tmp->acc = 0;
+		tmp->acc = -1;
 		tmp->len[0] = 0;
 		tmp->len[1] = 0;
 		tmp->type = 0;

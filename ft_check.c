@@ -45,6 +45,8 @@ int 	ft_len(const char c)
 void	ft_print_flag(t_flags *tmp)
 {
 	printf("FLAGS : ");
+	if (!tmp)
+		printf("EMPTY");
 	while (tmp)
 	{
 		if (tmp->flag_next)
