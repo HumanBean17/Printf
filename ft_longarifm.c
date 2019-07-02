@@ -1,5 +1,48 @@
 #include "libft.h"
 
+char                *ft_convert_1(int *a, int round)
+{
+    char    *s;
+    int     i;
+    int     j;
+    int     len;
+
+
+    s = ft_strnew(round + 1);
+    j = 1;
+    s[0] = '.';
+    i = 1;
+    len = a[0];
+    while (i < len && i <= round)
+    {
+        s[j] = (char)(a[i] + 48);
+        i++;
+        j++;
+    }
+    return (s);
+}
+
+char                *ft_convert_2(int *a)
+{
+    char    *s;
+    int     i;
+    int     j;
+    int     len;
+
+    s = ft_strnew(a[0]);
+    j = 0;
+    s[0] = (char)(a[1] + 48);
+    i = ft_find_start(a);
+    len = a[0] + 1;
+    while (i < len)
+    {
+        s[j] = (char)(a[i] + 48);
+        i++;
+        j++;
+    }
+    return (s);
+}
+
 int                 *ft_shift_right(int **a)
 {
     int i;
@@ -26,7 +69,7 @@ int                 *ft_shift_right(int **a)
     return (b);
 }
 
-int             *ft_cast_2(unsigned long num, int round)
+int             *ft_cast_1(unsigned long num, int round)
 {
     int *pow;
     int *frac;
@@ -40,7 +83,7 @@ int             *ft_cast_2(unsigned long num, int round)
         if (((num >> (unsigned long)(64 - i)) & 1u) != 0)
         {
             pow = ft_long_pow(i - 1, 5);
-            ft_sum(&frac, pow);
+            ft_sum_1(&frac, pow);
             ft_int_del(&pow);
         }
         i++;
@@ -48,31 +91,37 @@ int             *ft_cast_2(unsigned long num, int round)
     return (frac);
 }
 
-int            *ft_cast_1(unsigned long num, int len)
+int            *ft_cast_2(unsigned long num, int len)
 {
-    int *sum;
     int *pow;
+    int *dec;
     int shift;
     int i;
 
     i = 0;
     shift = len - 63 < 0 ? 0 : len - 63;
     len = len > 63 ? 63 : len;
-    sum = ft_new_malloc(len + 1);
-    sum[0] = len;
+    dec = ft_new_malloc(len + 1);
+    dec[0] = len;
     while (len >= 0)
     {
         if (((num >> (unsigned long)i) & 1u) != 0)
         {
             pow = ft_long_pow(i + shift, 2);
             pow = ft_shift_right(&pow);
-            ft_sum_2(&sum, pow);
+            ft_sum_2(&dec, pow);
+            /*printf("pow = ");
+            print_int(pow, pow[0] + 1);
+            printf("dec = ");
+            print_int(dec, dec[0] + 1);
+            printf("\n");*/
             ft_int_del(&pow);
         }
+        //printf("%lu",(num >> (unsigned long)i) & 1u);
         len--;
         i++;
     }
-    return (sum);
+    return (dec);
 }
 
 int                 ft_find_start(const int *a)
@@ -102,10 +151,10 @@ void 				ft_sum_2(int **sum, const int *b)
         start--;
         i--;
     }
-    ft_move(sum);
+    ft_move_2(sum);
 }
 
-void 				ft_sum(int **sum, const int *b)
+void 				ft_sum_1(int **sum, const int *b)
 {
     int 		size;
     int 		i;
@@ -117,10 +166,31 @@ void 				ft_sum(int **sum, const int *b)
         (*sum)[i] += b[i];
         i++;
     }
-    ft_move(sum);
+    ft_move_1(sum);
 }
 
-void 				ft_move(int **a)
+void 				ft_move_1(int **a)
+{
+    int size;
+    int i;
+    int c;
+
+    size = (*a)[0];
+    i = 1;
+    while (i < size)
+    {
+        if ((*a)[i] >= 10 && i != 1)
+        {
+            c = (*a)[i] / 10;
+            (*a)[i - 1] += c;
+            (*a)[i] %= 10;
+            i = 1;
+        }
+        i++;
+    }
+}
+
+void 				ft_move_2(int **a)
 {
 	int size;
 	int i;
@@ -187,34 +257,24 @@ int 			*ft_mlt(const int *a, const int *b, int n)
 		i++;
 	}
 	mlt[0] = n - 1;
-	ft_move(&mlt);
+    ft_move_2(&mlt);
 	return (mlt);
 }
 
-char 		*ft_round(int *a, int round, unsigned long first)
+void            ft_round(int **a, int **b, int round)
 {
-    char 	*s;
-    char 	*c;
-    char 	*res;
-    int 	i;
-
-    if (round == 0 && a[1] >= 5)
-        first++;
-    else if (a[round + 1] >= 5)
-        a[round]++;
-    ft_move(&a);
-    c = ft_itoa(first);
-    i = 1;
-    s = ft_strnew(round + 2);
-    while (i <= round)
+    if (round == 0)
     {
-        if (i == 1)
-            s[0] = '.';
-        s[i] = (char)(a[i] + 48);
-        i++;
+        if ((*b)[1] >= 5)
+        {
+            (*a)[(*a[0])]++;
+            ft_move_2(a);
+        }
+        return ;
     }
-    res = ft_strjoin(c, s);
-    ft_strdel(&c);
-    ft_strdel(&s);
-    return (res);
+    if ((*b)[round + 1] >= 5)
+    {
+        (*b)[round]++;
+        ft_move_1(b);
+    }
 }

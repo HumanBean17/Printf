@@ -8,6 +8,13 @@ int             *ft_long_pow(int power, int num)
 	int 	*tmp;
 
 	i = 1;
+	if (power == 0 && num != 5)
+    {
+	    result = ft_new_malloc(2);
+	    result[0] = 1;
+	    result[1] = 1;
+        return (result);
+    }
 	b = ft_new_malloc(power + 1);
 	b[power] = num;
 	result = ft_new_malloc(power + 1);

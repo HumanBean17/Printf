@@ -19,15 +19,15 @@ char 			*ft_put_exp_2(t_double *tmp, int round)
 		if (((tmp->man >> (unsigned long)(64 - i)) & 1u) != 0)
 		{
 			pow = ft_long_pow(i - 1, 0);
-			ft_sum(&sum, pow);
+            ft_sum_1(&sum, pow);
 			ft_int_del(&pow);
 		}
 		i++;
 	}
 	if (sum[round + 1] >= 5)
 		sum[round]++;
-	ft_move(&sum);
-	s = ft_round(sum, round, 0);
+    ft_move_2(&sum);
+	//s = ft_round(sum, NULL, round);
 	ft_int_del(&sum);
 	return (s);
 }
