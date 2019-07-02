@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/humanbean/ecole42/Printf/ft_longarifm.c
+libft.h
+/home/humanbean/ecole42/Printf/libft.h
+
 /home/humanbean/ecole42/Printf/libft.h
 limits.h
 -
@@ -21,8 +25,4 @@ stdio.h
 -
 stdarg.h
 -
-
-/home/humanbean/ecole42/Printf/main.c
-libft.h
-/home/humanbean/ecole42/Printf/libft.h
 

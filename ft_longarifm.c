@@ -32,40 +32,28 @@ int            *ft_cast_1(unsigned long num, int len)
 {
     int *sum;
     int *pow;
-    int const_len;
+    int shift;
     int i;
 
-    const_len = len;
     i = 0;
+    shift = len - 63 < 0 ? 0 : len - 63;
     sum = ft_new_malloc(len + 1);
     sum[0] = len;
-    printf("%d\n", len);
-    //printf("base = %s\n", ft_base(num, 2));
     while (len >= 0)
     {
         if (((num >> (unsigned long)i) & 1u) != 0)
         {
-            pow = ft_long_pow(i, 2);
+            pow = ft_long_pow(i + shift, 2);
             pow = ft_shift_right(&pow);
             ft_sum_2(&sum, pow);
-
-            printf("1");
             /*printf("pow = %d\n", i);
             printf("sum = ");
             print_int(sum, sum[0] + 1);
             printf("pow = ");
             print_int(pow, pow[0] + 1);*/
-
             ft_int_del(&pow);
         }
-        printf("0");
-        /*else if (const_len > 63)
-        {
-            pow = ft_long_pow(i, 2);
-            pow = ft_shift_right(&pow);
-            ft_sum_2(&sum, pow);
-            ft_int_del(&pow);
-        }*/
+        printf("%lu", (num >> (unsigned long)i) & 1u);
         len--;
         i++;
     }
