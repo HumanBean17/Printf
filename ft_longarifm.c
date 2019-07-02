@@ -15,8 +15,6 @@ int                 *ft_shift_right(int **a)
     if (i == 1)
         return (*a);
     b = ft_new_malloc((sizeof(int) * (len - i)));
-    //printf("a = ");
-    //print_int((*a), len);
     b[0] = len - i;
     while (i < len)
     {
@@ -26,6 +24,28 @@ int                 *ft_shift_right(int **a)
     }
     ft_int_del(a);
     return (b);
+}
+
+int             *ft_cast_2(unsigned long num, int round)
+{
+    int *pow;
+    int *frac;
+    int i;
+
+    i = 0;
+    frac = ft_new_malloc(91 + round);
+    frac[0] = 91 + round;
+    while (i < 64 && num > 0)
+    {
+        if (((num >> (unsigned long)(64 - i)) & 1u) != 0)
+        {
+            pow = ft_long_pow(i - 1, 5);
+            ft_sum(&frac, pow);
+            ft_int_del(&pow);
+        }
+        i++;
+    }
+    return (frac);
 }
 
 int            *ft_cast_1(unsigned long num, int len)
@@ -47,19 +67,11 @@ int            *ft_cast_1(unsigned long num, int len)
             pow = ft_long_pow(i + shift, 2);
             pow = ft_shift_right(&pow);
             ft_sum_2(&sum, pow);
-            /*printf("pow = %d\n", i);
-            printf("sum = ");
-            print_int(sum, sum[0] + 1);
-            printf("pow = ");
-            print_int(pow, pow[0] + 1);*/
             ft_int_del(&pow);
         }
-        //printf("%lu", (num >> (unsigned long)i) & 1u);
         len--;
         i++;
     }
-    //printf("\n");
-    //print_int(sum, sum[0] + 1);
     return (sum);
 }
 
@@ -84,25 +96,13 @@ void 				ft_sum_2(int **sum, const int *b)
     size = b[0];
     i = size;
     start = (*sum)[0];
-
-    /*printf("sum = ");
-    print_int((*sum), (*sum)[0] + 1);
-    printf("b = ");
-    print_int((int *)b, b[0] + 1);
-    printf("start = %d\n", start);
-    printf("size = %d\n", size);*/
-
     while (i >= 1)
     {
-        //printf("%d %d\n", (*sum)[start], b[i]);
         (*sum)[start] += b[i];
         start--;
         i--;
     }
     ft_move(sum);
-    /*printf("res = ");
-    print_int((*sum), (*sum)[0] + 1);
-    printf("\n");*/
 }
 
 void 				ft_sum(int **sum, const int *b)
@@ -187,11 +187,7 @@ int 			*ft_mlt(const int *a, const int *b, int n)
 		i++;
 	}
 	mlt[0] = n - 1;
-	//print_int(mlt, mlt[0] + 1);
 	ft_move(&mlt);
-    //print_int(mlt, mlt[0] + 1);
-    //printf("\n");
-	//mlt[0] = n - 1;
 	return (mlt);
 }
 

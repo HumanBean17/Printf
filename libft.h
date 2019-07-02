@@ -56,6 +56,7 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+int                 *ft_cast_2(unsigned long num, int round);
 void                print_check(int *a, int size);
 void 				ft_sum_2(int **sum, const int *b);
 int                 *ft_cast_1(unsigned long num, int len);

@@ -31,51 +31,36 @@ void			print_int(int *a, int size)
 
 int             *ft_dec_initil(t_double *tmp)
 {
-    int     *r;
+    int     *dec;
 
     if (tmp->exp - 16383 < 64)
-        r = ft_cast_1(tmp->man >> (unsigned long) (63 - ft_abs(tmp->exp - 16383)), ft_abs(tmp->exp - 16383));
+        dec = ft_cast_1(tmp->man >> (unsigned long) (63 - ft_abs(tmp->exp - 16383)), ft_abs(tmp->exp - 16383));
     else
-        r = ft_cast_1(tmp->man, ft_abs(tmp->exp - 16383));
-    return (r);
+        dec = ft_cast_1(tmp->man, ft_abs(tmp->exp - 16383));
+    return (dec);
 }
 
-unsigned long   ft_fract_initil(t_double *tmp)
+int             *ft_fract_initil(t_double *tmp, int round)
 {
-    unsigned long   n;
+    int     *frac;
 
-    n = tmp->exp < 0 ? tmp->man >> (unsigned long)(ft_abs(tmp->exp - 16383)) :
+    tmp->man = tmp->exp < 0 ? tmp->man >> (unsigned long)(ft_abs(tmp->exp - 16383)) :
         tmp->man << (unsigned long)(ft_abs(tmp->exp - 16383));
-    n = tmp->exp - 16383 > 64 ? 0 : n;
-    return (n);
+    tmp->man = tmp->exp - 16383 > 64 ? 0 : tmp->man;
+    frac = ft_cast_2(tmp->man, round);
+    return (frac);
 }
 
 char 			*ft_put_float_2(t_double *tmp, int round)
 {
-	int				i;
-	int 			*sum;
-	int 			*pow;
-	int 	        *r;
+	int 			*frac;
+	int 	        *dec;
 	char 			*s;
 
-	i = 0;
-	sum = ft_new_malloc(91 + round);
-	sum[0] = 91 + round;
-	r = ft_dec_initil(tmp);
-	tmp->man = ft_fract_initil(tmp);
-	printf("%lu\n", tmp->man);
-	while (i < 64 && tmp->man > 0)
-	{
-		if (((tmp->man >> (unsigned long)(64 - i)) & 1u) != 0)
-		{
-			pow = ft_long_pow(i - 1, 5);
-			ft_sum(&sum, pow);
-			ft_int_del(&pow);
-		}
-		i++;
-	}
-	print_int(r, r[0] + 1);
-	print_int(sum, sum[0] + 1);
+	dec = ft_dec_initil(tmp);
+	frac = ft_fract_initil(tmp, round);
+	print_int(dec, dec[0] + 1);
+	print_int(frac, frac[0] + 1);
 	//s = ft_round(sum, round, r);
 	return (NULL);
 	return (s);
@@ -88,7 +73,7 @@ char 			*ft_put_float(long double num, int round)
 
 	tmp = (t_uprintf *)malloc(sizeof(t_uprintf));
 	tmp->number = num;
-	ft_print_bits(tmp->num);
+	//ft_print_bits(tmp->num);
 	round = round == -1 ? 6 : round;
 	str = ft_put_float_2(&(tmp->num), round);
 	free(tmp);
