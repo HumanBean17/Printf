@@ -37,6 +37,7 @@ int            *ft_cast_1(unsigned long num, int len)
 
     i = 0;
     shift = len - 63 < 0 ? 0 : len - 63;
+    len = len > 63 ? 63 : len;
     sum = ft_new_malloc(len + 1);
     sum[0] = len;
     while (len >= 0)
@@ -53,12 +54,12 @@ int            *ft_cast_1(unsigned long num, int len)
             print_int(pow, pow[0] + 1);*/
             ft_int_del(&pow);
         }
-        printf("%lu", (num >> (unsigned long)i) & 1u);
+        //printf("%lu", (num >> (unsigned long)i) & 1u);
         len--;
         i++;
     }
-    printf("\n");
-    print_int(sum, sum[0] + 1);
+    //printf("\n");
+    //print_int(sum, sum[0] + 1);
     return (sum);
 }
 

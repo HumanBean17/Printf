@@ -46,7 +46,7 @@ unsigned long   ft_fract_initil(t_double *tmp)
 
     n = tmp->exp < 0 ? tmp->man >> (unsigned long)(ft_abs(tmp->exp - 16383)) :
         tmp->man << (unsigned long)(ft_abs(tmp->exp - 16383));
-    n = tmp->exp - 16383 < 64 ? 0 : n;
+    n = tmp->exp - 16383 > 64 ? 0 : n;
     return (n);
 }
 
@@ -62,9 +62,9 @@ char 			*ft_put_float_2(t_double *tmp, int round)
 	sum = ft_new_malloc(91 + round);
 	sum[0] = 91 + round;
 	r = ft_dec_initil(tmp);
-	exit(1);
 	tmp->man = ft_fract_initil(tmp);
-	while (i < 64)
+	printf("%lu\n", tmp->man);
+	while (i < 64 && tmp->man > 0)
 	{
 		if (((tmp->man >> (unsigned long)(64 - i)) & 1u) != 0)
 		{

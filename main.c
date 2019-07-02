@@ -2,12 +2,12 @@
 
 int main()
 {
-	double 		    d = 123456278931123456789123.2;
+	double 		    d = 12323.32322;
 	unsigned long   sum = 6;
 	int 		    count = 6;
 
-	printf("%.f\n", d);
-	ft_printf("%.f\n", d);
+	printf("%f\n", d);
+	ft_printf("%f\n", d);
 	return 0;
 }
 
