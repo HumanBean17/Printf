@@ -100,9 +100,9 @@ int            *ft_cast_2(unsigned long num, int len)
 
     i = 0;
     shift = len - 63 < 0 ? 0 : len - 63;
-    len = len > 63 ? 63 : len;
     dec = ft_new_malloc(len + 1);
     dec[0] = len;
+    len = len > 63 ? 63 : len;
     while (len >= 0)
     {
         if (((num >> (unsigned long)i) & 1u) != 0)

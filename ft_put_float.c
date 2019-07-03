@@ -59,7 +59,7 @@ char 			*ft_put_float_2(t_double *tmp, int round)
 	char            *str_dec;
 
 	dec = ft_dec_initil(tmp);
-    print_int(dec, dec[0]);
+    //print_int(dec, dec[0]);
 	//exit(0);
 	frac = ft_fract_initil(tmp, round);
 	ft_round(&dec, &frac, round);
