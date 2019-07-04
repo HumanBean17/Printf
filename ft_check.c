@@ -34,6 +34,16 @@ int 	ft_flag(const char c)
 	return (0);
 }
 
+int     ft_len_check_2(const char c[])
+{
+    if ((c[0] == 'l' && c[1] == 'l') ||
+            (c[0] == 'h' && c[1] == 'h'))
+        return (2);
+    else if (c[0] == 'l' || c[1] == 'l')
+        return (1);
+    return (0);
+}
+
 int     ft_len_check(const char c[])
 {
     if (c[0] == 'l' || c[1] == 'l' ||
