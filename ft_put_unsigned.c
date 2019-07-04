@@ -1,6 +1,6 @@
 #include "libft.h"
 
-char *ft_put_unsigned(unsigned long int n)
+char        *ft_put_unsigned(unsigned long n)
 {
 	int		i;
 	char	*c;

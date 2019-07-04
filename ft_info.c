@@ -15,7 +15,8 @@ int		ft_fill_info(const char *str, va_list ap)
 	else if (list->type == 'o')
 		line = ft_base(va_arg(ap, unsigned int), 8);
 	else if (list->type == 'u')
-		line = ft_put_unsigned(va_arg(ap, unsigned int));
+		line = ft_len_check(list->len) ? ft_put_unsigned(va_arg(ap, unsigned long)) :
+               ft_put_unsigned(va_arg(ap, unsigned));
 	else if (list->type == 'x' || list->type == 'X')
 		line = ft_base(va_arg(ap, unsigned int), 16);
 	else if (list->type == 'f' || list->type == 'F')
@@ -25,7 +26,7 @@ int		ft_fill_info(const char *str, va_list ap)
 	else if (list->type == 'e' || list->type == 'E')
 		line = ft_put_exp(va_arg(ap, double), list->acc);
 	else if (list->type == 'p')
-		line = ft_put_address(va_arg(ap, void*));
+		line = ft_put_address(va_arg(ap, unsigned long));
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(line));
 	else

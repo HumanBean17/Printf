@@ -19,19 +19,20 @@ char                *ft_convert_1(int *a, int round)
         i++;
         j++;
     }
+    ft_int_del(&a);
     return (s);
 }
 
-char                *ft_convert_2(int *a)
+char                *ft_convert_2(int *a, int sign)
 {
     char    *s;
     int     i;
     int     j;
     int     len;
 
-    s = ft_strnew(a[0]);
-    j = 0;
-    s[0] = (char)(a[1] + 48);
+    s = ft_strnew(a[0] + sign);
+    j = sign == 0 ? 0 : 1;
+    s[0] = j == 1 ? '-' : (char)(a[1] + 48);
     i = ft_find_start(a);
     len = a[0] + 1;
     while (i < len)
@@ -40,6 +41,7 @@ char                *ft_convert_2(int *a)
         i++;
         j++;
     }
+    ft_int_del(&a);
     return (s);
 }
 
@@ -76,8 +78,8 @@ int             *ft_cast_1(unsigned long num, int round)
     int i;
 
     i = 0;
-    frac = ft_new_malloc(91 + round);
-    frac[0] = 91 + round;
+    frac = ft_new_malloc(64 + round);
+    frac[0] = 64 + round;
     while (i < 64 && num > 0)
     {
         if (((num >> (unsigned long)(64 - i)) & 1u) != 0)

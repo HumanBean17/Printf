@@ -58,14 +58,14 @@ typedef union 		u_printf
 
 char *ft_convert_1(int *a, int round);
 void 				ft_move_1(int **a);
-char *ft_convert_2(int *a);
+char *ft_convert_2(int *a, int sign);
 int                 ft_find_start(const int *a);
 int                 *ft_cast_1(unsigned long num, int round);
 void                print_check(int *a, int size);
 void 				ft_sum_2(int **sum, const int *b);
 int                 *ft_cast_2(unsigned long num, int len);
 int                 ft_len_check(const char c[]);
-char 				*ft_put_address(void *s);
+char 				*ft_put_address(unsigned long s);
 void ft_round(int **a, int **b, int round);
 int 				*ft_int_cpy_2(int *a, const int *b);
 void 				ft_int_del(int **a);
