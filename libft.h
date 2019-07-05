@@ -56,6 +56,10 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+char 			    *ft_base_llong(unsigned long long int num, int base);
+char 			    *ft_base_long(unsigned long int num, int base);
+char 			    *ft_base_char(unsigned char num, int base);
+char 			    *ft_base_short(unsigned short int num, int base);
 char                *ft_put_unsigned_llong(unsigned long long int n);
 char                *ft_put_unsigned_long(unsigned long int n);
 char                *ft_put_unsigned_char(unsigned char n);
@@ -102,7 +106,7 @@ void				ft_printf_del(t_printf **to_del);
 char 				*ft_put_unsigned(unsigned int n);
 char				*ft_strrev(char *str);
 int 				ft_n_len(int num);
-char 				*ft_base(unsigned long num, int base);
+char 				*ft_base(unsigned int num, int base);
 int					ft_fill(t_printf **elem, const char *str);
 t_printf			*ft_printf_new(void);
 int 				ft_len(const char c);

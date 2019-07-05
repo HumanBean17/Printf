@@ -2,14 +2,14 @@
 
 int main()
 {
-	double 		    d = -312213923829372873821232131.19429;
+	double 		    d = -31.000000001382139273892173827382138129429;
 	int             *ar;
-	int             k = -23213213;
+	long int             k = 0x7325324342341;
 
 	ar = (int *)malloc(sizeof(int) * 10);
 
-	printf("%llu\n", k);
+	printf("%lX\n", k);
 	//printf("%f\n", d);
-    ft_printf("%llu\n", k);
+    ft_printf("%lX\n", k);
 	return 0;
 }

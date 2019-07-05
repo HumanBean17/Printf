@@ -23,7 +23,18 @@ char    *ft_line(t_printf *list, va_list ap)
             line = ft_putnbr_llong(va_arg(ap, long long int));
     }
     else if (list->type == 'o')
-        line = ft_base(va_arg(ap, unsigned int), 8);
+    {
+        if (ft_len_check_dioux(list->len) == 0)
+            line = ft_base(va_arg(ap, unsigned int), 8);
+        else if (ft_len_check_dioux(list->len) == 1)
+            line = ft_base_short(va_arg(ap, unsigned int), 8);
+        else if (ft_len_check_dioux(list->len) == 2)
+            line = ft_base_long(va_arg(ap, unsigned long int), 8);
+        else if (ft_len_check_dioux(list->len) == 3)
+            line = ft_base_char(va_arg(ap, unsigned int), 8);
+        else if (ft_len_check_dioux(list->len) == 4)
+            line = ft_base_llong(va_arg(ap, unsigned long long int), 8);
+    }
     else if (list->type == 'u')
     {
         if (ft_len_check_dioux(list->len) == 0)
@@ -38,7 +49,18 @@ char    *ft_line(t_printf *list, va_list ap)
             line = ft_put_unsigned_llong(va_arg(ap, unsigned long long int));
     }
     else if (list->type == 'x' || list->type == 'X')
-        line = ft_base(va_arg(ap, unsigned int), 16);
+    {
+        if (ft_len_check_dioux(list->len) == 0)
+            line = ft_base(va_arg(ap, unsigned int), 16);
+        else if (ft_len_check_dioux(list->len) == 1)
+            line = ft_base_short(va_arg(ap, unsigned int), 16);
+        else if (ft_len_check_dioux(list->len) == 2)
+            line = ft_base_long(va_arg(ap, unsigned long int), 16);
+        else if (ft_len_check_dioux(list->len) == 3)
+            line = ft_base_char(va_arg(ap, unsigned int), 16);
+        else if (ft_len_check_dioux(list->len) == 4)
+            line = ft_base_llong(va_arg(ap, unsigned long long int), 16);
+    }
     else if (list->type == 'f' || list->type == 'F')
         line = ft_len_check(list->len) ?
                ft_put_float(va_arg(ap, long double), list->acc) :
