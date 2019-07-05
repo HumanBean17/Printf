@@ -34,13 +34,16 @@ int 	ft_flag(const char c)
 	return (0);
 }
 
-int     ft_len_check_2(const char c[])
+int     ft_len_check_dioux(const char *c)
 {
-    if ((c[0] == 'l' && c[1] == 'l') ||
-            (c[0] == 'h' && c[1] == 'h'))
-        return (2);
-    else if (c[0] == 'l' || c[1] == 'l')
+    if (c[0] == 'h' || c[1] == 'h')
         return (1);
+    else if (c[0] == 'l' || c[1] == 'l')
+        return (2);
+    else if (c[0] == 'h' && c[1] == 'h')
+        return (3);
+    else if (c[0] == 'l' && c[1] == 'l')
+        return (4);
     return (0);
 }
 
