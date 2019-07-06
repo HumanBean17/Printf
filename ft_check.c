@@ -28,8 +28,7 @@ int 	ft_type_or(const char c)
 
 int 	ft_flag(const char c)
 {
-	if (c == '#' || c == '0' || c == '-' ||
-	c == ' ' || c == '+' || c == '\'' || c == '|')
+	if (c == '#' || c == '0' || c == '+' || c == '-' || c == ' ')
 		return (1);
 	return (0);
 }

@@ -139,6 +139,9 @@ CMakeFiles/printf.dir/ft_putstr.c.o: ../libft.h
 CMakeFiles/printf.dir/ft_putstr_fd.c.o: ../ft_putstr_fd.c
 CMakeFiles/printf.dir/ft_putstr_fd.c.o: ../libft.h
 
+CMakeFiles/printf.dir/ft_return_flags.c.o: ../ft_return_flags.c
+CMakeFiles/printf.dir/ft_return_flags.c.o: ../libft.h
+
 CMakeFiles/printf.dir/ft_strcat.c.o: ../ft_strcat.c
 CMakeFiles/printf.dir/ft_strcat.c.o: ../libft.h
 

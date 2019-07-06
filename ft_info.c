@@ -75,13 +75,18 @@ char    *ft_line(t_printf *list, va_list ap)
 int		ft_fill_info(const char *str, va_list ap)
 {
 	t_printf 	*list;
+	char 		*width;
 	char		*line;
+	char 		*result;
 	int 		c;
 
 	list = ft_printf_new();
 	c = ft_fill(&list, str) + 1;
-    //ft_print(list);
 	line = ft_line(list, ap);
+	//ft_print(list);
+	list->width = line[0] == '-' ? list->width - ft_strlen(line) + 1 : list->width - ft_strlen(line);
+	width = ft_return_width(list, line[0]);
+	line = ft_flag_find(list->flag, '-') ? ft_strjoin(line, width) : ft_strjoin(width, line);
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(line));
 	else

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/humanbean/Desktop/clion-2019.1.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Users/lcrawn/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/humanbean/Desktop/clion-2019.1.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Users/lcrawn/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/humanbean/ecole42/Printf
+CMAKE_SOURCE_DIR = /Users/lcrawn/Desktop/Printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/humanbean/ecole42/Printf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lcrawn/Desktop/Printf/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/printf.dir/depend.make
@@ -59,1004 +59,1017 @@ include CMakeFiles/printf.dir/flags.make
 
 CMakeFiles/printf.dir/ft_longarifm.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_longarifm.c.o: ../ft_longarifm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/printf.dir/ft_longarifm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_longarifm.c.o   -c /home/humanbean/ecole42/Printf/ft_longarifm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/printf.dir/ft_longarifm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_longarifm.c.o   -c /Users/lcrawn/Desktop/Printf/ft_longarifm.c
 
 CMakeFiles/printf.dir/ft_longarifm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_longarifm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_longarifm.c > CMakeFiles/printf.dir/ft_longarifm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_longarifm.c > CMakeFiles/printf.dir/ft_longarifm.c.i
 
 CMakeFiles/printf.dir/ft_longarifm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_longarifm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_longarifm.c -o CMakeFiles/printf.dir/ft_longarifm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_longarifm.c -o CMakeFiles/printf.dir/ft_longarifm.c.s
 
 CMakeFiles/printf.dir/ft_atoi.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_atoi.c.o: ../ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/printf.dir/ft_atoi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_atoi.c.o   -c /home/humanbean/ecole42/Printf/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/printf.dir/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_atoi.c.o   -c /Users/lcrawn/Desktop/Printf/ft_atoi.c
 
 CMakeFiles/printf.dir/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_atoi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_atoi.c > CMakeFiles/printf.dir/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_atoi.c > CMakeFiles/printf.dir/ft_atoi.c.i
 
 CMakeFiles/printf.dir/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_atoi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_atoi.c -o CMakeFiles/printf.dir/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_atoi.c -o CMakeFiles/printf.dir/ft_atoi.c.s
 
 CMakeFiles/printf.dir/ft_bzero.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_bzero.c.o: ../ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/printf.dir/ft_bzero.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_bzero.c.o   -c /home/humanbean/ecole42/Printf/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/printf.dir/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_bzero.c.o   -c /Users/lcrawn/Desktop/Printf/ft_bzero.c
 
 CMakeFiles/printf.dir/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_bzero.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_bzero.c > CMakeFiles/printf.dir/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_bzero.c > CMakeFiles/printf.dir/ft_bzero.c.i
 
 CMakeFiles/printf.dir/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_bzero.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_bzero.c -o CMakeFiles/printf.dir/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_bzero.c -o CMakeFiles/printf.dir/ft_bzero.c.s
 
 CMakeFiles/printf.dir/ft_isalnum.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_isalnum.c.o: ../ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/printf.dir/ft_isalnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isalnum.c.o   -c /home/humanbean/ecole42/Printf/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/printf.dir/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isalnum.c.o   -c /Users/lcrawn/Desktop/Printf/ft_isalnum.c
 
 CMakeFiles/printf.dir/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_isalnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_isalnum.c > CMakeFiles/printf.dir/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_isalnum.c > CMakeFiles/printf.dir/ft_isalnum.c.i
 
 CMakeFiles/printf.dir/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_isalnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_isalnum.c -o CMakeFiles/printf.dir/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_isalnum.c -o CMakeFiles/printf.dir/ft_isalnum.c.s
 
 CMakeFiles/printf.dir/ft_isalpha.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_isalpha.c.o: ../ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/printf.dir/ft_isalpha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isalpha.c.o   -c /home/humanbean/ecole42/Printf/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/printf.dir/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isalpha.c.o   -c /Users/lcrawn/Desktop/Printf/ft_isalpha.c
 
 CMakeFiles/printf.dir/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_isalpha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_isalpha.c > CMakeFiles/printf.dir/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_isalpha.c > CMakeFiles/printf.dir/ft_isalpha.c.i
 
 CMakeFiles/printf.dir/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_isalpha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_isalpha.c -o CMakeFiles/printf.dir/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_isalpha.c -o CMakeFiles/printf.dir/ft_isalpha.c.s
 
 CMakeFiles/printf.dir/ft_isascii.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_isascii.c.o: ../ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/printf.dir/ft_isascii.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isascii.c.o   -c /home/humanbean/ecole42/Printf/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/printf.dir/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isascii.c.o   -c /Users/lcrawn/Desktop/Printf/ft_isascii.c
 
 CMakeFiles/printf.dir/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_isascii.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_isascii.c > CMakeFiles/printf.dir/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_isascii.c > CMakeFiles/printf.dir/ft_isascii.c.i
 
 CMakeFiles/printf.dir/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_isascii.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_isascii.c -o CMakeFiles/printf.dir/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_isascii.c -o CMakeFiles/printf.dir/ft_isascii.c.s
 
 CMakeFiles/printf.dir/ft_isdigit.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_isdigit.c.o: ../ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/printf.dir/ft_isdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isdigit.c.o   -c /home/humanbean/ecole42/Printf/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/printf.dir/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isdigit.c.o   -c /Users/lcrawn/Desktop/Printf/ft_isdigit.c
 
 CMakeFiles/printf.dir/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_isdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_isdigit.c > CMakeFiles/printf.dir/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_isdigit.c > CMakeFiles/printf.dir/ft_isdigit.c.i
 
 CMakeFiles/printf.dir/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_isdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_isdigit.c -o CMakeFiles/printf.dir/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_isdigit.c -o CMakeFiles/printf.dir/ft_isdigit.c.s
 
 CMakeFiles/printf.dir/ft_isprint.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_isprint.c.o: ../ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/printf.dir/ft_isprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isprint.c.o   -c /home/humanbean/ecole42/Printf/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/printf.dir/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_isprint.c.o   -c /Users/lcrawn/Desktop/Printf/ft_isprint.c
 
 CMakeFiles/printf.dir/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_isprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_isprint.c > CMakeFiles/printf.dir/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_isprint.c > CMakeFiles/printf.dir/ft_isprint.c.i
 
 CMakeFiles/printf.dir/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_isprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_isprint.c -o CMakeFiles/printf.dir/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_isprint.c -o CMakeFiles/printf.dir/ft_isprint.c.s
 
 CMakeFiles/printf.dir/ft_itoa.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_itoa.c.o: ../ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/printf.dir/ft_itoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_itoa.c.o   -c /home/humanbean/ecole42/Printf/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/printf.dir/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_itoa.c.o   -c /Users/lcrawn/Desktop/Printf/ft_itoa.c
 
 CMakeFiles/printf.dir/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_itoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_itoa.c > CMakeFiles/printf.dir/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_itoa.c > CMakeFiles/printf.dir/ft_itoa.c.i
 
 CMakeFiles/printf.dir/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_itoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_itoa.c -o CMakeFiles/printf.dir/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_itoa.c -o CMakeFiles/printf.dir/ft_itoa.c.s
 
 CMakeFiles/printf.dir/ft_list_find.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_list_find.c.o: ../ft_list_find.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/printf.dir/ft_list_find.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_find.c.o   -c /home/humanbean/ecole42/Printf/ft_list_find.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/printf.dir/ft_list_find.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_find.c.o   -c /Users/lcrawn/Desktop/Printf/ft_list_find.c
 
 CMakeFiles/printf.dir/ft_list_find.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_list_find.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_list_find.c > CMakeFiles/printf.dir/ft_list_find.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_list_find.c > CMakeFiles/printf.dir/ft_list_find.c.i
 
 CMakeFiles/printf.dir/ft_list_find.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_list_find.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_list_find.c -o CMakeFiles/printf.dir/ft_list_find.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_list_find.c -o CMakeFiles/printf.dir/ft_list_find.c.s
 
 CMakeFiles/printf.dir/ft_list_foreach_if.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_list_foreach_if.c.o: ../ft_list_foreach_if.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/printf.dir/ft_list_foreach_if.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_foreach_if.c.o   -c /home/humanbean/ecole42/Printf/ft_list_foreach_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/printf.dir/ft_list_foreach_if.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_foreach_if.c.o   -c /Users/lcrawn/Desktop/Printf/ft_list_foreach_if.c
 
 CMakeFiles/printf.dir/ft_list_foreach_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_list_foreach_if.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_list_foreach_if.c > CMakeFiles/printf.dir/ft_list_foreach_if.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_list_foreach_if.c > CMakeFiles/printf.dir/ft_list_foreach_if.c.i
 
 CMakeFiles/printf.dir/ft_list_foreach_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_list_foreach_if.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_list_foreach_if.c -o CMakeFiles/printf.dir/ft_list_foreach_if.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_list_foreach_if.c -o CMakeFiles/printf.dir/ft_list_foreach_if.c.s
 
 CMakeFiles/printf.dir/ft_list_push_back.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_list_push_back.c.o: ../ft_list_push_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/printf.dir/ft_list_push_back.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_push_back.c.o   -c /home/humanbean/ecole42/Printf/ft_list_push_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/printf.dir/ft_list_push_back.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_push_back.c.o   -c /Users/lcrawn/Desktop/Printf/ft_list_push_back.c
 
 CMakeFiles/printf.dir/ft_list_push_back.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_list_push_back.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_list_push_back.c > CMakeFiles/printf.dir/ft_list_push_back.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_list_push_back.c > CMakeFiles/printf.dir/ft_list_push_back.c.i
 
 CMakeFiles/printf.dir/ft_list_push_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_list_push_back.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_list_push_back.c -o CMakeFiles/printf.dir/ft_list_push_back.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_list_push_back.c -o CMakeFiles/printf.dir/ft_list_push_back.c.s
 
 CMakeFiles/printf.dir/ft_list_reverse.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_list_reverse.c.o: ../ft_list_reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/printf.dir/ft_list_reverse.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_reverse.c.o   -c /home/humanbean/ecole42/Printf/ft_list_reverse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/printf.dir/ft_list_reverse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_list_reverse.c.o   -c /Users/lcrawn/Desktop/Printf/ft_list_reverse.c
 
 CMakeFiles/printf.dir/ft_list_reverse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_list_reverse.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_list_reverse.c > CMakeFiles/printf.dir/ft_list_reverse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_list_reverse.c > CMakeFiles/printf.dir/ft_list_reverse.c.i
 
 CMakeFiles/printf.dir/ft_list_reverse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_list_reverse.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_list_reverse.c -o CMakeFiles/printf.dir/ft_list_reverse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_list_reverse.c -o CMakeFiles/printf.dir/ft_list_reverse.c.s
 
 CMakeFiles/printf.dir/ft_lstadd.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_lstadd.c.o: ../ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/printf.dir/ft_lstadd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstadd.c.o   -c /home/humanbean/ecole42/Printf/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/printf.dir/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstadd.c.o   -c /Users/lcrawn/Desktop/Printf/ft_lstadd.c
 
 CMakeFiles/printf.dir/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_lstadd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_lstadd.c > CMakeFiles/printf.dir/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_lstadd.c > CMakeFiles/printf.dir/ft_lstadd.c.i
 
 CMakeFiles/printf.dir/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_lstadd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_lstadd.c -o CMakeFiles/printf.dir/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_lstadd.c -o CMakeFiles/printf.dir/ft_lstadd.c.s
 
 CMakeFiles/printf.dir/ft_lstdel.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_lstdel.c.o: ../ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/printf.dir/ft_lstdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstdel.c.o   -c /home/humanbean/ecole42/Printf/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/printf.dir/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstdel.c.o   -c /Users/lcrawn/Desktop/Printf/ft_lstdel.c
 
 CMakeFiles/printf.dir/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_lstdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_lstdel.c > CMakeFiles/printf.dir/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_lstdel.c > CMakeFiles/printf.dir/ft_lstdel.c.i
 
 CMakeFiles/printf.dir/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_lstdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_lstdel.c -o CMakeFiles/printf.dir/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_lstdel.c -o CMakeFiles/printf.dir/ft_lstdel.c.s
 
 CMakeFiles/printf.dir/ft_lstdelone.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_lstdelone.c.o: ../ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/printf.dir/ft_lstdelone.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstdelone.c.o   -c /home/humanbean/ecole42/Printf/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/printf.dir/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstdelone.c.o   -c /Users/lcrawn/Desktop/Printf/ft_lstdelone.c
 
 CMakeFiles/printf.dir/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_lstdelone.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_lstdelone.c > CMakeFiles/printf.dir/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_lstdelone.c > CMakeFiles/printf.dir/ft_lstdelone.c.i
 
 CMakeFiles/printf.dir/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_lstdelone.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_lstdelone.c -o CMakeFiles/printf.dir/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_lstdelone.c -o CMakeFiles/printf.dir/ft_lstdelone.c.s
 
 CMakeFiles/printf.dir/ft_lstiter.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_lstiter.c.o: ../ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/printf.dir/ft_lstiter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstiter.c.o   -c /home/humanbean/ecole42/Printf/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/printf.dir/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstiter.c.o   -c /Users/lcrawn/Desktop/Printf/ft_lstiter.c
 
 CMakeFiles/printf.dir/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_lstiter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_lstiter.c > CMakeFiles/printf.dir/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_lstiter.c > CMakeFiles/printf.dir/ft_lstiter.c.i
 
 CMakeFiles/printf.dir/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_lstiter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_lstiter.c -o CMakeFiles/printf.dir/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_lstiter.c -o CMakeFiles/printf.dir/ft_lstiter.c.s
 
 CMakeFiles/printf.dir/ft_lstmap.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_lstmap.c.o: ../ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/printf.dir/ft_lstmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstmap.c.o   -c /home/humanbean/ecole42/Printf/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/printf.dir/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstmap.c.o   -c /Users/lcrawn/Desktop/Printf/ft_lstmap.c
 
 CMakeFiles/printf.dir/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_lstmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_lstmap.c > CMakeFiles/printf.dir/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_lstmap.c > CMakeFiles/printf.dir/ft_lstmap.c.i
 
 CMakeFiles/printf.dir/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_lstmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_lstmap.c -o CMakeFiles/printf.dir/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_lstmap.c -o CMakeFiles/printf.dir/ft_lstmap.c.s
 
 CMakeFiles/printf.dir/ft_lstnew.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_lstnew.c.o: ../ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/printf.dir/ft_lstnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstnew.c.o   -c /home/humanbean/ecole42/Printf/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/printf.dir/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_lstnew.c.o   -c /Users/lcrawn/Desktop/Printf/ft_lstnew.c
 
 CMakeFiles/printf.dir/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_lstnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_lstnew.c > CMakeFiles/printf.dir/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_lstnew.c > CMakeFiles/printf.dir/ft_lstnew.c.i
 
 CMakeFiles/printf.dir/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_lstnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_lstnew.c -o CMakeFiles/printf.dir/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_lstnew.c -o CMakeFiles/printf.dir/ft_lstnew.c.s
 
 CMakeFiles/printf.dir/ft_memalloc.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memalloc.c.o: ../ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/printf.dir/ft_memalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memalloc.c.o   -c /home/humanbean/ecole42/Printf/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/printf.dir/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memalloc.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memalloc.c
 
 CMakeFiles/printf.dir/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memalloc.c > CMakeFiles/printf.dir/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memalloc.c > CMakeFiles/printf.dir/ft_memalloc.c.i
 
 CMakeFiles/printf.dir/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memalloc.c -o CMakeFiles/printf.dir/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memalloc.c -o CMakeFiles/printf.dir/ft_memalloc.c.s
 
 CMakeFiles/printf.dir/ft_memccpy.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memccpy.c.o: ../ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/printf.dir/ft_memccpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memccpy.c.o   -c /home/humanbean/ecole42/Printf/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/printf.dir/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memccpy.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memccpy.c
 
 CMakeFiles/printf.dir/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memccpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memccpy.c > CMakeFiles/printf.dir/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memccpy.c > CMakeFiles/printf.dir/ft_memccpy.c.i
 
 CMakeFiles/printf.dir/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memccpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memccpy.c -o CMakeFiles/printf.dir/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memccpy.c -o CMakeFiles/printf.dir/ft_memccpy.c.s
 
 CMakeFiles/printf.dir/ft_memchr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memchr.c.o: ../ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/printf.dir/ft_memchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memchr.c.o   -c /home/humanbean/ecole42/Printf/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/printf.dir/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memchr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memchr.c
 
 CMakeFiles/printf.dir/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memchr.c > CMakeFiles/printf.dir/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memchr.c > CMakeFiles/printf.dir/ft_memchr.c.i
 
 CMakeFiles/printf.dir/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memchr.c -o CMakeFiles/printf.dir/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memchr.c -o CMakeFiles/printf.dir/ft_memchr.c.s
 
 CMakeFiles/printf.dir/ft_memcmp.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memcmp.c.o: ../ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/printf.dir/ft_memcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memcmp.c.o   -c /home/humanbean/ecole42/Printf/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/printf.dir/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memcmp.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memcmp.c
 
 CMakeFiles/printf.dir/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memcmp.c > CMakeFiles/printf.dir/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memcmp.c > CMakeFiles/printf.dir/ft_memcmp.c.i
 
 CMakeFiles/printf.dir/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memcmp.c -o CMakeFiles/printf.dir/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memcmp.c -o CMakeFiles/printf.dir/ft_memcmp.c.s
 
 CMakeFiles/printf.dir/ft_memcpy.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memcpy.c.o: ../ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/printf.dir/ft_memcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memcpy.c.o   -c /home/humanbean/ecole42/Printf/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/printf.dir/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memcpy.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memcpy.c
 
 CMakeFiles/printf.dir/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memcpy.c > CMakeFiles/printf.dir/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memcpy.c > CMakeFiles/printf.dir/ft_memcpy.c.i
 
 CMakeFiles/printf.dir/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memcpy.c -o CMakeFiles/printf.dir/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memcpy.c -o CMakeFiles/printf.dir/ft_memcpy.c.s
 
 CMakeFiles/printf.dir/ft_memdel.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memdel.c.o: ../ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/printf.dir/ft_memdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memdel.c.o   -c /home/humanbean/ecole42/Printf/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/printf.dir/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memdel.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memdel.c
 
 CMakeFiles/printf.dir/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memdel.c > CMakeFiles/printf.dir/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memdel.c > CMakeFiles/printf.dir/ft_memdel.c.i
 
 CMakeFiles/printf.dir/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memdel.c -o CMakeFiles/printf.dir/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memdel.c -o CMakeFiles/printf.dir/ft_memdel.c.s
 
 CMakeFiles/printf.dir/ft_memmove.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memmove.c.o: ../ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/printf.dir/ft_memmove.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memmove.c.o   -c /home/humanbean/ecole42/Printf/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/printf.dir/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memmove.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memmove.c
 
 CMakeFiles/printf.dir/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memmove.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memmove.c > CMakeFiles/printf.dir/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memmove.c > CMakeFiles/printf.dir/ft_memmove.c.i
 
 CMakeFiles/printf.dir/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memmove.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memmove.c -o CMakeFiles/printf.dir/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memmove.c -o CMakeFiles/printf.dir/ft_memmove.c.s
 
 CMakeFiles/printf.dir/ft_memset.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_memset.c.o: ../ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/printf.dir/ft_memset.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memset.c.o   -c /home/humanbean/ecole42/Printf/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/printf.dir/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_memset.c.o   -c /Users/lcrawn/Desktop/Printf/ft_memset.c
 
 CMakeFiles/printf.dir/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_memset.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_memset.c > CMakeFiles/printf.dir/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_memset.c > CMakeFiles/printf.dir/ft_memset.c.i
 
 CMakeFiles/printf.dir/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_memset.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_memset.c -o CMakeFiles/printf.dir/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_memset.c -o CMakeFiles/printf.dir/ft_memset.c.s
 
 CMakeFiles/printf.dir/ft_putchar.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putchar.c.o: ../ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/printf.dir/ft_putchar.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putchar.c.o   -c /home/humanbean/ecole42/Printf/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/printf.dir/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putchar.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putchar.c
 
 CMakeFiles/printf.dir/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putchar.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putchar.c > CMakeFiles/printf.dir/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putchar.c > CMakeFiles/printf.dir/ft_putchar.c.i
 
 CMakeFiles/printf.dir/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putchar.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putchar.c -o CMakeFiles/printf.dir/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putchar.c -o CMakeFiles/printf.dir/ft_putchar.c.s
 
 CMakeFiles/printf.dir/ft_putchar_fd.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putchar_fd.c.o: ../ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/printf.dir/ft_putchar_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putchar_fd.c.o   -c /home/humanbean/ecole42/Printf/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/printf.dir/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putchar_fd.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putchar_fd.c
 
 CMakeFiles/printf.dir/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putchar_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putchar_fd.c > CMakeFiles/printf.dir/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putchar_fd.c > CMakeFiles/printf.dir/ft_putchar_fd.c.i
 
 CMakeFiles/printf.dir/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putchar_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putchar_fd.c -o CMakeFiles/printf.dir/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putchar_fd.c -o CMakeFiles/printf.dir/ft_putchar_fd.c.s
 
 CMakeFiles/printf.dir/ft_putendl.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putendl.c.o: ../ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/printf.dir/ft_putendl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putendl.c.o   -c /home/humanbean/ecole42/Printf/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/printf.dir/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putendl.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putendl.c
 
 CMakeFiles/printf.dir/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putendl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putendl.c > CMakeFiles/printf.dir/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putendl.c > CMakeFiles/printf.dir/ft_putendl.c.i
 
 CMakeFiles/printf.dir/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putendl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putendl.c -o CMakeFiles/printf.dir/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putendl.c -o CMakeFiles/printf.dir/ft_putendl.c.s
 
 CMakeFiles/printf.dir/ft_putendl_fd.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putendl_fd.c.o: ../ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/printf.dir/ft_putendl_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putendl_fd.c.o   -c /home/humanbean/ecole42/Printf/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/printf.dir/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putendl_fd.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putendl_fd.c
 
 CMakeFiles/printf.dir/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putendl_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putendl_fd.c > CMakeFiles/printf.dir/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putendl_fd.c > CMakeFiles/printf.dir/ft_putendl_fd.c.i
 
 CMakeFiles/printf.dir/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putendl_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putendl_fd.c -o CMakeFiles/printf.dir/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putendl_fd.c -o CMakeFiles/printf.dir/ft_putendl_fd.c.s
 
 CMakeFiles/printf.dir/ft_putnbr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putnbr.c.o: ../ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/printf.dir/ft_putnbr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putnbr.c.o   -c /home/humanbean/ecole42/Printf/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/printf.dir/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putnbr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putnbr.c
 
 CMakeFiles/printf.dir/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putnbr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putnbr.c > CMakeFiles/printf.dir/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putnbr.c > CMakeFiles/printf.dir/ft_putnbr.c.i
 
 CMakeFiles/printf.dir/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putnbr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putnbr.c -o CMakeFiles/printf.dir/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putnbr.c -o CMakeFiles/printf.dir/ft_putnbr.c.s
 
 CMakeFiles/printf.dir/ft_putnbr_fd.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putnbr_fd.c.o: ../ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/printf.dir/ft_putnbr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putnbr_fd.c.o   -c /home/humanbean/ecole42/Printf/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/printf.dir/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putnbr_fd.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putnbr_fd.c
 
 CMakeFiles/printf.dir/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putnbr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putnbr_fd.c > CMakeFiles/printf.dir/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putnbr_fd.c > CMakeFiles/printf.dir/ft_putnbr_fd.c.i
 
 CMakeFiles/printf.dir/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putnbr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putnbr_fd.c -o CMakeFiles/printf.dir/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putnbr_fd.c -o CMakeFiles/printf.dir/ft_putnbr_fd.c.s
 
 CMakeFiles/printf.dir/ft_putstr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putstr.c.o: ../ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/printf.dir/ft_putstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putstr.c.o   -c /home/humanbean/ecole42/Printf/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/printf.dir/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putstr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putstr.c
 
 CMakeFiles/printf.dir/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putstr.c > CMakeFiles/printf.dir/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putstr.c > CMakeFiles/printf.dir/ft_putstr.c.i
 
 CMakeFiles/printf.dir/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putstr.c -o CMakeFiles/printf.dir/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putstr.c -o CMakeFiles/printf.dir/ft_putstr.c.s
 
 CMakeFiles/printf.dir/ft_putstr_fd.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_putstr_fd.c.o: ../ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/printf.dir/ft_putstr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putstr_fd.c.o   -c /home/humanbean/ecole42/Printf/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/printf.dir/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_putstr_fd.c.o   -c /Users/lcrawn/Desktop/Printf/ft_putstr_fd.c
 
 CMakeFiles/printf.dir/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_putstr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_putstr_fd.c > CMakeFiles/printf.dir/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_putstr_fd.c > CMakeFiles/printf.dir/ft_putstr_fd.c.i
 
 CMakeFiles/printf.dir/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_putstr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_putstr_fd.c -o CMakeFiles/printf.dir/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_putstr_fd.c -o CMakeFiles/printf.dir/ft_putstr_fd.c.s
 
 CMakeFiles/printf.dir/ft_strcat.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strcat.c.o: ../ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/printf.dir/ft_strcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strcat.c.o   -c /home/humanbean/ecole42/Printf/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/printf.dir/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strcat.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strcat.c
 
 CMakeFiles/printf.dir/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strcat.c > CMakeFiles/printf.dir/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strcat.c > CMakeFiles/printf.dir/ft_strcat.c.i
 
 CMakeFiles/printf.dir/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strcat.c -o CMakeFiles/printf.dir/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strcat.c -o CMakeFiles/printf.dir/ft_strcat.c.s
 
 CMakeFiles/printf.dir/ft_strchr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strchr.c.o: ../ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/printf.dir/ft_strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strchr.c.o   -c /home/humanbean/ecole42/Printf/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/printf.dir/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strchr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strchr.c
 
 CMakeFiles/printf.dir/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strchr.c > CMakeFiles/printf.dir/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strchr.c > CMakeFiles/printf.dir/ft_strchr.c.i
 
 CMakeFiles/printf.dir/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strchr.c -o CMakeFiles/printf.dir/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strchr.c -o CMakeFiles/printf.dir/ft_strchr.c.s
 
 CMakeFiles/printf.dir/ft_strclr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strclr.c.o: ../ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/printf.dir/ft_strclr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strclr.c.o   -c /home/humanbean/ecole42/Printf/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/printf.dir/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strclr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strclr.c
 
 CMakeFiles/printf.dir/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strclr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strclr.c > CMakeFiles/printf.dir/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strclr.c > CMakeFiles/printf.dir/ft_strclr.c.i
 
 CMakeFiles/printf.dir/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strclr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strclr.c -o CMakeFiles/printf.dir/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strclr.c -o CMakeFiles/printf.dir/ft_strclr.c.s
 
 CMakeFiles/printf.dir/ft_strcmp.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strcmp.c.o: ../ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/printf.dir/ft_strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strcmp.c.o   -c /home/humanbean/ecole42/Printf/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/printf.dir/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strcmp.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strcmp.c
 
 CMakeFiles/printf.dir/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strcmp.c > CMakeFiles/printf.dir/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strcmp.c > CMakeFiles/printf.dir/ft_strcmp.c.i
 
 CMakeFiles/printf.dir/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strcmp.c -o CMakeFiles/printf.dir/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strcmp.c -o CMakeFiles/printf.dir/ft_strcmp.c.s
 
 CMakeFiles/printf.dir/ft_strcpy.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strcpy.c.o: ../ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/printf.dir/ft_strcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strcpy.c.o   -c /home/humanbean/ecole42/Printf/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/printf.dir/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strcpy.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strcpy.c
 
 CMakeFiles/printf.dir/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strcpy.c > CMakeFiles/printf.dir/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strcpy.c > CMakeFiles/printf.dir/ft_strcpy.c.i
 
 CMakeFiles/printf.dir/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strcpy.c -o CMakeFiles/printf.dir/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strcpy.c -o CMakeFiles/printf.dir/ft_strcpy.c.s
 
 CMakeFiles/printf.dir/ft_strdel.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strdel.c.o: ../ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/printf.dir/ft_strdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strdel.c.o   -c /home/humanbean/ecole42/Printf/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/printf.dir/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strdel.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strdel.c
 
 CMakeFiles/printf.dir/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strdel.c > CMakeFiles/printf.dir/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strdel.c > CMakeFiles/printf.dir/ft_strdel.c.i
 
 CMakeFiles/printf.dir/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strdel.c -o CMakeFiles/printf.dir/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strdel.c -o CMakeFiles/printf.dir/ft_strdel.c.s
 
 CMakeFiles/printf.dir/ft_strdup.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strdup.c.o: ../ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/printf.dir/ft_strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strdup.c.o   -c /home/humanbean/ecole42/Printf/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/printf.dir/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strdup.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strdup.c
 
 CMakeFiles/printf.dir/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strdup.c > CMakeFiles/printf.dir/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strdup.c > CMakeFiles/printf.dir/ft_strdup.c.i
 
 CMakeFiles/printf.dir/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strdup.c -o CMakeFiles/printf.dir/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strdup.c -o CMakeFiles/printf.dir/ft_strdup.c.s
 
 CMakeFiles/printf.dir/ft_strequ.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strequ.c.o: ../ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/printf.dir/ft_strequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strequ.c.o   -c /home/humanbean/ecole42/Printf/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/printf.dir/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strequ.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strequ.c
 
 CMakeFiles/printf.dir/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strequ.c > CMakeFiles/printf.dir/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strequ.c > CMakeFiles/printf.dir/ft_strequ.c.i
 
 CMakeFiles/printf.dir/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strequ.c -o CMakeFiles/printf.dir/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strequ.c -o CMakeFiles/printf.dir/ft_strequ.c.s
 
 CMakeFiles/printf.dir/ft_striter.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_striter.c.o: ../ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/printf.dir/ft_striter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_striter.c.o   -c /home/humanbean/ecole42/Printf/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/printf.dir/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_striter.c.o   -c /Users/lcrawn/Desktop/Printf/ft_striter.c
 
 CMakeFiles/printf.dir/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_striter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_striter.c > CMakeFiles/printf.dir/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_striter.c > CMakeFiles/printf.dir/ft_striter.c.i
 
 CMakeFiles/printf.dir/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_striter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_striter.c -o CMakeFiles/printf.dir/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_striter.c -o CMakeFiles/printf.dir/ft_striter.c.s
 
 CMakeFiles/printf.dir/ft_striteri.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_striteri.c.o: ../ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/printf.dir/ft_striteri.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_striteri.c.o   -c /home/humanbean/ecole42/Printf/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/printf.dir/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_striteri.c.o   -c /Users/lcrawn/Desktop/Printf/ft_striteri.c
 
 CMakeFiles/printf.dir/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_striteri.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_striteri.c > CMakeFiles/printf.dir/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_striteri.c > CMakeFiles/printf.dir/ft_striteri.c.i
 
 CMakeFiles/printf.dir/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_striteri.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_striteri.c -o CMakeFiles/printf.dir/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_striteri.c -o CMakeFiles/printf.dir/ft_striteri.c.s
 
 CMakeFiles/printf.dir/ft_strjoin.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strjoin.c.o: ../ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/printf.dir/ft_strjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strjoin.c.o   -c /home/humanbean/ecole42/Printf/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/printf.dir/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strjoin.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strjoin.c
 
 CMakeFiles/printf.dir/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strjoin.c > CMakeFiles/printf.dir/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strjoin.c > CMakeFiles/printf.dir/ft_strjoin.c.i
 
 CMakeFiles/printf.dir/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strjoin.c -o CMakeFiles/printf.dir/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strjoin.c -o CMakeFiles/printf.dir/ft_strjoin.c.s
 
 CMakeFiles/printf.dir/ft_strlcat.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strlcat.c.o: ../ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/printf.dir/ft_strlcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strlcat.c.o   -c /home/humanbean/ecole42/Printf/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/printf.dir/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strlcat.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strlcat.c
 
 CMakeFiles/printf.dir/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strlcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strlcat.c > CMakeFiles/printf.dir/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strlcat.c > CMakeFiles/printf.dir/ft_strlcat.c.i
 
 CMakeFiles/printf.dir/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strlcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strlcat.c -o CMakeFiles/printf.dir/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strlcat.c -o CMakeFiles/printf.dir/ft_strlcat.c.s
 
 CMakeFiles/printf.dir/ft_strlen.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strlen.c.o: ../ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/printf.dir/ft_strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strlen.c.o   -c /home/humanbean/ecole42/Printf/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/printf.dir/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strlen.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strlen.c
 
 CMakeFiles/printf.dir/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strlen.c > CMakeFiles/printf.dir/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strlen.c > CMakeFiles/printf.dir/ft_strlen.c.i
 
 CMakeFiles/printf.dir/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strlen.c -o CMakeFiles/printf.dir/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strlen.c -o CMakeFiles/printf.dir/ft_strlen.c.s
 
 CMakeFiles/printf.dir/ft_strmap.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strmap.c.o: ../ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/printf.dir/ft_strmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strmap.c.o   -c /home/humanbean/ecole42/Printf/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/printf.dir/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strmap.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strmap.c
 
 CMakeFiles/printf.dir/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strmap.c > CMakeFiles/printf.dir/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strmap.c > CMakeFiles/printf.dir/ft_strmap.c.i
 
 CMakeFiles/printf.dir/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strmap.c -o CMakeFiles/printf.dir/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strmap.c -o CMakeFiles/printf.dir/ft_strmap.c.s
 
 CMakeFiles/printf.dir/ft_strmapi.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strmapi.c.o: ../ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/printf.dir/ft_strmapi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strmapi.c.o   -c /home/humanbean/ecole42/Printf/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/printf.dir/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strmapi.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strmapi.c
 
 CMakeFiles/printf.dir/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strmapi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strmapi.c > CMakeFiles/printf.dir/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strmapi.c > CMakeFiles/printf.dir/ft_strmapi.c.i
 
 CMakeFiles/printf.dir/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strmapi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strmapi.c -o CMakeFiles/printf.dir/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strmapi.c -o CMakeFiles/printf.dir/ft_strmapi.c.s
 
 CMakeFiles/printf.dir/ft_strncat.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strncat.c.o: ../ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/printf.dir/ft_strncat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strncat.c.o   -c /home/humanbean/ecole42/Printf/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/printf.dir/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strncat.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strncat.c
 
 CMakeFiles/printf.dir/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strncat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strncat.c > CMakeFiles/printf.dir/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strncat.c > CMakeFiles/printf.dir/ft_strncat.c.i
 
 CMakeFiles/printf.dir/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strncat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strncat.c -o CMakeFiles/printf.dir/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strncat.c -o CMakeFiles/printf.dir/ft_strncat.c.s
 
 CMakeFiles/printf.dir/ft_strncmp.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strncmp.c.o: ../ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/printf.dir/ft_strncmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strncmp.c.o   -c /home/humanbean/ecole42/Printf/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/printf.dir/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strncmp.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strncmp.c
 
 CMakeFiles/printf.dir/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strncmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strncmp.c > CMakeFiles/printf.dir/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strncmp.c > CMakeFiles/printf.dir/ft_strncmp.c.i
 
 CMakeFiles/printf.dir/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strncmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strncmp.c -o CMakeFiles/printf.dir/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strncmp.c -o CMakeFiles/printf.dir/ft_strncmp.c.s
 
 CMakeFiles/printf.dir/ft_strncpy.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strncpy.c.o: ../ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/printf.dir/ft_strncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strncpy.c.o   -c /home/humanbean/ecole42/Printf/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/printf.dir/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strncpy.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strncpy.c
 
 CMakeFiles/printf.dir/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strncpy.c > CMakeFiles/printf.dir/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strncpy.c > CMakeFiles/printf.dir/ft_strncpy.c.i
 
 CMakeFiles/printf.dir/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strncpy.c -o CMakeFiles/printf.dir/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strncpy.c -o CMakeFiles/printf.dir/ft_strncpy.c.s
 
 CMakeFiles/printf.dir/ft_strnequ.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strnequ.c.o: ../ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/printf.dir/ft_strnequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strnequ.c.o   -c /home/humanbean/ecole42/Printf/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/printf.dir/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strnequ.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strnequ.c
 
 CMakeFiles/printf.dir/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strnequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strnequ.c > CMakeFiles/printf.dir/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strnequ.c > CMakeFiles/printf.dir/ft_strnequ.c.i
 
 CMakeFiles/printf.dir/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strnequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strnequ.c -o CMakeFiles/printf.dir/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strnequ.c -o CMakeFiles/printf.dir/ft_strnequ.c.s
 
 CMakeFiles/printf.dir/ft_strnew.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strnew.c.o: ../ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/printf.dir/ft_strnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strnew.c.o   -c /home/humanbean/ecole42/Printf/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/printf.dir/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strnew.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strnew.c
 
 CMakeFiles/printf.dir/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strnew.c > CMakeFiles/printf.dir/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strnew.c > CMakeFiles/printf.dir/ft_strnew.c.i
 
 CMakeFiles/printf.dir/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strnew.c -o CMakeFiles/printf.dir/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strnew.c -o CMakeFiles/printf.dir/ft_strnew.c.s
 
 CMakeFiles/printf.dir/ft_strnstr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strnstr.c.o: ../ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/printf.dir/ft_strnstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strnstr.c.o   -c /home/humanbean/ecole42/Printf/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/printf.dir/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strnstr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strnstr.c
 
 CMakeFiles/printf.dir/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strnstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strnstr.c > CMakeFiles/printf.dir/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strnstr.c > CMakeFiles/printf.dir/ft_strnstr.c.i
 
 CMakeFiles/printf.dir/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strnstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strnstr.c -o CMakeFiles/printf.dir/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strnstr.c -o CMakeFiles/printf.dir/ft_strnstr.c.s
 
 CMakeFiles/printf.dir/ft_strrchr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strrchr.c.o: ../ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/printf.dir/ft_strrchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strrchr.c.o   -c /home/humanbean/ecole42/Printf/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/printf.dir/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strrchr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strrchr.c
 
 CMakeFiles/printf.dir/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strrchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strrchr.c > CMakeFiles/printf.dir/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strrchr.c > CMakeFiles/printf.dir/ft_strrchr.c.i
 
 CMakeFiles/printf.dir/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strrchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strrchr.c -o CMakeFiles/printf.dir/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strrchr.c -o CMakeFiles/printf.dir/ft_strrchr.c.s
 
 CMakeFiles/printf.dir/ft_strrev.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strrev.c.o: ../ft_strrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/printf.dir/ft_strrev.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strrev.c.o   -c /home/humanbean/ecole42/Printf/ft_strrev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/printf.dir/ft_strrev.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strrev.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strrev.c
 
 CMakeFiles/printf.dir/ft_strrev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strrev.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strrev.c > CMakeFiles/printf.dir/ft_strrev.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strrev.c > CMakeFiles/printf.dir/ft_strrev.c.i
 
 CMakeFiles/printf.dir/ft_strrev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strrev.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strrev.c -o CMakeFiles/printf.dir/ft_strrev.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strrev.c -o CMakeFiles/printf.dir/ft_strrev.c.s
 
 CMakeFiles/printf.dir/ft_strsplit.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strsplit.c.o: ../ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/printf.dir/ft_strsplit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strsplit.c.o   -c /home/humanbean/ecole42/Printf/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/printf.dir/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strsplit.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strsplit.c
 
 CMakeFiles/printf.dir/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strsplit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strsplit.c > CMakeFiles/printf.dir/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strsplit.c > CMakeFiles/printf.dir/ft_strsplit.c.i
 
 CMakeFiles/printf.dir/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strsplit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strsplit.c -o CMakeFiles/printf.dir/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strsplit.c -o CMakeFiles/printf.dir/ft_strsplit.c.s
 
 CMakeFiles/printf.dir/ft_strstr.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strstr.c.o: ../ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/printf.dir/ft_strstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strstr.c.o   -c /home/humanbean/ecole42/Printf/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/printf.dir/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strstr.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strstr.c
 
 CMakeFiles/printf.dir/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strstr.c > CMakeFiles/printf.dir/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strstr.c > CMakeFiles/printf.dir/ft_strstr.c.i
 
 CMakeFiles/printf.dir/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strstr.c -o CMakeFiles/printf.dir/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strstr.c -o CMakeFiles/printf.dir/ft_strstr.c.s
 
 CMakeFiles/printf.dir/ft_strsub.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strsub.c.o: ../ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/printf.dir/ft_strsub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strsub.c.o   -c /home/humanbean/ecole42/Printf/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/printf.dir/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strsub.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strsub.c
 
 CMakeFiles/printf.dir/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strsub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strsub.c > CMakeFiles/printf.dir/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strsub.c > CMakeFiles/printf.dir/ft_strsub.c.i
 
 CMakeFiles/printf.dir/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strsub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strsub.c -o CMakeFiles/printf.dir/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strsub.c -o CMakeFiles/printf.dir/ft_strsub.c.s
 
 CMakeFiles/printf.dir/ft_strtrim.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strtrim.c.o: ../ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/printf.dir/ft_strtrim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strtrim.c.o   -c /home/humanbean/ecole42/Printf/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/printf.dir/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strtrim.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strtrim.c
 
 CMakeFiles/printf.dir/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strtrim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strtrim.c > CMakeFiles/printf.dir/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strtrim.c > CMakeFiles/printf.dir/ft_strtrim.c.i
 
 CMakeFiles/printf.dir/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strtrim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strtrim.c -o CMakeFiles/printf.dir/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strtrim.c -o CMakeFiles/printf.dir/ft_strtrim.c.s
 
 CMakeFiles/printf.dir/ft_tolower.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_tolower.c.o: ../ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/printf.dir/ft_tolower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_tolower.c.o   -c /home/humanbean/ecole42/Printf/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/printf.dir/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_tolower.c.o   -c /Users/lcrawn/Desktop/Printf/ft_tolower.c
 
 CMakeFiles/printf.dir/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_tolower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_tolower.c > CMakeFiles/printf.dir/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_tolower.c > CMakeFiles/printf.dir/ft_tolower.c.i
 
 CMakeFiles/printf.dir/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_tolower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_tolower.c -o CMakeFiles/printf.dir/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_tolower.c -o CMakeFiles/printf.dir/ft_tolower.c.s
 
 CMakeFiles/printf.dir/ft_toupper.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_toupper.c.o: ../ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/printf.dir/ft_toupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_toupper.c.o   -c /home/humanbean/ecole42/Printf/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/printf.dir/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_toupper.c.o   -c /Users/lcrawn/Desktop/Printf/ft_toupper.c
 
 CMakeFiles/printf.dir/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_toupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_toupper.c > CMakeFiles/printf.dir/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_toupper.c > CMakeFiles/printf.dir/ft_toupper.c.i
 
 CMakeFiles/printf.dir/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_toupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_toupper.c -o CMakeFiles/printf.dir/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_toupper.c -o CMakeFiles/printf.dir/ft_toupper.c.s
 
 CMakeFiles/printf.dir/main.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/printf.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/main.c.o   -c /home/humanbean/ecole42/Printf/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/printf.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/main.c.o   -c /Users/lcrawn/Desktop/Printf/main.c
 
 CMakeFiles/printf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/main.c > CMakeFiles/printf.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/main.c > CMakeFiles/printf.dir/main.c.i
 
 CMakeFiles/printf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/main.c -o CMakeFiles/printf.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/main.c -o CMakeFiles/printf.dir/main.c.s
 
 CMakeFiles/printf.dir/ft_printf.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/printf.dir/ft_printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_printf.c.o   -c /home/humanbean/ecole42/Printf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/printf.dir/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_printf.c.o   -c /Users/lcrawn/Desktop/Printf/ft_printf.c
 
 CMakeFiles/printf.dir/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_printf.c > CMakeFiles/printf.dir/ft_printf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_printf.c > CMakeFiles/printf.dir/ft_printf.c.i
 
 CMakeFiles/printf.dir/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_printf.c -o CMakeFiles/printf.dir/ft_printf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_printf.c -o CMakeFiles/printf.dir/ft_printf.c.s
 
 CMakeFiles/printf.dir/ft_check.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_check.c.o: ../ft_check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/printf.dir/ft_check.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_check.c.o   -c /home/humanbean/ecole42/Printf/ft_check.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/printf.dir/ft_check.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_check.c.o   -c /Users/lcrawn/Desktop/Printf/ft_check.c
 
 CMakeFiles/printf.dir/ft_check.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_check.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_check.c > CMakeFiles/printf.dir/ft_check.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_check.c > CMakeFiles/printf.dir/ft_check.c.i
 
 CMakeFiles/printf.dir/ft_check.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_check.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_check.c -o CMakeFiles/printf.dir/ft_check.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_check.c -o CMakeFiles/printf.dir/ft_check.c.s
 
 CMakeFiles/printf.dir/ft_info.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_info.c.o: ../ft_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/printf.dir/ft_info.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_info.c.o   -c /home/humanbean/ecole42/Printf/ft_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/printf.dir/ft_info.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_info.c.o   -c /Users/lcrawn/Desktop/Printf/ft_info.c
 
 CMakeFiles/printf.dir/ft_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_info.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_info.c > CMakeFiles/printf.dir/ft_info.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_info.c > CMakeFiles/printf.dir/ft_info.c.i
 
 CMakeFiles/printf.dir/ft_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_info.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_info.c -o CMakeFiles/printf.dir/ft_info.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_info.c -o CMakeFiles/printf.dir/ft_info.c.s
 
 CMakeFiles/printf.dir/ft_printf_list_func.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_printf_list_func.c.o: ../ft_printf_list_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/printf.dir/ft_printf_list_func.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_printf_list_func.c.o   -c /home/humanbean/ecole42/Printf/ft_printf_list_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/printf.dir/ft_printf_list_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_printf_list_func.c.o   -c /Users/lcrawn/Desktop/Printf/ft_printf_list_func.c
 
 CMakeFiles/printf.dir/ft_printf_list_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_printf_list_func.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_printf_list_func.c > CMakeFiles/printf.dir/ft_printf_list_func.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_printf_list_func.c > CMakeFiles/printf.dir/ft_printf_list_func.c.i
 
 CMakeFiles/printf.dir/ft_printf_list_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_printf_list_func.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_printf_list_func.c -o CMakeFiles/printf.dir/ft_printf_list_func.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_printf_list_func.c -o CMakeFiles/printf.dir/ft_printf_list_func.c.s
 
 CMakeFiles/printf.dir/ft_atoi_base.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_atoi_base.c.o: ../ft_atoi_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/printf.dir/ft_atoi_base.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_atoi_base.c.o   -c /home/humanbean/ecole42/Printf/ft_atoi_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/printf.dir/ft_atoi_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_atoi_base.c.o   -c /Users/lcrawn/Desktop/Printf/ft_atoi_base.c
 
 CMakeFiles/printf.dir/ft_atoi_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_atoi_base.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_atoi_base.c > CMakeFiles/printf.dir/ft_atoi_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_atoi_base.c > CMakeFiles/printf.dir/ft_atoi_base.c.i
 
 CMakeFiles/printf.dir/ft_atoi_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_atoi_base.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_atoi_base.c -o CMakeFiles/printf.dir/ft_atoi_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_atoi_base.c -o CMakeFiles/printf.dir/ft_atoi_base.c.s
 
 CMakeFiles/printf.dir/ft_put_unsigned.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_put_unsigned.c.o: ../ft_put_unsigned.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/printf.dir/ft_put_unsigned.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_unsigned.c.o   -c /home/humanbean/ecole42/Printf/ft_put_unsigned.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/printf.dir/ft_put_unsigned.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_unsigned.c.o   -c /Users/lcrawn/Desktop/Printf/ft_put_unsigned.c
 
 CMakeFiles/printf.dir/ft_put_unsigned.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_put_unsigned.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_put_unsigned.c > CMakeFiles/printf.dir/ft_put_unsigned.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_put_unsigned.c > CMakeFiles/printf.dir/ft_put_unsigned.c.i
 
 CMakeFiles/printf.dir/ft_put_unsigned.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_put_unsigned.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_put_unsigned.c -o CMakeFiles/printf.dir/ft_put_unsigned.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_put_unsigned.c -o CMakeFiles/printf.dir/ft_put_unsigned.c.s
 
 CMakeFiles/printf.dir/ft_printf_del.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_printf_del.c.o: ../ft_printf_del.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/printf.dir/ft_printf_del.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_printf_del.c.o   -c /home/humanbean/ecole42/Printf/ft_printf_del.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/printf.dir/ft_printf_del.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_printf_del.c.o   -c /Users/lcrawn/Desktop/Printf/ft_printf_del.c
 
 CMakeFiles/printf.dir/ft_printf_del.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_printf_del.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_printf_del.c > CMakeFiles/printf.dir/ft_printf_del.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_printf_del.c > CMakeFiles/printf.dir/ft_printf_del.c.i
 
 CMakeFiles/printf.dir/ft_printf_del.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_printf_del.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_printf_del.c -o CMakeFiles/printf.dir/ft_printf_del.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_printf_del.c -o CMakeFiles/printf.dir/ft_printf_del.c.s
 
 CMakeFiles/printf.dir/ft_strupper.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_strupper.c.o: ../ft_strupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/printf.dir/ft_strupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strupper.c.o   -c /home/humanbean/ecole42/Printf/ft_strupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/printf.dir/ft_strupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_strupper.c.o   -c /Users/lcrawn/Desktop/Printf/ft_strupper.c
 
 CMakeFiles/printf.dir/ft_strupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_strupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_strupper.c > CMakeFiles/printf.dir/ft_strupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_strupper.c > CMakeFiles/printf.dir/ft_strupper.c.i
 
 CMakeFiles/printf.dir/ft_strupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_strupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_strupper.c -o CMakeFiles/printf.dir/ft_strupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_strupper.c -o CMakeFiles/printf.dir/ft_strupper.c.s
 
 CMakeFiles/printf.dir/ft_put_float.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_put_float.c.o: ../ft_put_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/printf.dir/ft_put_float.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_float.c.o   -c /home/humanbean/ecole42/Printf/ft_put_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/printf.dir/ft_put_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_float.c.o   -c /Users/lcrawn/Desktop/Printf/ft_put_float.c
 
 CMakeFiles/printf.dir/ft_put_float.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_put_float.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_put_float.c > CMakeFiles/printf.dir/ft_put_float.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_put_float.c > CMakeFiles/printf.dir/ft_put_float.c.i
 
 CMakeFiles/printf.dir/ft_put_float.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_put_float.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_put_float.c -o CMakeFiles/printf.dir/ft_put_float.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_put_float.c -o CMakeFiles/printf.dir/ft_put_float.c.s
 
 CMakeFiles/printf.dir/ft_pows.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_pows.c.o: ../ft_pows.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/printf.dir/ft_pows.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_pows.c.o   -c /home/humanbean/ecole42/Printf/ft_pows.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/printf.dir/ft_pows.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_pows.c.o   -c /Users/lcrawn/Desktop/Printf/ft_pows.c
 
 CMakeFiles/printf.dir/ft_pows.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_pows.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_pows.c > CMakeFiles/printf.dir/ft_pows.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_pows.c > CMakeFiles/printf.dir/ft_pows.c.i
 
 CMakeFiles/printf.dir/ft_pows.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_pows.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_pows.c -o CMakeFiles/printf.dir/ft_pows.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_pows.c -o CMakeFiles/printf.dir/ft_pows.c.s
 
 CMakeFiles/printf.dir/ft_put_exp.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_put_exp.c.o: ../ft_put_exp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/printf.dir/ft_put_exp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_exp.c.o   -c /home/humanbean/ecole42/Printf/ft_put_exp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/printf.dir/ft_put_exp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_exp.c.o   -c /Users/lcrawn/Desktop/Printf/ft_put_exp.c
 
 CMakeFiles/printf.dir/ft_put_exp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_put_exp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_put_exp.c > CMakeFiles/printf.dir/ft_put_exp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_put_exp.c > CMakeFiles/printf.dir/ft_put_exp.c.i
 
 CMakeFiles/printf.dir/ft_put_exp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_put_exp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_put_exp.c -o CMakeFiles/printf.dir/ft_put_exp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_put_exp.c -o CMakeFiles/printf.dir/ft_put_exp.c.s
 
 CMakeFiles/printf.dir/ft_put_adress.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/ft_put_adress.c.o: ../ft_put_adress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/printf.dir/ft_put_adress.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_adress.c.o   -c /home/humanbean/ecole42/Printf/ft_put_adress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/printf.dir/ft_put_adress.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_put_adress.c.o   -c /Users/lcrawn/Desktop/Printf/ft_put_adress.c
 
 CMakeFiles/printf.dir/ft_put_adress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_put_adress.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/humanbean/ecole42/Printf/ft_put_adress.c > CMakeFiles/printf.dir/ft_put_adress.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_put_adress.c > CMakeFiles/printf.dir/ft_put_adress.c.i
 
 CMakeFiles/printf.dir/ft_put_adress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_put_adress.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/humanbean/ecole42/Printf/ft_put_adress.c -o CMakeFiles/printf.dir/ft_put_adress.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_put_adress.c -o CMakeFiles/printf.dir/ft_put_adress.c.s
+
+CMakeFiles/printf.dir/ft_return_flags.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/ft_return_flags.c.o: ../ft_return_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/printf.dir/ft_return_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/ft_return_flags.c.o   -c /Users/lcrawn/Desktop/Printf/ft_return_flags.c
+
+CMakeFiles/printf.dir/ft_return_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_return_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lcrawn/Desktop/Printf/ft_return_flags.c > CMakeFiles/printf.dir/ft_return_flags.c.i
+
+CMakeFiles/printf.dir/ft_return_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_return_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lcrawn/Desktop/Printf/ft_return_flags.c -o CMakeFiles/printf.dir/ft_return_flags.c.s
 
 # Object files for target printf
 printf_OBJECTS = \
@@ -1136,7 +1149,8 @@ printf_OBJECTS = \
 "CMakeFiles/printf.dir/ft_put_float.c.o" \
 "CMakeFiles/printf.dir/ft_pows.c.o" \
 "CMakeFiles/printf.dir/ft_put_exp.c.o" \
-"CMakeFiles/printf.dir/ft_put_adress.c.o"
+"CMakeFiles/printf.dir/ft_put_adress.c.o" \
+"CMakeFiles/printf.dir/ft_return_flags.c.o"
 
 # External object files for target printf
 printf_EXTERNAL_OBJECTS =
@@ -1218,9 +1232,10 @@ printf: CMakeFiles/printf.dir/ft_put_float.c.o
 printf: CMakeFiles/printf.dir/ft_pows.c.o
 printf: CMakeFiles/printf.dir/ft_put_exp.c.o
 printf: CMakeFiles/printf.dir/ft_put_adress.c.o
+printf: CMakeFiles/printf.dir/ft_return_flags.c.o
 printf: CMakeFiles/printf.dir/build.make
 printf: CMakeFiles/printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C executable printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1233,6 +1248,6 @@ CMakeFiles/printf.dir/clean:
 .PHONY : CMakeFiles/printf.dir/clean
 
 CMakeFiles/printf.dir/depend:
-	cd /home/humanbean/ecole42/Printf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/humanbean/ecole42/Printf /home/humanbean/ecole42/Printf /home/humanbean/ecole42/Printf/cmake-build-debug /home/humanbean/ecole42/Printf/cmake-build-debug /home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles/printf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lcrawn/Desktop/Printf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lcrawn/Desktop/Printf /Users/lcrawn/Desktop/Printf /Users/lcrawn/Desktop/Printf/cmake-build-debug /Users/lcrawn/Desktop/Printf/cmake-build-debug /Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/printf.dir/depend
 

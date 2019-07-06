@@ -76,4 +76,4 @@ add_executable(printf
         main.c
         ft_printf.c ft_check.c ft_info.c ft_printf_list_func.c ft_atoi_base.c
         ft_put_unsigned.c ft_printf_del.c ft_strupper.c ft_put_float.c
-        ft_pows.c ft_put_exp.c ft_put_adress.c)
+        ft_pows.c ft_put_exp.c ft_put_adress.c ft_return_flags.c)

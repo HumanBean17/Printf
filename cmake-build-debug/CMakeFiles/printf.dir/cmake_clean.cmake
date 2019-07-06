@@ -76,6 +76,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_pows.c.o"
   "CMakeFiles/printf.dir/ft_put_exp.c.o"
   "CMakeFiles/printf.dir/ft_put_adress.c.o"
+  "CMakeFiles/printf.dir/ft_return_flags.c.o"
   "printf.pdb"
   "printf"
 )

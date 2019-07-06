@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/humanbean/Desktop/clion-2019.1.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Users/lcrawn/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/humanbean/Desktop/clion-2019.1.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Users/lcrawn/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/humanbean/ecole42/Printf
+CMAKE_SOURCE_DIR = /Users/lcrawn/Desktop/Printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/humanbean/ecole42/Printf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lcrawn/Desktop/Printf/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/humanbean/ecole42/Printf/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/humanbean/Desktop/clion-2019.1.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/lcrawn/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/humanbean/Desktop/clion-2019.1.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Users/lcrawn/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles /home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles /Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/humanbean/ecole42/Printf/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1365,6 +1365,33 @@ ft_putstr_fd.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_putstr_fd.c.s
 .PHONY : ft_putstr_fd.c.s
 
+ft_return_flags.o: ft_return_flags.c.o
+
+.PHONY : ft_return_flags.o
+
+# target to build an object file
+ft_return_flags.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_flags.c.o
+.PHONY : ft_return_flags.c.o
+
+ft_return_flags.i: ft_return_flags.c.i
+
+.PHONY : ft_return_flags.i
+
+# target to preprocess a source file
+ft_return_flags.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_flags.c.i
+.PHONY : ft_return_flags.c.i
+
+ft_return_flags.s: ft_return_flags.c.s
+
+.PHONY : ft_return_flags.s
+
+# target to generate assembly for a file
+ft_return_flags.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_flags.c.s
+.PHONY : ft_return_flags.c.s
+
 ft_strcat.o: ft_strcat.c.o
 
 .PHONY : ft_strcat.o
@@ -2209,8 +2236,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... printf"
 	@echo "... edit_cache"
+	@echo "... printf"
 	@echo "... ft_atoi.o"
 	@echo "... ft_atoi.i"
 	@echo "... ft_atoi.s"
@@ -2349,6 +2376,9 @@ help:
 	@echo "... ft_putstr_fd.o"
 	@echo "... ft_putstr_fd.i"
 	@echo "... ft_putstr_fd.s"
+	@echo "... ft_return_flags.o"
+	@echo "... ft_return_flags.i"
+	@echo "... ft_return_flags.s"
 	@echo "... ft_strcat.o"
 	@echo "... ft_strcat.i"
 	@echo "... ft_strcat.s"

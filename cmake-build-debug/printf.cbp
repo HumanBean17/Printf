@@ -8,315 +8,320 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/humanbean/ecole42/Printf/cmake-build-debug"/>
+				<Option working_dir="/Users/lcrawn/Desktop/Printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/humanbean/ecole42/Printf/cmake-build-debug"/>
+				<Option working_dir="/Users/lcrawn/Desktop/Printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="printf">
-				<Option output="/home/humanbean/ecole42/Printf/cmake-build-debug/printf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/humanbean/ecole42/Printf/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/humanbean/ecole42/Printf/header"/>
-					<Add directory="/home/humanbean/ecole42/Printf/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="printf/fast">
-				<Option output="/home/humanbean/ecole42/Printf/cmake-build-debug/printf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/humanbean/ecole42/Printf/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/humanbean/ecole42/Printf/header"/>
-					<Add directory="/home/humanbean/ecole42/Printf/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/humanbean/ecole42/Printf/cmake-build-debug"/>
+				<Option working_dir="/Users/lcrawn/Desktop/Printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/humanbean/ecole42/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printf">
+				<Option output="/Users/lcrawn/Desktop/Printf/cmake-build-debug/printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lcrawn/Desktop/Printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lcrawn/Desktop/Printf/header"/>
+					<Add directory="/Users/lcrawn/Desktop/Printf/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printf/fast">
+				<Option output="/Users/lcrawn/Desktop/Printf/cmake-build-debug/printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lcrawn/Desktop/Printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lcrawn/Desktop/Printf/header"/>
+					<Add directory="/Users/lcrawn/Desktop/Printf/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lcrawn/Desktop/Printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_atoi.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_atoi.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_atoi_base.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_atoi_base.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_bzero.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_bzero.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_check.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_check.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_info.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_info.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_isalnum.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isalnum.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_isalpha.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isalpha.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_isascii.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isascii.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_isdigit.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isdigit.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_isprint.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isprint.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_itoa.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_itoa.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_list_find.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_find.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_list_foreach_if.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_foreach_if.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_list_push_back.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_push_back.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_list_reverse.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_reverse.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_longarifm.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_longarifm.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_lstadd.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstadd.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_lstdel.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstdel.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_lstdelone.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstdelone.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_lstiter.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstiter.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_lstmap.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstmap.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_lstnew.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstnew.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memalloc.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memalloc.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memccpy.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memccpy.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memchr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memchr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memcmp.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memcmp.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memcpy.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memcpy.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memdel.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memdel.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memmove.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memmove.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_memset.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memset.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_pows.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_pows.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_printf.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_printf_del.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf_del.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_printf_list_func.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf_list_func.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_put_adress.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_adress.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_put_exp.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_exp.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_put_float.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_float.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_put_unsigned.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_unsigned.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putchar.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putchar.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putchar_fd.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putchar_fd.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putendl.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putendl.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putendl_fd.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putendl_fd.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putnbr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putnbr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putnbr_fd.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putnbr_fd.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putstr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putstr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_putstr_fd.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putstr_fd.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strcat.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_return_flags.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strchr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcat.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strclr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strchr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strcmp.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strclr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strcpy.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcmp.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strdel.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcpy.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strdup.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strdel.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strequ.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strdup.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_striter.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strequ.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_striteri.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_striter.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strjoin.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_striteri.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strlcat.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strjoin.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strlen.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strlcat.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strmap.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strlen.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strmapi.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strmap.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strncat.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strmapi.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strncmp.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strncat.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strncpy.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strncmp.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strnequ.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strncpy.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strnew.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strnequ.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strnstr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strnew.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strrchr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strnstr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strrev.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strrchr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strsplit.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strrev.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strstr.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strsplit.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strsub.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strstr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strtrim.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strsub.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_strupper.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strtrim.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_tolower.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strupper.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/ft_toupper.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_tolower.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/libft.h">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_toupper.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/main.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/libft.h">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/home/humanbean/ecole42/Printf/CMakeLists.txt">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/main.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

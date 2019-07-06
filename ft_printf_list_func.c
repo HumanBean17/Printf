@@ -14,6 +14,20 @@ static t_flags		*ft_flag_create(const char c)
 	return (tmp);
 }
 
+int 				ft_flag_find(t_flags *alst, const char c)
+{
+	t_flags *tmp;
+
+	tmp = alst;
+	while (tmp)
+	{
+		if (tmp->flag == c)
+			return (tmp->flag);
+		tmp = tmp->flag_next;
+	}
+	return (0);
+}
+
 static void			ft_flag_push(t_flags **elem, const char c)
 {
 	t_flags *tmp;
