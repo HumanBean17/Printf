@@ -63,7 +63,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_strtrim.c.o"
   "CMakeFiles/printf.dir/ft_tolower.c.o"
   "CMakeFiles/printf.dir/ft_toupper.c.o"
-  "CMakeFiles/printf.dir/main.c.o"
   "CMakeFiles/printf.dir/ft_printf.c.o"
   "CMakeFiles/printf.dir/ft_check.c.o"
   "CMakeFiles/printf.dir/ft_info.c.o"
@@ -77,6 +76,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_put_exp.c.o"
   "CMakeFiles/printf.dir/ft_put_adress.c.o"
   "CMakeFiles/printf.dir/ft_return_flags.c.o"
+  "CMakeFiles/printf.dir/main.c.o"
   "printf.pdb"
   "printf"
 )

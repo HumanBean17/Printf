@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/06 15:22:34 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/06 16:31:53 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,8 +56,10 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+char 				*ft_strcpy_end(char *destination, const char *source);
+char				*ft_strcpy_n(char *destination, const char *source);
 char 				*ft_strnew_n(size_t size, char c);
-char 				*ft_return_width(t_printf *tmp, char s);
+char 				*ft_return_width(t_printf *tmp, char s, char *line);
 int 				ft_flag_find(t_flags *alst, char c);
 char 			    *ft_base_llong(unsigned long long int num, int base);
 char 			    *ft_base_long(unsigned long int num, int base);
@@ -100,7 +102,7 @@ int 				ft_zero_amount(long double num);
 char 				*ft_zero_join(long double num, int round);
 char 				*ft_put_e(double num);
 int 				ft_abs(int x);
-char * ft_freejoin(char **s1, char **s2);
+char 				*ft_freejoin(char **s1, char **s2);
 long double 		ft_double_pow(long double num, int pow);
 void				ft_print_bits(t_double tmp);
 char 				*ft_put_float(long double num, int round);
