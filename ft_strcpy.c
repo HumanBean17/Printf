@@ -6,7 +6,7 @@
 /*   By: lcrawn <lcrawn@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/06 14:04:32 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/06 16:38:51 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/06 17:20:09 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char 	*ft_strcpy_end(char *destination, const char *source)
 	int end_d;
 	int end_s;
 
+	if (!destination || !source)
+		return (destination);
 	end_d = ft_strlen(destination) - 1;
 	end_s = ft_strlen(source) - 1;
 	while (end_s >= 0 && end_d >= 0)
@@ -32,6 +34,8 @@ char	*ft_strcpy_n(char *destination, const char *source)
 {
 	int i;
 
+	if (!destination || !source)
+		return (destination);
 	i = 0;
 	while (source[i] != '\0')
 	{
@@ -45,6 +49,8 @@ char	*ft_strcpy(char *destination, const char *source)
 {
 	int i;
 
+	if (!destination || !source)
+		return (destination);
 	i = 0;
 	while (source[i] != '\0')
 	{

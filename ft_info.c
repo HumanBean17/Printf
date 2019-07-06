@@ -84,13 +84,18 @@ int		ft_fill_info(const char *str, va_list ap)
 	number = ft_line(list, ap);
 	//ft_print(list);
 	field = ft_return_width(list, number[0], number);
-	//number = ft_flag_find(list->flag, '-') ? ft_strjoin(number, width) : ft_strjoin(width, number);
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(field));
 	else
 		ft_putstr(field);
-	ft_strdel(&number);
-	ft_strdel(&field);
+	c = ft_strlen(field);
+	if (number == field)
+		ft_strdel(&number);
+	else
+	{
+		ft_strdel(&number);
+		ft_strdel(&field);
+	}
 	ft_printf_del(&list);
 	return (c);
 }

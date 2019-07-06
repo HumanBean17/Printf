@@ -15,7 +15,7 @@ static void	ft_flag_del(t_flags **alst)
 	t_flags *cur;
 
 	cur = *alst;
-	while (cur && cur->flag_next)
+	while (cur)
 	{
 		tmp = cur;
 		ft_del(&cur);
