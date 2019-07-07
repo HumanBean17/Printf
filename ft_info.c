@@ -80,10 +80,10 @@ int		ft_fill_info(const char *str, va_list ap)
 	int 		c;
 
 	list = ft_printf_new();
-	c = ft_fill(&list, str) + 1;
-	number = ft_line(list, ap);
+	ft_fill(&list, str);
 	//ft_print(list);
-	field = ft_return_width(list, number[0], number);
+	number = ft_line(list, ap);
+	field = ft_return_width(list, number);
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(field));
 	else

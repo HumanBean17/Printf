@@ -59,7 +59,7 @@ typedef union 		u_printf
 char 				*ft_strcpy_end(char *destination, const char *source);
 char				*ft_strcpy_n(char *destination, const char *source);
 char 				*ft_strnew_n(size_t size, char c);
-char 				*ft_return_width(t_printf *tmp, char s, char *line);
+char *ft_return_width(t_printf *tmp, char *line);
 int 				ft_flag_find(t_flags *alst, char c);
 char 			    *ft_base_llong(unsigned long long int num, int base);
 char 			    *ft_base_long(unsigned long int num, int base);

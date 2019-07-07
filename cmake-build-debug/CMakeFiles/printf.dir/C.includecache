@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/lcrawn/Desktop/Printf/ft_return_flags.c
-libft.h
-/Users/lcrawn/Desktop/Printf/libft.h
-
-/Users/lcrawn/Desktop/Printf/ft_strcpy.c
-libft.h
-/Users/lcrawn/Desktop/Printf/libft.h
-
-/Users/lcrawn/Desktop/Printf/ft_strjoin.c
+/Users/lcrawn/Desktop/Printf/ft_check.c
 libft.h
 /Users/lcrawn/Desktop/Printf/libft.h
 
