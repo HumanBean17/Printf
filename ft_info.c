@@ -12,15 +12,15 @@ char    *ft_line(t_printf *list, va_list ap)
     else if (list->type == 'd' || list->type == 'i')
     {
         if (ft_len_check_dioux(list->len) == 0)
-            line = ft_putnbr(va_arg(ap, int));
+            line = ft_putnbr(va_arg(ap, int), list->acc);
         else if (ft_len_check_dioux(list->len) == 1)
-            line = ft_putnbr_short(va_arg(ap, int));
+            line = ft_putnbr_short(va_arg(ap, int), list->acc);
         else if (ft_len_check_dioux(list->len) == 2)
-            line = ft_putnbr_long(va_arg(ap, long int));
+            line = ft_putnbr_long(va_arg(ap, long int), list->acc);
         else if (ft_len_check_dioux(list->len) == 3)
-            line = ft_putnbr_signed(va_arg(ap, int));
+            line = ft_putnbr_signed(va_arg(ap, int), list->acc);
         else if (ft_len_check_dioux(list->len) == 4)
-            line = ft_putnbr_llong(va_arg(ap, long long int));
+            line = ft_putnbr_llong(va_arg(ap, long long int), list->acc);
     }
     else if (list->type == 'o')
     {

@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/06 16:38:51 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/07 14:26:11 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ typedef struct		s_flags
 
 typedef struct		s_printf
 {
-	struct s_flags	*flag; // нужно двойной указатель
+	struct s_flags	*flag; // нужно двойной указатель для очистки
 	int 			width;
 	int 			acc;
 	char 			len[2];
@@ -56,10 +56,11 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+char 				*ft_round_dioux(char **num, int round);
 char 				*ft_strcpy_end(char *destination, const char *source);
 char				*ft_strcpy_n(char *destination, const char *source);
 char 				*ft_strnew_n(size_t size, char c);
-char *ft_return_width(t_printf *tmp, char *line);
+char 				*ft_return_width(t_printf *tmp, char *line);
 int 				ft_flag_find(t_flags *alst, char c);
 char 			    *ft_base_llong(unsigned long long int num, int base);
 char 			    *ft_base_long(unsigned long int num, int base);
@@ -69,11 +70,11 @@ char                *ft_put_unsigned_llong(unsigned long long int n);
 char                *ft_put_unsigned_long(unsigned long int n);
 char                *ft_put_unsigned_char(unsigned char n);
 char                *ft_put_unsigned_short(unsigned short int n);
-char 	            *ft_putnbr_llong(long long int n);
+char *ft_putnbr_llong(long long int n, int round);
 int                 ft_len_check_u(const char *c);
-char 	            *ft_putnbr_long(long int n);
-char 	            *ft_putnbr_signed(signed char n);
-char 	            *ft_putnbr_short(short n);
+char *ft_putnbr_long(long int n, int round);
+char *ft_putnbr_signed(signed char n, int round);
+char *ft_putnbr_short(short n, int round);
 int                 ft_len_check_dioux(const char *c);
 char                *ft_putchar_2(char c);
 char                *ft_convert_1(int *a, int round);
@@ -194,7 +195,7 @@ void				ft_putstr(char const *s);
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				ft_putchar_fd(char c, int fd);
-char * ft_putnbr(int n);
+char *ft_putnbr(int n, int round);
 void				ft_putnbr_fd(int n, int fd);
 void				ft_putendl(char const *s);
 
