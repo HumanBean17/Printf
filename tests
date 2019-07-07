@@ -10,26 +10,6 @@ FAILED TESTS:
   2. unix function printf
      (returned value) -->written on stdout<--
 
-# 0053 (char *)
-  ft_printf("%.2s is a string", "this");
-  1. (   16) -->this is a string<--
-  2. (   14) -->th is a string<--
-
-# 0054 (char *)
-  ft_printf("%5.2s is a string", "this");
-  1. (   17) --> this is a string<--
-  2. (   17) -->   th is a string<--
-
-# 0059 (char *)
-  ft_printf("%-.2s is a string", "this");
-  1. (   16) -->this is a string<--
-  2. (   14) -->th is a string<--
-
-# 0060 (char *)
-  ft_printf("%-5.2s is a string", "this");
-  1. (   17) -->this  is a string<--
-  2. (   17) -->th    is a string<--
-
 # 0068 (char *)
   ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
   1. (   11) -->this%sis%sa<--
@@ -37,8 +17,8 @@ FAILED TESTS:
 
 # 0069 (NULL)
   ft_printf("@moulitest: %s", NULL);
-includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: @moulitest: includes/projects/ft_printf/ft_printf_main.sh: line 151: 21333 Segmentation fault: 11  ./tmp/ft_printf_s sN "@moulitest: %s" ""$: invalid number
-  1. (    0) -->@moulitest: includes/projects/ft_printf/ft_printf_main.sh: line 151: 21333 Segmentation fault: 11  ./tmp/ft_printf_s sN "@moulitest: %s" "NULL"$<--
+includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: @moulitest: includes/projects/ft_printf/ft_printf_main.sh: line 151: 42911 Segmentation fault: 11  ./tmp/ft_printf_s sN "@moulitest: %s" ""$: invalid number
+  1. (    0) -->@moulitest: includes/projects/ft_printf/ft_printf_main.sh: line 151: 42911 Segmentation fault: 11  ./tmp/ft_printf_s sN "@moulitest: %s" "NULL"$<--
   2. (   18) -->@moulitest: (null)<--
 
 # 0070 (NULL)
@@ -48,8 +28,8 @@ includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: @moulitest: inc
 
 # 0071 (NULL)
   ft_printf("%s %s", NULL, string);
-includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: includes/projects/ft_printf/ft_printf_main.sh: line 151: 21439 Segmentation fault: 11  ./tmp/ft_printf_s sN "%s %s" "" "string"$: invalid number
-  1. (    0) -->includes/projects/ft_printf/ft_printf_main.sh: line 151: 21439 Segmentation fault: 11  ./tmp/ft_printf_s sN "%s %s" "NULL" "string"$<--
+includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: includes/projects/ft_printf/ft_printf_main.sh: line 151: 43017 Segmentation fault: 11  ./tmp/ft_printf_s sN "%s %s" "" "string"$: invalid number
+  1. (    0) -->includes/projects/ft_printf/ft_printf_main.sh: line 151: 43017 Segmentation fault: 11  ./tmp/ft_printf_s sN "%s %s" "NULL" "string"$<--
   2. (   13) -->(null) string<--
 
 # 0075 (char)
@@ -273,14 +253,14 @@ SUCCESS TESTS:
   50.      ft_printf("%s is a string", "this");          -> "this is a string"
   51.      ft_printf("Line Feed %s", "\n");              -> "Line Feed $\n"
   52.      ft_printf("%10s is a string", "this");        -> "      this is a string"
-  53. FAIL ft_printf("%.2s is a string", "this");        -> "th is a string"
-  54. FAIL ft_printf("%5.2s is a string", "this");       -> "   th is a string"
+  53.      ft_printf("%.2s is a string", "this");        -> "th is a string"
+  54.      ft_printf("%5.2s is a string", "this");       -> "   th is a string"
   55.      ft_printf("%10s is a string", "");            -> "           is a string"
   56.      ft_printf("%.2s is a string", "");            -> " is a string"
   57.      ft_printf("%5.2s is a string", "");           -> "      is a string"
   58.      ft_printf("%-10s is a string", "this");       -> "this       is a string"
-  59. FAIL ft_printf("%-.2s is a string", "this");       -> "th is a string"
-  60. FAIL ft_printf("%-5.2s is a string", "this");      -> "th    is a string"
+  59.      ft_printf("%-.2s is a string", "this");       -> "th is a string"
+  60.      ft_printf("%-5.2s is a string", "this");      -> "th    is a string"
   61.      ft_printf("%-10s is a string", "");           -> "           is a string"
   62.      ft_printf("%-.2s is a string", "");           -> " is a string"
   63.      ft_printf("%-5.2s is a string", "");          -> "      is a string"

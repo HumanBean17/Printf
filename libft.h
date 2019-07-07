@@ -56,6 +56,7 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+char 				*ft_strdup_n(const char * str, int round);
 char 				*ft_round_dioux(char **num, int round);
 char 				*ft_strcpy_end(char *destination, const char *source);
 char				*ft_strcpy_n(char *destination, const char *source);

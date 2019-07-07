@@ -8,7 +8,7 @@ char    *ft_line(t_printf *list, va_list ap)
     if (list->type == 'c')
         line = ft_putchar_2(va_arg(ap, unsigned));
     else if (list->type == 's')
-        line = ft_strdup(va_arg(ap, char *));
+        line = ft_strdup_n(va_arg(ap, char *), list->acc);
     else if (list->type == 'd' || list->type == 'i')
     {
         if (ft_len_check_dioux(list->len) == 0)
@@ -83,7 +83,6 @@ int		ft_fill_info(const char *str, va_list ap)
 	ft_fill(&list, str);
 	//ft_print(list);
 	number = ft_line(list, ap);
-	printf("number = %s\n", number);
 	field = ft_return_width(list, number);
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(field));

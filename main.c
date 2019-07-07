@@ -6,7 +6,7 @@ int main()
 	long int k = 0x7325324342341;
 	int s = 1678932;
 
-	printf(" : original %d\n", (int)printf("@moulitest: %#.5x %#.4x", 53, 53));
-	printf(" : mine %d\n", (int)ft_printf("@moulitest: %#.5x %#.4x", 53, 53));
+	printf(" : original %d\n", (char *)printf("%5.2s is a string", "this"));
+	printf(" : mine %d\n", (char *)ft_printf("%5.2s is a string", "this"));
 	return 0;
 }
