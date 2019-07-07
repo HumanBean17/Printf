@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/lcrawn/Desktop/Printf/ft_check.c
+/Users/lcrawn/Desktop/Printf/ft_printf.c
 libft.h
 /Users/lcrawn/Desktop/Printf/libft.h
 
@@ -25,4 +25,8 @@ stdio.h
 -
 stdarg.h
 -
+
+/Users/lcrawn/Desktop/Printf/main.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
 
