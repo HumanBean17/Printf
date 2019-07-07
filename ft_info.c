@@ -96,6 +96,8 @@ int		ft_fill_info(const char *str, va_list ap)
 		ft_strdel(&number);
 		ft_strdel(&field);
 	}
+	if (list->type == 'c' && ft_strlen(field) == 0)
+		c++;
 	ft_printf_del(&list);
 	return (c);
 }

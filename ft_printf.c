@@ -30,7 +30,7 @@ int		ft_printf(const char *str, ...)
 				str++;
 			str++;
 		}
-		if (*str)
+		else if (*str)
 		{
 			ft_putchar(*str);
 			str++;

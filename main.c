@@ -6,7 +6,7 @@ int main()
 	long int k = 0x7325324342341;
 	int s = 1678932;
 
-	printf(" : original %d\n", (char *)printf("%5.2s is a string", "this"));
-	printf(" : mine %d\n", (char *)ft_printf("%5.2s is a string", "this"));
+	printf(" : original %d\n", printf("%5c", 42));
+	printf(" : mine %d\n", ft_printf("%5c", 42));
 	return 0;
 }

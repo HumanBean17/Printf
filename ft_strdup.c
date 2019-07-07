@@ -6,7 +6,7 @@
 /*   By: lcrawn <lcrawn@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/06 13:34:19 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/07 16:31:13 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/07 16:49:58 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,12 @@ char 	*ft_strdup_n(const char *str, int round)
 	char	*cp_str;
 	int		i;
 
+	if (!str)
+	{
+		cp_str = ft_strnew(6);
+		ft_strcpy(cp_str, "(null)");
+		return (cp_str);
+	}
 	i = 0;
 	round = round < 0 ? ft_strlen(str) : round;
 	cp_str = (char *)malloc(sizeof(char) * (ft_strlen(str) + 1));
@@ -38,8 +44,9 @@ char	*ft_strdup(const char *str)
 	char	*cp_str;
 	int		i;
 
+	if (!str)
+		return (NULL);
 	i = 0;
-	cp_str = NULL;
 	cp_str = (char *)malloc(sizeof(char) * (ft_strlen(str) + 1));
 	if (cp_str)
 	{

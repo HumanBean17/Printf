@@ -10,27 +10,10 @@ FAILED TESTS:
   2. unix function printf
      (returned value) -->written on stdout<--
 
-# 0068 (char *)
-  ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
-  1. (   11) -->this%sis%sa<--
-  2. (   18) -->thisisamultistring<--
-
-# 0069 (NULL)
-  ft_printf("@moulitest: %s", NULL);
-includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: @moulitest: includes/projects/ft_printf/ft_printf_main.sh: line 151: 42911 Segmentation fault: 11  ./tmp/ft_printf_s sN "@moulitest: %s" ""$: invalid number
-  1. (    0) -->@moulitest: includes/projects/ft_printf/ft_printf_main.sh: line 151: 42911 Segmentation fault: 11  ./tmp/ft_printf_s sN "@moulitest: %s" "NULL"$<--
-  2. (   18) -->@moulitest: (null)<--
-
-# 0070 (NULL)
+# 0070
   ft_printf("%.2c", NULL);
   1. (    0) --><--
   2. (    1) -->^@<--
-
-# 0071 (NULL)
-  ft_printf("%s %s", NULL, string);
-includes/projects/ft_printf/ft_printf_main.sh: line 198: printf: includes/projects/ft_printf/ft_printf_main.sh: line 151: 43017 Segmentation fault: 11  ./tmp/ft_printf_s sN "%s %s" "" "string"$: invalid number
-  1. (    0) -->includes/projects/ft_printf/ft_printf_main.sh: line 151: 43017 Segmentation fault: 11  ./tmp/ft_printf_s sN "%s %s" "NULL" "string"$<--
-  2. (   13) -->(null) string<--
 
 # 0075 (char)
   ft_printf("@moulitest: %c", 0);
@@ -268,10 +251,10 @@ SUCCESS TESTS:
   65.      ft_printf("%s %s %s", "this", "is", "a");     -> "this is a"
   66.      ft_printf("%s %s %s %s", "this", "is", "a", "multi"); -> "this is a multi"
   67.      ft_printf("%s %s %s %s string. gg!", "this", "is", "a", "multi", "string"); -> "this is a multi string. gg!"
-  68. FAIL ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string"); -> "thisisamultistring"
-  69. FAIL ft_printf("@moulitest: %s", NULL);            -> "@moulitest: (null)"
+  68.      ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string"); -> "thisisamultistring"
+  69.      ft_printf("@moulitest: %s", NULL);            -> "@moulitest: (null)"
   70. FAIL ft_printf("%.2c", NULL);                      -> "^@"
-  71. FAIL ft_printf("%s %s", NULL, string);             -> "(null) string"
+  71.      ft_printf("%s %s", NULL, string);             -> "(null) string"
   72.      ft_printf("%c", 42);                          -> "*"
   73.      ft_printf("%5c", 42);                         -> "    *"
   74.      ft_printf("%-5c", 42);                        -> "*    "
