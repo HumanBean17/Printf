@@ -6,9 +6,7 @@ int main()
 	long int k = 0x7325324342341;
 	int s = 1678932;
 
-	printf("%.10d\n", 542);
-	ft_printf("%.10d\n", 542);
-	//printf(" : original %d\n", (int)printf("@moulitest: %#.x %#.0x", 0, 0));
-	//printf(" : mine %d\n", (int)ft_printf("@moulitest: %#.x %#.0x", 0, 0));
+	printf(" : original %d\n", (int)printf("@moulitest: %#.5x %#.4x", 53, 53));
+	printf(" : mine %d\n", (int)ft_printf("@moulitest: %#.5x %#.4x", 53, 53));
 	return 0;
 }

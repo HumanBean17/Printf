@@ -25,41 +25,41 @@ char    *ft_line(t_printf *list, va_list ap)
     else if (list->type == 'o')
     {
         if (ft_len_check_dioux(list->len) == 0)
-            line = ft_base(va_arg(ap, unsigned int), 8);
+            line = ft_base(va_arg(ap, unsigned int), 8, list->acc);
         else if (ft_len_check_dioux(list->len) == 1)
-            line = ft_base_short(va_arg(ap, unsigned int), 8);
+            line = ft_base_short(va_arg(ap, unsigned int), 8, list->acc);
         else if (ft_len_check_dioux(list->len) == 2)
-            line = ft_base_long(va_arg(ap, unsigned long int), 8);
+            line = ft_base_long(va_arg(ap, unsigned long int), 8, list->acc);
         else if (ft_len_check_dioux(list->len) == 3)
-            line = ft_base_char(va_arg(ap, unsigned int), 8);
+            line = ft_base_char(va_arg(ap, unsigned int), 8, list->acc);
         else if (ft_len_check_dioux(list->len) == 4)
-            line = ft_base_llong(va_arg(ap, unsigned long long int), 8);
+            line = ft_base_llong(va_arg(ap, unsigned long long int), 8, list->acc);
     }
     else if (list->type == 'u')
     {
         if (ft_len_check_dioux(list->len) == 0)
-            line = ft_put_unsigned(va_arg(ap, unsigned int));
+            line = ft_put_unsigned(va_arg(ap, unsigned int), 0);
         else if (ft_len_check_dioux(list->len) == 1)
-            line = ft_put_unsigned_short(va_arg(ap, unsigned int));
+            line = ft_put_unsigned_short(va_arg(ap, unsigned int), 0);
         else if (ft_len_check_dioux(list->len) == 2)
-            line = ft_put_unsigned_long(va_arg(ap, unsigned long int));
+            line = ft_put_unsigned_long(va_arg(ap, unsigned long int), 0);
         else if (ft_len_check_dioux(list->len) == 3)
-            line = ft_put_unsigned_char(va_arg(ap, unsigned int));
+            line = ft_put_unsigned_char(va_arg(ap, unsigned int), 0);
         else if (ft_len_check_dioux(list->len) == 4)
-            line = ft_put_unsigned_llong(va_arg(ap, unsigned long long int));
+            line = ft_put_unsigned_llong(va_arg(ap, unsigned long long int), 0);
     }
     else if (list->type == 'x' || list->type == 'X')
     {
         if (ft_len_check_dioux(list->len) == 0)
-            line = ft_base(va_arg(ap, unsigned int), 16);
+            line = ft_base(va_arg(ap, unsigned int), 16, list->acc);
         else if (ft_len_check_dioux(list->len) == 1)
-            line = ft_base_short(va_arg(ap, unsigned int), 16);
+            line = ft_base_short(va_arg(ap, unsigned int), 16, list->acc);
         else if (ft_len_check_dioux(list->len) == 2)
-            line = ft_base_long(va_arg(ap, unsigned long int), 16);
+            line = ft_base_long(va_arg(ap, unsigned long int), 16, list->acc);
         else if (ft_len_check_dioux(list->len) == 3)
-            line = ft_base_char(va_arg(ap, unsigned int), 16);
+            line = ft_base_char(va_arg(ap, unsigned int), 16, list->acc);
         else if (ft_len_check_dioux(list->len) == 4)
-            line = ft_base_llong(va_arg(ap, unsigned long long int), 16);
+            line = ft_base_llong(va_arg(ap, unsigned long long int), 16, list->acc);
     }
     else if (list->type == 'f' || list->type == 'F')
         line = ft_len_check(list->len) ?
@@ -83,6 +83,7 @@ int		ft_fill_info(const char *str, va_list ap)
 	ft_fill(&list, str);
 	//ft_print(list);
 	number = ft_line(list, ap);
+	printf("number = %s\n", number);
 	field = ft_return_width(list, number);
 	if (ft_toupper(list->type) == list->type)
 		ft_putstr(ft_strupper(field));

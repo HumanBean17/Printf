@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 12:23:34 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/07 14:59:00 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/07 14:59:14 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,13 @@
 
 char *ft_putnbr_llong(long long int n, int round)
 {
-    long long int           num;
-    int					    i;
-    char				    *c;
+    long long int	num;
+    int				i;
+    char			*c;
+    char 			*result;
 
+	if (round == 0 && n == 0)
+		return (NULL);
     c = ft_strnew(21);
     i = 0;
     if (n == 0)
@@ -33,15 +36,19 @@ char *ft_putnbr_llong(long long int n, int round)
         c[i++] = (char)(num % 10 + 48);
         num /= 10;
     }
-    return (ft_strrev(c));
+	result = ft_round_dioux(&c, round);
+	return (result);
 }
 
 char *ft_putnbr_long(long int n, int round)
 {
-    long int                num;
-    int					    i;
-    char				    *c;
+    long int	num;
+    int			i;
+    char		*c;
+    char 		*result;
 
+	if (round == 0 && n == 0)
+		return (NULL);
     c = ft_strnew(21);
     i = 0;
     if (n == 0)
@@ -57,15 +64,19 @@ char *ft_putnbr_long(long int n, int round)
         c[i++] = (char)(num % 10 + 48);
         num /= 10;
     }
-    return (ft_strrev(c));
+	result = ft_round_dioux(&c, round);
+	return (result);
 }
 
 char *ft_putnbr_signed(signed char n, int round)
 {
-    signed char             num;
-    int					    i;
-    char				    *c;
+    signed char		num;
+    int				i;
+    char			*c;
+    char 			*result;
 
+	if (round == 0 && n == 0)
+		return (NULL);
     c = ft_strnew(21);
     i = 0;
     if (n == 0)
@@ -81,15 +92,19 @@ char *ft_putnbr_signed(signed char n, int round)
         c[i++] = (char)(num % 10 + 48);
         num /= 10;
     }
-    return (ft_strrev(c));
+	result = ft_round_dioux(&c, round);
+	return (result);
 }
 
 char *ft_putnbr_short(short n, int round)
 {
-    short                   num;
-    int					    i;
-    char				    *c;
+    short	num;
+    int 	i;
+    char 	*c;
+    char 	*result;
 
+	if (round == 0 && n == 0)
+		return (NULL);
     c = ft_strnew(21);
     i = 0;
     if (n == 0)
@@ -105,7 +120,8 @@ char *ft_putnbr_short(short n, int round)
         c[i++] = (char)(num % 10 + 48);
         num /= 10;
     }
-    return (ft_strrev(c));
+	result = ft_round_dioux(&c, round);
+	return (result);
 }
 
 char *ft_putnbr(int n, int round)

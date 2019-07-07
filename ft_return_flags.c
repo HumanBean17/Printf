@@ -50,6 +50,22 @@ char 		*ft_sign(t_printf *tmp, char s)
 	return (sign);
 }
 
+int 		ft_check_zero(const char *line)
+{
+	int i;
+
+	i = 0;
+	if (!line)
+		return (0);
+	while (line[i] != '\0')
+	{
+		if (line[i] != '0')
+			return (1);
+		i++;
+	}
+	return (0);
+}
+
 char 		*ft_return_width(t_printf *tmp, char *line)
 {
 	char 	*width;
@@ -62,9 +78,9 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	spec = ft_spec(tmp);
 	sign = line ? ft_sign(tmp, line[0]) : ft_strnew_n(0, 1);
 	width = ft_width(tmp);
-	if ((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) && line && line[0] != '0')
+	if ((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) && ft_check_zero(line))
 		line = ft_strjoin(spec, line);
-	else if (line && line[0] != '0')
+	else if (ft_check_zero(line))
 		ft_strcpy_n(width, spec);
 	line = ft_strjoin(line, sign);
 	line = ft_strjoin(line, tab);

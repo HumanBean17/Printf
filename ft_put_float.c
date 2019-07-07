@@ -2,9 +2,9 @@
 
 void			ft_print_bits(t_double tmp)
 {
-	printf("========\nSIGN : %1s\n", ft_base(tmp.sign, 2));
-	printf("EXP : %15s (%u)\n", ft_base(tmp.exp, 2), tmp.exp);
-	printf("MAN : %64s (%lu)\n========\n", ft_base(tmp.man, 2), tmp.man);
+	printf("========\nSIGN : %1s\n", ft_base(tmp.sign, 2, 0));
+	printf("EXP : %15s (%u)\n", ft_base(tmp.exp, 2, 0), tmp.exp);
+	printf("MAN : %64s (%lu)\n========\n", ft_base(tmp.man, 2, 0), tmp.man);
 }
 
 void            print_check(int *a, int size)

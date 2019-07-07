@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/07 14:26:11 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/07 15:08:57 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,14 +62,14 @@ char				*ft_strcpy_n(char *destination, const char *source);
 char 				*ft_strnew_n(size_t size, char c);
 char 				*ft_return_width(t_printf *tmp, char *line);
 int 				ft_flag_find(t_flags *alst, char c);
-char 			    *ft_base_llong(unsigned long long int num, int base);
-char 			    *ft_base_long(unsigned long int num, int base);
-char 			    *ft_base_char(unsigned char num, int base);
-char 			    *ft_base_short(unsigned short int num, int base);
-char                *ft_put_unsigned_llong(unsigned long long int n);
-char                *ft_put_unsigned_long(unsigned long int n);
-char                *ft_put_unsigned_char(unsigned char n);
-char                *ft_put_unsigned_short(unsigned short int n);
+char *ft_base_llong(unsigned long long int num, int base, int round);
+char *ft_base_long(unsigned long int num, int base, int round);
+char *ft_base_char(unsigned char num, int base, int round);
+char *ft_base_short(unsigned short int num, int base, int round);
+char *ft_put_unsigned_llong(unsigned long long int n, int round);
+char *ft_put_unsigned_long(unsigned long int n, int round);
+char *ft_put_unsigned_char(unsigned char n, int round);
+char *ft_put_unsigned_short(unsigned short int n, int round);
 char *ft_putnbr_llong(long long int n, int round);
 int                 ft_len_check_u(const char *c);
 char *ft_putnbr_long(long int n, int round);
@@ -109,10 +109,10 @@ void				ft_print_bits(t_double tmp);
 char 				*ft_put_float(long double num, int round);
 char 				*ft_strupper(char *str);
 void				ft_printf_del(t_printf **to_del);
-char 				*ft_put_unsigned(unsigned int n);
+char *ft_put_unsigned(unsigned int n, int round);
 char				*ft_strrev(char *str);
 int 				ft_n_len(int num);
-char 				*ft_base(unsigned int num, int base);
+char *ft_base(unsigned int num, int base, int round);
 int					ft_fill(t_printf **elem, const char *str);
 t_printf			*ft_printf_new(void);
 int 				ft_len(const char c);
