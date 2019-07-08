@@ -89,7 +89,7 @@ void                print_check(int *a, int size);
 void 				ft_sum_2(int **sum, const int *b);
 int                 *ft_cast_2(unsigned long num, int len);
 int                 ft_len_check(const char c[]);
-char 				*ft_put_address(unsigned long s);
+char *ft_put_address(unsigned long s, int round);
 void                ft_round(int **a, int **b, int round);
 int 				*ft_int_cpy_2(int *a, const int *b);
 void 				ft_int_del(int **a);

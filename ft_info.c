@@ -68,7 +68,7 @@ char    *ft_line(t_printf *list, va_list ap)
     else if (list->type == 'e' || list->type == 'E')
         line = ft_put_exp(va_arg(ap, double), list->acc);
     else if (list->type == 'p')
-        line = ft_put_address(va_arg(ap, unsigned long));
+        line = ft_put_address(va_arg(ap, unsigned long), list->acc);
     return (line);
 }
 

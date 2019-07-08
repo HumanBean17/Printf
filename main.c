@@ -7,7 +7,10 @@ int main()
 	int s = 1678932;
 	int i = 1;
 
-	printf(": original %d\n", printf("{%+03d}", 123456));
-	printf(": mine     %d\n", ft_printf("{%+03d}", 123456));
+	printf(": original %d\n", printf("%#o", 42));
+	printf(": mine     %d\n", ft_printf("%#o", 42));
+	printf("\n");
+	printf(": original %d\n", printf("%#.5o", 1));
+	printf(": mine     %d\n", ft_printf("%#.5o", 1));
 	return 0;
 }
