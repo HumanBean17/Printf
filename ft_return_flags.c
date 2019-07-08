@@ -96,7 +96,7 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 		line = ft_strjoin(spec, line);
 	else if (ft_check_zero(line))
 		ft_strcpy_n(width, spec);
-	if (!ft_flag_find(tmp->flag, '0') && tmp->type != 'u')
+	if ((!ft_flag_find(tmp->flag, '0') || tmp->width < ft_strlen(line)) && tmp->type != 'u')
 		line = ft_strjoin(sign, line);
 	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
 		ft_strcpy_n(width, sign);
