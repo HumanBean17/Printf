@@ -63,6 +63,36 @@ int 				ft_n_len(int num)
 	return (len);
 }
 
+int					ft_printf_putstr(int type, char *field, const char *number)
+{
+	int c;
+
+	c = 0;
+	if (ft_toupper(type) == type)
+		ft_putstr(ft_strupper(field));
+	else
+		ft_putstr(field);
+	c = ft_strlen(field);
+	if (type == 'c' && number && number[0] == '\0')
+	{
+		write(1, "\0", 1);
+		c++;
+	}
+	return (c);
+}
+
+void				ft_do_del(t_printf **list, char **number, char **field)
+{
+	if ((*number) == (*field))
+		ft_strdel(number);
+	else
+	{
+		ft_strdel(number);
+		ft_strdel(field);
+	}
+	ft_printf_del(list);
+}
+
 int					ft_fill(t_printf **elem, const char *str)
 {
 	int 		i;

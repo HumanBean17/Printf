@@ -17,14 +17,14 @@ char 		*ft_width(t_printf *tmp)
 	return (width);
 }
 
-char 		*ft_tab(t_printf *tmp)
+char 		*ft_tab(t_printf *tmp, char c)
 {
 	char *tab;
 
 	tab = NULL;
-	if (ft_flag_find(tmp->flag, ' ') && (!ft_flag_find(tmp->flag, '+')) &&
+	if (c != '-' && ft_flag_find(tmp->flag, ' ') && (!ft_flag_find(tmp->flag, '+')) &&
 		(tmp->type == 'i' || tmp->type == 'd'))
-		tab = " ";
+		tab = ft_strdup(" ");
 	return (tab);
 }
 
@@ -34,9 +34,9 @@ char 		*ft_spec(t_printf *tmp)
 
 	spec = NULL;
 	if (ft_flag_find(tmp->flag, '#') && (tmp->type == 'x' || tmp->type == 'X'))
-		spec = "0x";
+		spec = ft_strdup("0x");
 	if (ft_flag_find(tmp->flag, '#') && (tmp->type == 'o'))
-		spec = "0";
+		spec = ft_strdup("0");
 	return (spec);
 }
 
@@ -45,8 +45,8 @@ char 		*ft_sign(t_printf *tmp, char s)
 	char *sign;
 
 	sign = NULL;
-	if (ft_flag_find(tmp->flag, '+') && s == '+')
-		sign = "+";
+	if (ft_flag_find(tmp->flag, '+') && s != '-')
+		sign = ft_strdup("+");
 	return (sign);
 }
 
@@ -66,6 +66,12 @@ int 		ft_check_zero(const char *line)
 	return (0);
 }
 
+void ft_char_zero(char **width, const char *line, t_printf *tmp)
+{
+	if (tmp->type == 'c' && (*width) && line && line[0] == '\0')
+		(*width)[ft_strlen(*width) - 1] = '\0';
+}
+
 char 		*ft_return_width(t_printf *tmp, char *line)
 {
 	char 	*width;
@@ -74,16 +80,17 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	char 	*sign;
 	char 	*ptr;
 
-	tab = ft_tab(tmp);
+	tab = line ? ft_tab(tmp, line[0]) : ft_strdup("");
 	spec = ft_spec(tmp);
 	sign = line ? ft_sign(tmp, line[0]) : ft_strnew_n(0, 1);
 	width = ft_width(tmp);
-	if ((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) && ft_check_zero(line))
+	if ((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
+	(ft_check_zero(line) || ft_strlen(spec) == 1))
 		line = ft_strjoin(spec, line);
 	else if (ft_check_zero(line))
 		ft_strcpy_n(width, spec);
-	line = ft_strjoin(line, sign);
-	line = ft_strjoin(line, tab);
+	line = ft_strjoin(sign, line);
+	line = ft_strjoin(tab, line);
 	if (tmp->type == '%')
 		line = ft_strjoin(line, ft_strnew_n(1, tmp->type));
 	if (ft_flag_find(tmp->flag, '-'))
@@ -93,6 +100,7 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	else
 		ft_strdel(&width);
 	//printf("%zu\n", ft_strlen(width));
+	ft_char_zero(&width, line, tmp);
 	if (width)
 		return (width);
 	return (line);

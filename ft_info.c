@@ -84,20 +84,7 @@ int		ft_fill_info(const char *str, va_list ap)
 	//ft_print(list);
 	number = ft_line(list, ap);
 	field = ft_return_width(list, number);
-	if (ft_toupper(list->type) == list->type)
-		ft_putstr(ft_strupper(field));
-	else
-		ft_putstr(field);
-	c = ft_strlen(field);
-	if (number == field)
-		ft_strdel(&number);
-	else
-	{
-		ft_strdel(&number);
-		ft_strdel(&field);
-	}
-	if (list->type == 'c' && ft_strlen(field) == 0)
-		c++;
-	ft_printf_del(&list);
+	c = ft_printf_putstr(list->type, field, number);
+	ft_do_del(&list, &number, &field);
 	return (c);
 }

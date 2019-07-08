@@ -6,7 +6,7 @@ int main()
 	long int k = 0x7325324342341;
 	int s = 1678932;
 
-	printf(" : original %d\n", printf("%5c", 42));
-	printf(" : mine %d\n", ft_printf("%5c", 42));
+	printf(": original %d\n", printf("%0+5d", 42));
+	printf(": mine     %d\n", ft_printf("%0+5d", 42));
 	return 0;
 }
