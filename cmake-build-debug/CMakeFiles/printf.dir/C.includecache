@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/lcrawn/Desktop/Printf/ft_info.c
-libft.h
-/Users/lcrawn/Desktop/Printf/libft.h
-
-/Users/lcrawn/Desktop/Printf/ft_put_unsigned.c
-libft.h
-/Users/lcrawn/Desktop/Printf/libft.h
-
-/Users/lcrawn/Desktop/Printf/ft_putnbr.c
-libft.h
-/Users/lcrawn/Desktop/Printf/libft.h
-
-/Users/lcrawn/Desktop/Printf/ft_return_flags.c
+/Users/lcrawn/Desktop/Printf/ft_printf.c
 libft.h
 /Users/lcrawn/Desktop/Printf/libft.h
 
@@ -37,8 +25,4 @@ stdio.h
 -
 stdarg.h
 -
-
-/Users/lcrawn/Desktop/Printf/main.c
-libft.h
-/Users/lcrawn/Desktop/Printf/libft.h
 

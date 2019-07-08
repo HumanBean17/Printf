@@ -89,10 +89,10 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 
 	tab = line ? ft_tab(tmp, line[0]) : ft_strdup("");
 	spec = ft_spec(tmp);
-	sign = line ? ft_sign(tmp, line[0]) : ft_strnew_n(0, 1);
+	sign = line ? ft_sign(tmp, line[0]) : ft_strdup("");
 	width = ft_width(tmp, line);
 	if ((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
-	(ft_check_zero(line) || ft_strlen(spec) == 1))
+	(ft_check_zero(line) || (ft_strlen(spec) == 1 && tmp->acc != -1)))
 		line = ft_strjoin(spec, line);
 	else if (ft_check_zero(line))
 		ft_strcpy_n(width, spec);
@@ -100,7 +100,10 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 		line = ft_strjoin(sign, line);
 	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
 		ft_strcpy_n(width, sign);
-	line = ft_strjoin(tab, line);
+	if (!ft_flag_find(tmp->flag, '0'))
+		line = ft_strjoin(tab, line);
+	else
+		ft_strcpy_n(width, tab);
 	if (tmp->type == '%')
 		line = ft_strjoin(line, ft_strnew_n(1, tmp->type));
 	if (ft_flag_find(tmp->flag, '-'))

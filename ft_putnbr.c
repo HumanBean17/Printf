@@ -6,11 +6,28 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 12:23:34 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/08 13:18:45 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/08 14:09:52 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+char *ft_long_min(long int n)
+{
+	char *c;
+
+	if (n == -2147483648)
+	{
+		c = ft_strdup("-2147483648");
+		return (c);
+	}
+	else if (n == (-9223372036854775807 - 1))
+	{
+		c = ft_strdup("-9223372036854775808");
+		return (c);
+	}
+	return (NULL);
+}
 
 char *ft_putnbr_llong(long long int n, int round)
 {
@@ -54,11 +71,8 @@ char *ft_putnbr_long(long int n, int round)
 
 	if (round == 0 && n == 0)
 		return (NULL);
-	if (n == -2147483648)
-	{
-		c = ft_strdup("-2147483648");
+	if ((c = ft_long_min(n)))
 		return (c);
-	}
     c = ft_strnew(21);
     i = 0;
     if (n == 0)

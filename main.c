@@ -5,8 +5,9 @@ int main()
 	double d = -31.000000001382139273892173827382138129429;
 	long int k = 0x7325324342341;
 	int s = 1678932;
+	int i = 1;
 
-	printf(": original %d\n", printf("@moulitest: %.5u", 42));
-	printf(": mine     %d\n", ft_printf("@moulitest: %.5u", 42));
+	printf(": original %d\n", printf("%#o", 0));
+	printf(": mine     %d\n", ft_printf("%o", 0));
 	return 0;
 }
