@@ -92,6 +92,11 @@ char *ft_put_unsigned(unsigned int n, int round)
 
 	if (round == 0 && n == 0)
 		return (NULL);
+	if (n == 4294967295)
+	{
+		c = ft_strdup("4294967295");
+		return (c);
+	}
 	i = 0;
 	c = ft_strnew(20);
 	if (n == 0)

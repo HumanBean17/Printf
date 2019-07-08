@@ -1,8 +1,9 @@
 #include "libft.h"
 
-char 		*ft_width(t_printf *tmp)
+char 		*ft_width(t_printf *tmp, char *line)
 {
 	char 	*width;
+	char	c;
 
 	width = NULL;
 	if (tmp->width > 0)
@@ -10,6 +11,12 @@ char 		*ft_width(t_printf *tmp)
 		if (tmp->acc == -1 && ft_flag_find(tmp->flag, '0') && (!ft_flag_find(tmp->flag, '-')))
 		{
 			width = ft_strnew_n(tmp->width, '0');
+			if ((line) && (line)[0] == '-')
+			{
+				c = line[0];
+				line[0] = width[0];
+				width[0] = c;
+			}
 		}
 		else
 			width = ft_strnew_n(tmp->width, ' ');
@@ -83,13 +90,16 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	tab = line ? ft_tab(tmp, line[0]) : ft_strdup("");
 	spec = ft_spec(tmp);
 	sign = line ? ft_sign(tmp, line[0]) : ft_strnew_n(0, 1);
-	width = ft_width(tmp);
+	width = ft_width(tmp, line);
 	if ((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
 	(ft_check_zero(line) || ft_strlen(spec) == 1))
 		line = ft_strjoin(spec, line);
 	else if (ft_check_zero(line))
 		ft_strcpy_n(width, spec);
-	line = ft_strjoin(sign, line);
+	if (!ft_flag_find(tmp->flag, '0') && tmp->type != 'u')
+		line = ft_strjoin(sign, line);
+	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
+		ft_strcpy_n(width, sign);
 	line = ft_strjoin(tab, line);
 	if (tmp->type == '%')
 		line = ft_strjoin(line, ft_strnew_n(1, tmp->type));
@@ -99,7 +109,6 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 		ft_strcpy_end(width, line);
 	else
 		ft_strdel(&width);
-	//printf("%zu\n", ft_strlen(width));
 	ft_char_zero(&width, line, tmp);
 	if (width)
 		return (width);
