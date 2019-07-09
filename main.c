@@ -12,5 +12,11 @@ int main()
 	printf("\n");
 	printf(": original %d\n", printf("%#.5o", 1));
 	printf(": mine     %d\n", ft_printf("%#.5o", 1));
+	printf("\n");
+	printf(": original %d\n", printf("%#.0o", 1));
+	printf(": mine     %d\n", ft_printf("%#.0o", 1));
+	printf("\n");
+	printf(": original %d\n", printf("{%#.5x}", 1));
+	printf(": mine     %d\n", ft_printf("{%#.5x}", 1));
 	return 0;
 }

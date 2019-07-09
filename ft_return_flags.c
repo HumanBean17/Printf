@@ -93,10 +93,12 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	width = ft_width(tmp, line);
 	//printf("%d %d\n", ft_strlen(line), tmp->acc);
 	if (((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
-	(ft_check_zero(line) || (ft_strlen(spec) == 1 && tmp->acc != -1))))
+			 (ft_check_zero(line) || (ft_strlen(spec) == 1 && tmp->acc != -1))) &&
+			((ft_strlen(line) != tmp->acc || !ft_check_zero(line)) ||
+			(tmp->type == 'x' || tmp->type == 'X')))
 		line = ft_strjoin(spec, line);
 	else if (ft_check_zero(line))
-		ft_strcpy_n(width, spec);
+			ft_strcpy_n(width, spec);
 	if ((!ft_flag_find(tmp->flag, '0') || tmp->width < ft_strlen(line)) && tmp->type != 'u')
 		line = ft_strjoin(sign, line);
 	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
