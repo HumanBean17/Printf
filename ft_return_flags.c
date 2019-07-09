@@ -130,6 +130,27 @@ void 		ft_condition_tab(t_printf *tmp, char **line, char *tab, char **width)
 	ft_strdel(&tab);
 }
 
+void		ft_condition_width(t_printf *tmp, char **line, char **width)
+{
+	char *ptr;
+	char *cur;
+
+	if (tmp->type == '%')
+	{
+		ptr = ft_strdup(*line);
+		cur = ft_strnew_n(1, tmp->type);
+		*line = ft_strjoin(*line, ft_strnew_n(1, tmp->type));
+		ft_strdel(&ptr);
+		ft_strdel(&cur);
+	}
+	if (ft_flag_find(tmp->flag, '-'))
+		ft_strcpy_n(*width, *line);
+	else if (tmp->width >= ft_strlen(*line))
+		ft_strcpy_end(*width, *line);
+	else
+		ft_strdel(width);
+}
+
 char 		*ft_return_width(t_printf *tmp, char *line)
 {
 	char 	*width;
@@ -141,9 +162,21 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	spec = ft_spec(tmp);
 	sign = line ? ft_sign(tmp, line[0]) : ft_strdup("");
 	width = ft_width(tmp, line);
-	ft_condition_spec(tmp, &line, spec, &width);
-	ft_condition_sign(tmp, &line, sign, &width);
-	ft_condition_tab(tmp, &line, tab, &width);
+	if (((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
+		 (ft_check_zero(line) || (ft_strlen(spec) == 1 && tmp->acc != -1))) &&
+		((ft_strlen(line) != tmp->acc || !ft_check_zero(line)) ||
+		 (tmp->type == 'x' || tmp->type == 'X')))
+		line = ft_strjoin(spec, line);
+	else if (ft_check_zero(line))
+		ft_strcpy_n(width, spec);
+	if ((!ft_flag_find(tmp->flag, '0') || tmp->width < ft_strlen(line)) && tmp->type != 'u')
+		line = ft_strjoin(sign, line);
+	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
+		ft_strcpy_n(width, sign);
+	if (!ft_flag_find(tmp->flag, '0'))
+		line = ft_strjoin(tab, line);
+	else
+		ft_strcpy_n(width, tab);
 	if (tmp->type == '%')
 		line = ft_strjoin(line, ft_strnew_n(1, tmp->type));
 	if (ft_flag_find(tmp->flag, '-'))
@@ -152,6 +185,9 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 		ft_strcpy_end(width, line);
 	else
 		ft_strdel(&width);
+	//ft_condition_spec(tmp, &line, spec, &width);
+	//ft_condition_sign(tmp, &line, sign, &width);
+	//ft_condition_width(tmp, &line, &width);
 	ft_char_zero(&width, line, tmp);
 	if (width)
 		return (width);

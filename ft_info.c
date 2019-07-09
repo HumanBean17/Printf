@@ -90,6 +90,7 @@ int		ft_fill_info(const char *str, va_list ap)
 	//printf("num = %s\n", number);
 	field = ft_return_width(list, number);
 	c = ft_printf_putstr(list->type, field, number);
+	//printf("%s %s\n", number, field);
 	ft_do_del(&list, &number, &field);
 	return (c);
 }

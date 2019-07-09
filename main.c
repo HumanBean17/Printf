@@ -7,8 +7,8 @@ int main()
 	int s = 1678932;
 	int i = 1;
 
-	printf(": original %d\n", printf("%#040o %#040o", 39831, 6545));
-	printf(": mine     %d\n", ft_printf("%#040o %#040o", 39831, 6545));
+	printf(": original %d\n", printf("%05.d %#o %0#.x", 42, 42, 42));
+	printf(": mine     %d\n", ft_printf("%05.d %#o %0#.x", 42, 42, 42));
 
 	//printf("%lf\n", 1.42l);
 	//ft_printf("%lf\n", 1.42l);
