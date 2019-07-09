@@ -87,10 +87,11 @@ int		ft_fill_info(const char *str, va_list ap)
 	ft_fill(&list, str);
 	//ft_print(list);
 	number = ft_line(list, ap);
-	//printf("num = %s\n", number);
+	printf("num = %s\n", number);
 	field = ft_return_width(list, number);
+	printf("field = %s\n", field);
 	c = ft_printf_putstr(list->type, field, number);
 	//printf("%s %s\n", number, field);
-	ft_do_del(&list, &number, &field);
+	//ft_do_del(&list, &number, &field);
 	return (c);
 }
