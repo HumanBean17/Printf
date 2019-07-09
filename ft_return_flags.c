@@ -73,10 +73,61 @@ int 		ft_check_zero(const char *line)
 	return (0);
 }
 
-void ft_char_zero(char **width, const char *line, t_printf *tmp)
+void 		ft_char_zero(char **width, const char *line, t_printf *tmp)
 {
 	if (tmp->type == 'c' && (*width) && line && line[0] == '\0')
 		(*width)[ft_strlen(*width) - 1] = '\0';
+}
+
+void 		ft_condition_spec(t_printf *tmp, char **line, char *spec, char **width)
+{
+	char *ptr;
+
+	if (((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
+		 (ft_check_zero(*line) || (ft_strlen(spec) == 1 && tmp->acc != -1))) &&
+		((ft_strlen(*line) != tmp->acc || !ft_check_zero(*line)) ||
+		 (tmp->type == 'x' || tmp->type == 'X')))
+	{
+		ptr = ft_strdup(*line);
+		ft_strdel(line);
+		*line = ft_strjoin(spec, ptr);
+		ft_strdel(&ptr);
+	}
+	else if (ft_check_zero(*line))
+		ft_strcpy_n(*width, spec);
+	ft_strdel(&spec);
+}
+
+void		ft_condition_sign(t_printf *tmp, char **line, char *sign, char **width)
+{
+	char *ptr;
+
+	if ((!ft_flag_find(tmp->flag, '0') || tmp->width < ft_strlen(*line)) && tmp->type != 'u')
+	{
+		ptr = ft_strdup(*line);
+		ft_strdel(line);
+		*line = ft_strjoin(sign, ptr);
+		ft_strdel(&ptr);
+	}
+	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
+		ft_strcpy_n(*width, sign);
+	ft_strdel(&sign);
+}
+
+void 		ft_condition_tab(t_printf *tmp, char **line, char *tab, char **width)
+{
+	char *ptr;
+
+	if (!ft_flag_find(tmp->flag, '0'))
+	{
+		ptr = ft_strdup(*line);
+		ft_strdel(line);
+		*line = ft_strjoin(tab, ptr);
+		ft_strdel(&ptr);
+	}
+	else
+		ft_strcpy_n(*width, tab);
+	ft_strdel(&tab);
 }
 
 char 		*ft_return_width(t_printf *tmp, char *line)
@@ -85,27 +136,14 @@ char 		*ft_return_width(t_printf *tmp, char *line)
 	char 	*spec;
 	char 	*tab;
 	char 	*sign;
-	char 	*ptr;
 
 	tab = line ? ft_tab(tmp, line[0]) : ft_strdup("");
 	spec = ft_spec(tmp);
 	sign = line ? ft_sign(tmp, line[0]) : ft_strdup("");
 	width = ft_width(tmp, line);
-	if (((!ft_flag_find(tmp->flag, '0') || ft_flag_find(tmp->flag, '-')) &&
-			 (ft_check_zero(line) || (ft_strlen(spec) == 1 && tmp->acc != -1))) &&
-			((ft_strlen(line) != tmp->acc || !ft_check_zero(line)) ||
-			(tmp->type == 'x' || tmp->type == 'X')))
-		line = ft_strjoin(spec, line);
-	else if (ft_check_zero(line))
-			ft_strcpy_n(width, spec);
-	if ((!ft_flag_find(tmp->flag, '0') || tmp->width < ft_strlen(line)) && tmp->type != 'u')
-		line = ft_strjoin(sign, line);
-	else if (ft_flag_find(tmp->flag, '+') && tmp->type != 'u')
-		ft_strcpy_n(width, sign);
-	if (!ft_flag_find(tmp->flag, '0'))
-		line = ft_strjoin(tab, line);
-	else
-		ft_strcpy_n(width, tab);
+	ft_condition_spec(tmp, &line, spec, &width);
+	ft_condition_sign(tmp, &line, sign, &width);
+	ft_condition_tab(tmp, &line, tab, &width);
 	if (tmp->type == '%')
 		line = ft_strjoin(line, ft_strnew_n(1, tmp->type));
 	if (ft_flag_find(tmp->flag, '-'))
