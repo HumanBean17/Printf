@@ -15,7 +15,6 @@
 int		ft_printf(const char *str, ...)
 {
 	va_list		ap;
-	const char 	*percent;
 	int 		print;
 
 	va_start(ap, str);

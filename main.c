@@ -7,16 +7,10 @@ int main()
 	int s = 1678932;
 	int i = 1;
 
-	printf(": original %d\n", printf("%#o", 42));
-	printf(": mine     %d\n", ft_printf("%#o", 42));
-	printf("\n");
-	printf(": original %d\n", printf("%#.5o", 1));
-	printf(": mine     %d\n", ft_printf("%#.5o", 1));
-	printf("\n");
-	printf(": original %d\n", printf("%#.0o", 1));
-	printf(": mine     %d\n", ft_printf("%#.0o", 1));
-	printf("\n");
-	printf(": original %d\n", printf("{%#.5x}", 1));
-	printf(": mine     %d\n", ft_printf("{%#.5x}", 1));
+	printf(": original %d\n", printf("^.^/%46.40lf^.^/", 4322592560));
+	printf(": mine     %d\n", ft_printf("^.^/%46.40lf^.^/", 4322592560));
+
+	//printf("%lf\n", 1.42l);
+	//ft_printf("%lf\n", 1.42l);
 	return 0;
 }

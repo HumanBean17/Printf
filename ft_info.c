@@ -62,9 +62,13 @@ char    *ft_line(t_printf *list, va_list ap)
             line = ft_base_llong(va_arg(ap, unsigned long long int), 16, list->acc);
     }
     else if (list->type == 'f' || list->type == 'F')
-        line = ft_len_check(list->len) ?
-               ft_put_float(va_arg(ap, long double), list->acc) :
-               ft_put_float(va_arg(ap, double), list->acc);
+    {
+		//line = ft_put_float(va_arg(ap, double), list->acc);
+    	if (ft_len_check(list->len) == 2)
+			line = ft_put_float(va_arg(ap, long double), list->acc);
+    	else
+			line = ft_put_float(va_arg(ap, double), list->acc);
+	}
     else if (list->type == 'e' || list->type == 'E')
         line = ft_put_exp(va_arg(ap, double), list->acc);
     else if (list->type == 'p')
@@ -86,6 +90,6 @@ int		ft_fill_info(const char *str, va_list ap)
 	//printf("num = %s\n", number);
 	field = ft_return_width(list, number);
 	c = ft_printf_putstr(list->type, field, number);
-	ft_do_del(&list, &number, &field);
+	//ft_do_del(&list, &number, &field);
 	return (c);
 }

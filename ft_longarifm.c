@@ -84,9 +84,12 @@ int             *ft_cast_1(unsigned long num, int round)
     {
         if (((num >> (unsigned long)(64 - i)) & 1u) != 0)
         {
-            pow = ft_long_pow(i - 1, 5);
-            ft_sum_1(&frac, pow);
-            ft_int_del(&pow);
+        	if (i - 1 > 0)
+        	{
+				pow = ft_long_pow(i - 1, 5);
+				ft_sum_1(&frac, pow);
+				ft_int_del(&pow);
+			}
         }
         i++;
     }
@@ -102,8 +105,8 @@ int            *ft_cast_2(unsigned long num, int len)
 
     i = 0;
     shift = len - 63 < 0 ? 0 : len - 63;
-    dec = ft_new_malloc(len + 1);
-    dec[0] = len;
+    dec = ft_new_malloc(len + 2);
+    dec[0] = len == 0 ? 1 : len;
     len = len > 63 ? 63 : len;
     while (len >= 0)
     {
@@ -112,14 +115,8 @@ int            *ft_cast_2(unsigned long num, int len)
             pow = ft_long_pow(i + shift, 2);
             pow = ft_shift_right(&pow);
             ft_sum_2(&dec, pow);
-            /*printf("pow = ");
-            print_int(pow, pow[0] + 1);
-            printf("dec = ");
-            print_int(dec, dec[0] + 1);
-            printf("\n");*/
             ft_int_del(&pow);
         }
-        //printf("%lu",(num >> (unsigned long)i) & 1u);
         len--;
         i++;
     }

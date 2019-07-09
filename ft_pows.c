@@ -8,6 +8,7 @@ int             *ft_long_pow(int power, int num)
 	int 	*tmp;
 
 	i = 1;
+	power = power < 0 ? 1 : power;
 	if (power == 0 && num != 5)
     {
 	    result = ft_new_malloc(2);

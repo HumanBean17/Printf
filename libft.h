@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/08 13:53:01 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/09 12:50:16 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ typedef struct		s_flags
 
 typedef struct		s_printf
 {
-	struct s_flags	*flag; // нужно двойной указатель для очистки
+	struct s_flags	**flag; // нужно двойной указатель для очистки
 	int 			width;
 	int 			acc;
 	char 			len[2];

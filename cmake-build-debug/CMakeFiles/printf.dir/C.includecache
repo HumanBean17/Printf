@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/Users/lcrawn/Desktop/Printf/ft_check.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
+
+/Users/lcrawn/Desktop/Printf/ft_info.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
+
+/Users/lcrawn/Desktop/Printf/ft_longarifm.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
+
+/Users/lcrawn/Desktop/Printf/ft_pows.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
+
 /Users/lcrawn/Desktop/Printf/ft_printf.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
+
+/Users/lcrawn/Desktop/Printf/ft_put_float.c
 libft.h
 /Users/lcrawn/Desktop/Printf/libft.h
 
@@ -25,4 +45,8 @@ stdio.h
 -
 stdarg.h
 -
+
+/Users/lcrawn/Desktop/Printf/main.c
+libft.h
+/Users/lcrawn/Desktop/Printf/libft.h
 
