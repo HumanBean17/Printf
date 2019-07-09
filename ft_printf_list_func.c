@@ -42,10 +42,10 @@ static void			ft_flag_new(t_printf **elem, const char c)
 {
 	if (!(*elem)->flag)
 	{
-		*(*elem)->flag = ft_flag_create(c);
+		(*elem)->flag = ft_flag_create(c);
 		return ;
 	}
-	ft_flag_push((*elem)->flag, c);
+	ft_flag_push(&(*elem)->flag, c);
 }
 
 int 				ft_n_len(int num)

@@ -28,7 +28,7 @@ void		ft_printf_del(t_printf **to_del)
 {
 	if (*to_del)
 	{
-		ft_flag_del(&((*to_del)->flag));
+		//ft_flag_del(&((*to_del)->flag));
 		free(*to_del);
 		*to_del = NULL;
 	}
