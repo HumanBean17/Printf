@@ -41,4 +41,4 @@ add_executable(printf
         ft_strnew.c
         ft_strupper.c
         libft.h
-        main.c ft_round_dioux.c ft_put_int.c ft_conditions.c)
+        main.c ft_round_dioux.c ft_put_int.c ft_conditions.c ft_flag_funcs.c)

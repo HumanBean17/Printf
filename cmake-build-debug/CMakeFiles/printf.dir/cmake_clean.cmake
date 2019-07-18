@@ -34,6 +34,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_round_dioux.c.o"
   "CMakeFiles/printf.dir/ft_put_int.c.o"
   "CMakeFiles/printf.dir/ft_conditions.c.o"
+  "CMakeFiles/printf.dir/ft_flag_funcs.c.o"
   "printf.pdb"
   "printf"
 )

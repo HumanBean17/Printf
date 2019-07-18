@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/01 12:58:03 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/08 14:02:02 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/18 21:47:41 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int		ft_printf(const char *str, ...)
 {
 	va_list		ap;
-	int 		print;
+	int			print;
 
 	va_start(ap, str);
 	print = 0;
@@ -26,7 +26,7 @@ int		ft_printf(const char *str, ...)
 			print += ft_fill_info(str, ap);
 			str++;
 			if (!(*str))
-				break;
+				break ;
 			while (!ft_type_or(*str) && *str)
 				str++;
 			str++;

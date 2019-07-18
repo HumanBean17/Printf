@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf_del.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/18 21:48:06 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/18 21:48:12 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_strdel(char **as)
@@ -9,7 +21,7 @@ void	ft_strdel(char **as)
 	}
 }
 
-void 			ft_int_del(int **a)
+void	ft_int_del(int **a)
 {
 	if (a)
 	{
@@ -18,7 +30,7 @@ void 			ft_int_del(int **a)
 	}
 }
 
-static void	ft_del(t_flags **tmp)
+void	ft_del(t_flags **tmp)
 {
 	if (*tmp)
 	{
@@ -27,7 +39,7 @@ static void	ft_del(t_flags **tmp)
 	}
 }
 
-static void	ft_flag_del(t_flags **alst)
+void	ft_flag_del(t_flags **alst)
 {
 	t_flags	*tmp;
 	t_flags *cur;
@@ -42,12 +54,11 @@ static void	ft_flag_del(t_flags **alst)
 	*alst = NULL;
 }
 
-void		ft_printf_del(t_printf **to_del)
+void	ft_printf_del(t_printf **to_del)
 {
 	if (*to_del)
 	{
 		ft_flag_del(&((*to_del)->flag));
-		//ft_del(&(*to_del)->flag);
 		free(*to_del);
 		*to_del = NULL;
 	}

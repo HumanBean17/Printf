@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/lcrawn/Desktop/Printf/ft_check_2.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_check_2.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_conditions.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_conditions.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_cpy.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_cpy.c.o"
+  "/Users/lcrawn/Desktop/Printf/ft_flag_funcs.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_flag_funcs.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_info.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_info.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_isdigit.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_isdigit.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_itoa.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_itoa.c.o"

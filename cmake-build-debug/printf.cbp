@@ -102,6 +102,9 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_cpy.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_flag_funcs.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_info.c">
 			<Option target="printf"/>
 		</Unit>

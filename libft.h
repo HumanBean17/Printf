@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/18 20:59:50 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/18 21:54:09 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+void		ft_flag_new(t_printf **elem, const char c);
 void 		ft_condition_spec(t_printf *tmp, char **line, char *spec, char *width);
 void		ft_condition_width(t_printf *tmp, char **line, char **width);
 void 		ft_condition_tab(t_printf *tmp, char **line, char *tab, char *width);
@@ -114,13 +115,7 @@ void				print_int(int *a, int size);
 int                 *ft_long_pow(int power, int num);
 char 				*ft_put_float_2(t_double *tmp, int round);
 char 				*ft_put_exp(long double num, int round);
-int 				ft_zero_amount(long double num);
-char 				*ft_zero_join(long double num, int round);
-char 				*ft_put_e(double num);
 int 				ft_abs(int x);
-char 				*ft_freejoin(char **s1, char **s2);
-long double 		ft_double_pow(long double num, int pow);
-void				ft_print_bits(t_double tmp);
 char 				*ft_put_float(long double num, int round);
 char 				*ft_strupper(char *str);
 void				ft_printf_del(t_printf **to_del);

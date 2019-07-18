@@ -285,6 +285,33 @@ ft_cpy.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_cpy.c.s
 .PHONY : ft_cpy.c.s
 
+ft_flag_funcs.o: ft_flag_funcs.c.o
+
+.PHONY : ft_flag_funcs.o
+
+# target to build an object file
+ft_flag_funcs.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_flag_funcs.c.o
+.PHONY : ft_flag_funcs.c.o
+
+ft_flag_funcs.i: ft_flag_funcs.c.i
+
+.PHONY : ft_flag_funcs.i
+
+# target to preprocess a source file
+ft_flag_funcs.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_flag_funcs.c.i
+.PHONY : ft_flag_funcs.c.i
+
+ft_flag_funcs.s: ft_flag_funcs.c.s
+
+.PHONY : ft_flag_funcs.s
+
+# target to generate assembly for a file
+ft_flag_funcs.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_flag_funcs.c.s
+.PHONY : ft_flag_funcs.c.s
+
 ft_info.o: ft_info.c.o
 
 .PHONY : ft_info.o
@@ -1095,6 +1122,9 @@ help:
 	@echo "... ft_cpy.o"
 	@echo "... ft_cpy.i"
 	@echo "... ft_cpy.s"
+	@echo "... ft_flag_funcs.o"
+	@echo "... ft_flag_funcs.i"
+	@echo "... ft_flag_funcs.s"
 	@echo "... ft_info.o"
 	@echo "... ft_info.i"
 	@echo "... ft_info.s"
