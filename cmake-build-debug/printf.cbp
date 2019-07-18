@@ -225,6 +225,9 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_return_flags.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_return_num.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcat.c">
 			<Option target="printf"/>
 		</Unit>

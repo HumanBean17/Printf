@@ -51,6 +51,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/lcrawn/Desktop/Printf/ft_putstr.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_putstr.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_putstr_fd.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_putstr_fd.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_return_flags.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_return_flags.c.o"
+  "/Users/lcrawn/Desktop/Printf/ft_return_num.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_return_num.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_strcat.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_strcat.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_strchr.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_strchr.c.o"
   "/Users/lcrawn/Desktop/Printf/ft_strclr.c" "/Users/lcrawn/Desktop/Printf/cmake-build-debug/CMakeFiles/printf.dir/ft_strclr.c.o"

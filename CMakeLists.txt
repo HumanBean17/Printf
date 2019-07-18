@@ -38,7 +38,6 @@ add_executable(printf
         ft_putchar.c
         ft_putchar_fd.c
         ft_putendl.c
-        ft_putendl_fd.c
         ft_putnbr.c
         ft_putnbr_fd.c
         ft_putstr.c
@@ -75,4 +74,4 @@ add_executable(printf
         libft.h
         ft_printf.c ft_check.c ft_info.c ft_printf_list_func.c ft_atoi_base.c
         ft_put_unsigned.c ft_printf_del.c ft_strupper.c ft_put_float.c
-        ft_pows.c ft_put_exp.c ft_put_adress.c ft_return_flags.c main.c)
+        ft_pows.c ft_put_exp.c ft_put_adress.c ft_return_flags.c main.c ft_return_num.c)

@@ -13,7 +13,7 @@ int main()
 	//printf("%lf\n", 1.42l);
 	//printf("%2x\n", 542);
 	//printf("%.4o\n", 424242);
-	ft_printf("%hhd%hhd", 1, 42);
+	ft_printf("%.100f\n", d);
 	//ft_printf("%.4s", "42 is the answer");
 	return 0;
 }

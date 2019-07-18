@@ -56,6 +56,11 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+char 	*ft_return_f(t_printf *list, va_list ap);
+char 	*ft_return_x(t_printf *list, va_list ap);
+char 	*ft_return_u(t_printf *list, va_list ap);
+char	*ft_return_o(t_printf *list, va_list ap);
+char 	*ft_return_di(t_printf *list, va_list ap);
 int					ft_printf_putstr(int type, char *field, const char *number);
 void				ft_do_del(t_printf **list, char **number, char **field);
 char 				*ft_strdup_n(const char * str, int round);

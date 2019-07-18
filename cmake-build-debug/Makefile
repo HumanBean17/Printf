@@ -1392,6 +1392,33 @@ ft_return_flags.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_flags.c.s
 .PHONY : ft_return_flags.c.s
 
+ft_return_num.o: ft_return_num.c.o
+
+.PHONY : ft_return_num.o
+
+# target to build an object file
+ft_return_num.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_num.c.o
+.PHONY : ft_return_num.c.o
+
+ft_return_num.i: ft_return_num.c.i
+
+.PHONY : ft_return_num.i
+
+# target to preprocess a source file
+ft_return_num.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_num.c.i
+.PHONY : ft_return_num.c.i
+
+ft_return_num.s: ft_return_num.c.s
+
+.PHONY : ft_return_num.s
+
+# target to generate assembly for a file
+ft_return_num.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_return_num.c.s
+.PHONY : ft_return_num.c.s
+
 ft_strcat.o: ft_strcat.c.o
 
 .PHONY : ft_strcat.o
@@ -2379,6 +2406,9 @@ help:
 	@echo "... ft_return_flags.o"
 	@echo "... ft_return_flags.i"
 	@echo "... ft_return_flags.s"
+	@echo "... ft_return_num.o"
+	@echo "... ft_return_num.i"
+	@echo "... ft_return_num.s"
 	@echo "... ft_strcat.o"
 	@echo "... ft_strcat.i"
 	@echo "... ft_strcat.s"
