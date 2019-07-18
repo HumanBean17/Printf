@@ -6,13 +6,20 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 12:23:34 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/18 20:57:18 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/18 20:57:57 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_putnbr(int n, int round)
+int 			ft_abs(int x)
+{
+	if (x < 0)
+		return (-x);
+	return (x);
+}
+
+char 			*ft_putnbr(int n, int round)
 {
 	int                     num;
 	int					    i;

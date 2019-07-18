@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_longarifm_3.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/18 21:31:46 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/18 21:31:48 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-int 			*ft_mlt(const int *a, const int *b, int n)
+int		*ft_mlt(const int *a, const int *b, int n)
 {
 	int *mlt;
 	int i;
@@ -23,7 +35,7 @@ int 			*ft_mlt(const int *a, const int *b, int n)
 	return (mlt);
 }
 
-void            ft_round(int **a, int **b, int round)
+void	ft_round(int **a, int **b, int round)
 {
 	if (round == 0)
 	{
@@ -41,7 +53,7 @@ void            ft_round(int **a, int **b, int round)
 	}
 }
 
-int                 ft_find_start(const int *a)
+int		ft_find_start(const int *a)
 {
 	int i;
 	int len;

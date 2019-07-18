@@ -231,6 +231,33 @@ ft_check_2.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_check_2.c.s
 .PHONY : ft_check_2.c.s
 
+ft_conditions.o: ft_conditions.c.o
+
+.PHONY : ft_conditions.o
+
+# target to build an object file
+ft_conditions.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_conditions.c.o
+.PHONY : ft_conditions.c.o
+
+ft_conditions.i: ft_conditions.c.i
+
+.PHONY : ft_conditions.i
+
+# target to preprocess a source file
+ft_conditions.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_conditions.c.i
+.PHONY : ft_conditions.c.i
+
+ft_conditions.s: ft_conditions.c.s
+
+.PHONY : ft_conditions.s
+
+# target to generate assembly for a file
+ft_conditions.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_conditions.c.s
+.PHONY : ft_conditions.c.s
+
 ft_cpy.o: ft_cpy.c.o
 
 .PHONY : ft_cpy.o
@@ -1062,6 +1089,9 @@ help:
 	@echo "... ft_check_2.o"
 	@echo "... ft_check_2.i"
 	@echo "... ft_check_2.s"
+	@echo "... ft_conditions.o"
+	@echo "... ft_conditions.i"
+	@echo "... ft_conditions.s"
 	@echo "... ft_cpy.o"
 	@echo "... ft_cpy.i"
 	@echo "... ft_cpy.s"

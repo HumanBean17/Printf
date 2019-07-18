@@ -6,17 +6,17 @@
 /*   By: lcrawn <lcrawn@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/06 14:04:32 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/07 12:54:29 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/18 21:18:25 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int 			*ft_int_cpy(const int *a)
+int			*ft_int_cpy(const int *a)
 {
-	int 	len;
-	int 	*b;
-	int 	i;
+	int		len;
+	int		*b;
+	int		i;
 
 	i = 1;
 	len = a[0] + 1;
@@ -30,7 +30,7 @@ int 			*ft_int_cpy(const int *a)
 	return (b);
 }
 
-char 	*ft_strcpy_end(char *destination, const char *source)
+char		*ft_strcpy_end(char *destination, const char *source)
 {
 	int end_d;
 	int end_s;
@@ -48,7 +48,7 @@ char 	*ft_strcpy_end(char *destination, const char *source)
 	return (destination);
 }
 
-char	*ft_strcpy_n(char *destination, const char *source)
+char		*ft_strcpy_n(char *destination, const char *source)
 {
 	int i;
 
@@ -63,7 +63,7 @@ char	*ft_strcpy_n(char *destination, const char *source)
 	return (destination);
 }
 
-char	*ft_strcpy(char *destination, const char *source)
+char		*ft_strcpy(char *destination, const char *source)
 {
 	int i;
 

@@ -96,6 +96,9 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_check_2.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_conditions.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_cpy.c">
 			<Option target="printf"/>
 		</Unit>

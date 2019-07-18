@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_longarifm_2.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/18 21:28:47 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/18 21:31:00 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-int                 *ft_shift_right(int **a)
+int			*ft_shift_right(int **a)
 {
 	int i;
 	int j;
@@ -26,12 +38,12 @@ int                 *ft_shift_right(int **a)
 	return (b);
 }
 
-char                *ft_convert_2(int *a, int sign)
+char		*ft_convert_2(int *a, int sign)
 {
-	char    *s;
-	int     i;
-	int     j;
-	int     len;
+	char	*s;
+	int		i;
+	int		j;
+	int		len;
 
 	s = ft_strnew(a[0] + sign);
 	j = sign == 0 ? 0 : 1;
@@ -48,7 +60,7 @@ char                *ft_convert_2(int *a, int sign)
 	return (s);
 }
 
-int            *ft_cast_2(unsigned long num, int len)
+int			*ft_cast_2(unsigned long num, int len)
 {
 	int *pow;
 	int *dec;
@@ -75,11 +87,11 @@ int            *ft_cast_2(unsigned long num, int len)
 	return (dec);
 }
 
-void 				ft_sum_2(int **sum, const int *b)
+void		ft_sum_2(int **sum, const int *b)
 {
-	int 		size;
-	int 		i;
-	int         start;
+	int	size;
+	int	i;
+	int	start;
 
 	size = b[0];
 	i = size;
@@ -93,11 +105,11 @@ void 				ft_sum_2(int **sum, const int *b)
 	ft_move_2(sum);
 }
 
-void 				ft_move_2(int **a)
+void		ft_move_2(int **a)
 {
-	int size;
-	int i;
-	int c;
+	int	size;
+	int	i;
+	int	c;
 
 	size = (*a)[0] + 1;
 	i = 1;

@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/09 19:25:02 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/06/09 14:26:04 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/18 20:55:23 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static int			ft_num_len(unsigned long n)
 	return (len);
 }
 
-char		*ft_strrrev(char *str, int flag)
+char				*ft_strrrev(char *str, int flag)
 {
 	int i;
 	int k;
@@ -46,7 +46,7 @@ char		*ft_strrrev(char *str, int flag)
 	return (str);
 }
 
-char			*ft_itoa(long long int n)
+char				*ft_itoa(long long int n)
 {
 	char				*num;
 	int					len;

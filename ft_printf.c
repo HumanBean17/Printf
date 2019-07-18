@@ -38,6 +38,5 @@ int		ft_printf(const char *str, ...)
 			print++;
 		}
 	}
-	va_end(ap);
 	return (print);
 }

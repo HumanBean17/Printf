@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/18 20:53:06 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/18 20:59:50 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,12 @@ typedef union 		u_printf
 	t_double		num;
 }					t_uprintf;
 
+void 		ft_condition_spec(t_printf *tmp, char **line, char *spec, char *width);
+void		ft_condition_width(t_printf *tmp, char **line, char **width);
+void 		ft_condition_tab(t_printf *tmp, char **line, char *tab, char *width);
+void		ft_condition_sign(t_printf *tmp, char **line, char *sign, char *width);
+void 		ft_char_zero(char **width, const char *line, t_printf *tmp);
+int 		ft_check_zero(const char *line);
 char		*ft_strrrev(char *str, int flag);
 char 	*ft_return_f(t_printf *list, va_list ap);
 char 	*ft_return_x(t_printf *list, va_list ap);

@@ -2,7 +2,7 @@
 
 int main()
 {
-	double d = -31.000000001382139273892173827382138129429;
+	double d = -398421.000000001382139273892173827382138129429;
 	long int k = 0x7325324342341;
 	int s = 1678932;
 	int i = 1;
@@ -13,6 +13,7 @@ int main()
 	//printf("%lf\n", 1.42l);
 	//printf("%2x\n", 542);
 	//printf("%.4o\n", 424242);
+	printf("%.100f\n", d);
 	ft_printf("%.100f\n", d);
 	//ft_printf("%.4s", "42 is the answer");
 	return 0;
