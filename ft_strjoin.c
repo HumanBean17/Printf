@@ -36,15 +36,21 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (concat_str);
 }
 
-char 	*ft_freejoin(char **s1, char **s2)
+char	*ft_strcat(char *dst, const char *app)
 {
-	char *result;
-	char *ptr;
+	int i;
+	int k;
 
-	ptr = ft_strdup(*s1);
-	ft_strdel(s1);
-	result = ft_strjoin(ptr, *s2);
-	ft_strdel(s2);
-	ft_strdel(&ptr);
-	return (result);
+	k = 0;
+	i = 0;
+	while (dst[i] != '\0')
+		i++;
+	while (app[k] != '\0')
+	{
+		dst[i] = app[k];
+		i++;
+		k++;
+	}
+	dst[i] = '\0';
+	return (dst);
 }

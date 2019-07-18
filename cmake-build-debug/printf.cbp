@@ -90,85 +90,34 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_atoi_base.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_bzero.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_check.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_check.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_check_2.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_cpy.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_info.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isalnum.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isalpha.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isascii.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isdigit.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_isprint.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_itoa.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_find.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_foreach_if.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_push_back.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_list_reverse.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_longarifm.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstadd.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_longarifm_2.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstdel.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstdelone.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstiter.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstmap.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_lstnew.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_longarifm_3.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memalloc.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memccpy.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memchr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memcmp.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memcpy.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memdel.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memmove.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_memset.c">
@@ -177,7 +126,13 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_pows.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf.dSYM">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf_del.c">
@@ -195,31 +150,19 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_float.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_int.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_unsigned.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putchar.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putchar_fd.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putendl.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putendl_fd.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putnbr.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putnbr_fd.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putstr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_putstr_fd.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_return_flags.c">
@@ -228,94 +171,22 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_return_num.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcat.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strchr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strclr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcmp.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strcpy.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strdel.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_round_dioux.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strdup.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strequ.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_striter.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_striteri.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strjoin.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strlcat.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strlen.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strmap.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strmapi.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strncat.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strncmp.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strncpy.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strnequ.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strnew.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strnstr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strrchr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strrev.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strsplit.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strstr.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strsub.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strtrim.c">
-			<Option target="printf"/>
-		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_strupper.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_tolower.c">
-			<Option target="printf"/>
-		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_toupper.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/libft.h">

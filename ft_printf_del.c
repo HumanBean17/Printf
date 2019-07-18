@@ -1,5 +1,23 @@
 #include "libft.h"
 
+void	ft_strdel(char **as)
+{
+	if (as)
+	{
+		free(*as);
+		*as = NULL;
+	}
+}
+
+void 			ft_int_del(int **a)
+{
+	if (a)
+	{
+		free(*a);
+		*a = NULL;
+	}
+}
+
 static void	ft_del(t_flags **tmp)
 {
 	if (*tmp)

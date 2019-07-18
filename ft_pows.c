@@ -32,25 +32,3 @@ int             *ft_long_pow(int power, int num)
 	ft_int_del(&b);
 	return (result);
 }
-
-long double 	ft_double_pow(long double num, int pow)
-{
-	int 				flag;
-	long double 		mult;
-
-	flag = 0;
-	mult = 1;
-	if (pow < 0)
-	{
-		pow *= -1;
-		flag = 1;
-	}
-	while (pow > 0)
-	{
-		pow--;
-		mult *= num;
-	}
-	if (flag == 1)
-		return (1.0 / mult);
-	return (mult);
-}

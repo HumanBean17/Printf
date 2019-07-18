@@ -29,16 +29,3 @@ int 			*ft_new_malloc(size_t size)
 	}
 	return (ar);
 }
-
-void	*ft_memalloc(size_t size)
-{
-	void *ar;
-
-	ar = malloc(size);
-	if (ar)
-	{
-		ft_memset(ar, 0, size);
-		return (ar);
-	}
-	return (NULL);
-}

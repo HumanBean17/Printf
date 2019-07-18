@@ -25,7 +25,7 @@ static int			ft_num_len(unsigned long n)
 	return (len);
 }
 
-static char		*ft_strrrev(char *str, int flag)
+char		*ft_strrrev(char *str, int flag)
 {
 	int i;
 	int k;

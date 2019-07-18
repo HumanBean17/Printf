@@ -12,6 +12,24 @@
 
 #include "libft.h"
 
+int 			*ft_int_cpy(const int *a)
+{
+	int 	len;
+	int 	*b;
+	int 	i;
+
+	i = 1;
+	len = a[0] + 1;
+	b = ft_new_malloc(len);
+	b[0] = a[0];
+	while (i < len)
+	{
+		b[i] = a[i];
+		i++;
+	}
+	return (b);
+}
+
 char 	*ft_strcpy_end(char *destination, const char *source)
 {
 	int end_d;
