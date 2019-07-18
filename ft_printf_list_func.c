@@ -68,6 +68,7 @@ int					ft_printf_putstr(int type, char *field, const char *number)
 	int c;
 
 	c = 0;
+	//printf("field = %s\n", field);
 	if (ft_toupper(type) == type)
 		ft_putstr(ft_strupper(field));
 	else
@@ -87,7 +88,7 @@ void				ft_do_del(t_printf **list, char **number, char **field)
 		ft_strdel(number);
 	else
 	{
-		ft_strdel(number);
+		//ft_strdel(number);
 		ft_strdel(field);
 	}
 	ft_printf_del(list);

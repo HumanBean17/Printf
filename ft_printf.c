@@ -27,7 +27,7 @@ int		ft_printf(const char *str, ...)
 			str++;
 			if (!(*str))
 				break;
-			while (!ft_type_or(*str))
+			while (!ft_type_or(*str) && *str)
 				str++;
 			str++;
 		}

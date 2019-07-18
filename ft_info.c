@@ -63,7 +63,6 @@ char    *ft_line(t_printf *list, va_list ap)
     }
     else if (list->type == 'f' || list->type == 'F')
     {
-		//line = ft_put_float(va_arg(ap, double), list->acc);
     	if (ft_len_check(list->len) == 2)
 			line = ft_put_float(va_arg(ap, long double), list->acc);
     	else
@@ -87,11 +86,11 @@ int		ft_fill_info(const char *str, va_list ap)
 	ft_fill(&list, str);
 	//ft_print(list);
 	number = ft_line(list, ap);
-	printf("num = %s\n", number);
+	//printf("num = %s\n", number);
 	field = ft_return_width(list, number);
-	printf("field = %s\n", field);
+	//printf("field = %s\n", field);
 	c = ft_printf_putstr(list->type, field, number);
 	//printf("%s %s\n", number, field);
-	//ft_do_del(&list, &number, &field);
+	ft_do_del(&list, &number, &field);
 	return (c);
 }
