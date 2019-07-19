@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_return_num.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/19 11:06:23 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/19 11:10:18 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-char 	*ft_return_di(t_printf *list, va_list ap)
+char	*ft_return_di(t_printf *list, va_list ap)
 {
 	char *line;
 
@@ -36,7 +48,7 @@ char	*ft_return_o(t_printf *list, va_list ap)
 	return (line);
 }
 
-char 	*ft_return_u(t_printf *list, va_list ap)
+char	*ft_return_u(t_printf *list, va_list ap)
 {
 	char *line;
 
@@ -50,11 +62,12 @@ char 	*ft_return_u(t_printf *list, va_list ap)
 	else if (ft_len_check_dioux(list->len) == 3)
 		line = ft_put_unsigned_char(va_arg(ap, unsigned int), list->acc);
 	else if (ft_len_check_dioux(list->len) == 4)
-		line = ft_put_unsigned_llong(va_arg(ap, unsigned long long int), list->acc);
+		line = ft_put_unsigned_llong(va_arg(ap, unsigned long long int),
+				list->acc);
 	return (line);
 }
 
-char 	*ft_return_x(t_printf *list, va_list ap)
+char	*ft_return_x(t_printf *list, va_list ap)
 {
 	char *line;
 
@@ -72,7 +85,7 @@ char 	*ft_return_x(t_printf *list, va_list ap)
 	return (line);
 }
 
-char 	*ft_return_f(t_printf *list, va_list ap)
+char	*ft_return_f(t_printf *list, va_list ap)
 {
 	char *line;
 

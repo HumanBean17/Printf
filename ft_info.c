@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 21:18:52 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/18 21:20:16 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 10:17:40 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,6 @@ char		*ft_line(t_printf *list, va_list ap)
 		line = ft_return_x(list, ap);
 	else if (list->type == 'f' || list->type == 'F')
 		line = ft_return_f(list, ap);
-	else if (list->type == 'e' || list->type == 'E')
-		line = ft_put_exp(va_arg(ap, double), list->acc);
 	else if (list->type == 'p')
 		line = ft_put_address(va_arg(ap, unsigned long), list->acc);
 	return (line);
@@ -48,7 +46,7 @@ int			ft_fill_info(const char *str, va_list ap)
 	list = ft_printf_new();
 	ft_fill(&list, str);
 	number = ft_line(list, ap);
-	field = ft_return_width(list, number);
+	field = ft_return_field(list, number);
 	c = ft_printf_putstr(list->type, field, number);
 	ft_do_del(&list, &number, &field);
 	return (c);

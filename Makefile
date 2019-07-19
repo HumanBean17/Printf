@@ -6,7 +6,7 @@
 #    By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/06 12:22:56 by lcrawn            #+#    #+#              #
-#    Updated: 2019/07/06 15:34:47 by lcrawn           ###   ########.fr        #
+#    Updated: 2019/07/19 11:04:20 by lcrawn           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ HDR = libft.h
 all: $(NAME)
 
 $(NAME):
-		gcc -o ft_printf $(SRC)
+		gcc -Wall -Wextra -Werror -o ft_printf $(SRC)
 
 clean:
 		rm -f ft_printf

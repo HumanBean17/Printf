@@ -147,10 +147,10 @@
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf_list_func.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_adress.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_printf_list_func_2.c">
 			<Option target="printf"/>
 		</Unit>
-		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_exp.c">
+		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_adress.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/lcrawn/Desktop/Printf/ft_put_float.c">

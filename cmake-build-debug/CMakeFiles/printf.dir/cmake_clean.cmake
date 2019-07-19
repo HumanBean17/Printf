@@ -17,7 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_printf_del.c.o"
   "CMakeFiles/printf.dir/ft_printf_list_func.c.o"
   "CMakeFiles/printf.dir/ft_put_adress.c.o"
-  "CMakeFiles/printf.dir/ft_put_exp.c.o"
   "CMakeFiles/printf.dir/ft_put_float.c.o"
   "CMakeFiles/printf.dir/ft_put_unsigned.c.o"
   "CMakeFiles/printf.dir/ft_putchar.c.o"
@@ -35,6 +34,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/ft_put_int.c.o"
   "CMakeFiles/printf.dir/ft_conditions.c.o"
   "CMakeFiles/printf.dir/ft_flag_funcs.c.o"
+  "CMakeFiles/printf.dir/ft_printf_list_func_2.c.o"
   "printf.pdb"
   "printf"
 )

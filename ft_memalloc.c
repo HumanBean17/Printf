@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/09 19:14:03 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/06/25 12:24:17 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 10:11:58 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int 			*ft_new_malloc(size_t size)
 		return (ar);
 	i = 0;
 	ar = (int *)malloc(sizeof(int) * size);
-	while (i < size)
+	while (i < (int)size)
 	{
 		ar[i] = 0;
 		i++;

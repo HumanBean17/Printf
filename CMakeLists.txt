@@ -27,7 +27,6 @@ add_executable(printf
         ft_printf_del.c
         ft_printf_list_func.c
         ft_put_adress.c
-        ft_put_exp.c
         ft_put_float.c
         ft_put_unsigned.c
         ft_putchar.c
@@ -41,4 +40,4 @@ add_executable(printf
         ft_strnew.c
         ft_strupper.c
         libft.h
-        main.c ft_round_dioux.c ft_put_int.c ft_conditions.c ft_flag_funcs.c)
+        main.c ft_round_dioux.c ft_put_int.c ft_conditions.c ft_flag_funcs.c ft_printf_list_func_2.c)

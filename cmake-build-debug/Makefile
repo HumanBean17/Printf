@@ -636,6 +636,33 @@ ft_printf_list_func.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf_list_func.c.s
 .PHONY : ft_printf_list_func.c.s
 
+ft_printf_list_func_2.o: ft_printf_list_func_2.c.o
+
+.PHONY : ft_printf_list_func_2.o
+
+# target to build an object file
+ft_printf_list_func_2.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf_list_func_2.c.o
+.PHONY : ft_printf_list_func_2.c.o
+
+ft_printf_list_func_2.i: ft_printf_list_func_2.c.i
+
+.PHONY : ft_printf_list_func_2.i
+
+# target to preprocess a source file
+ft_printf_list_func_2.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf_list_func_2.c.i
+.PHONY : ft_printf_list_func_2.c.i
+
+ft_printf_list_func_2.s: ft_printf_list_func_2.c.s
+
+.PHONY : ft_printf_list_func_2.s
+
+# target to generate assembly for a file
+ft_printf_list_func_2.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf_list_func_2.c.s
+.PHONY : ft_printf_list_func_2.c.s
+
 ft_put_adress.o: ft_put_adress.c.o
 
 .PHONY : ft_put_adress.o
@@ -662,33 +689,6 @@ ft_put_adress.s: ft_put_adress.c.s
 ft_put_adress.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_put_adress.c.s
 .PHONY : ft_put_adress.c.s
-
-ft_put_exp.o: ft_put_exp.c.o
-
-.PHONY : ft_put_exp.o
-
-# target to build an object file
-ft_put_exp.c.o:
-	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_put_exp.c.o
-.PHONY : ft_put_exp.c.o
-
-ft_put_exp.i: ft_put_exp.c.i
-
-.PHONY : ft_put_exp.i
-
-# target to preprocess a source file
-ft_put_exp.c.i:
-	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_put_exp.c.i
-.PHONY : ft_put_exp.c.i
-
-ft_put_exp.s: ft_put_exp.c.s
-
-.PHONY : ft_put_exp.s
-
-# target to generate assembly for a file
-ft_put_exp.c.s:
-	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_put_exp.c.s
-.PHONY : ft_put_exp.c.s
 
 ft_put_float.o: ft_put_float.c.o
 
@@ -1161,12 +1161,12 @@ help:
 	@echo "... ft_printf_list_func.o"
 	@echo "... ft_printf_list_func.i"
 	@echo "... ft_printf_list_func.s"
+	@echo "... ft_printf_list_func_2.o"
+	@echo "... ft_printf_list_func_2.i"
+	@echo "... ft_printf_list_func_2.s"
 	@echo "... ft_put_adress.o"
 	@echo "... ft_put_adress.i"
 	@echo "... ft_put_adress.s"
-	@echo "... ft_put_exp.o"
-	@echo "... ft_put_exp.i"
-	@echo "... ft_put_exp.s"
 	@echo "... ft_put_float.o"
 	@echo "... ft_put_float.i"
 	@echo "... ft_put_float.s"

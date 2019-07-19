@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 21:50:10 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/18 21:54:28 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 10:55:22 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,9 @@ void		ft_do_del(t_printf **list, char **number, char **field)
 	if ((*number) == (*field))
 		ft_strdel(number);
 	else
+	{
 		ft_strdel(field);
+	}
 	ft_printf_del(list);
 }
 
@@ -50,8 +52,8 @@ void		ft_len_mod(t_printf **elem, const char *str, int i, int *c)
 
 int			ft_fill(t_printf **elem, const char *str)
 {
-	int 		i;
-	int 		c;
+	int	i;
+	int	c;
 
 	i = 1;
 	c = -1;
@@ -61,10 +63,7 @@ int			ft_fill(t_printf **elem, const char *str)
 			ft_flag_new(elem, str[i]);
 		else if (ft_isdigit(str[i]) && (*elem)->acc == -1
 		&& (*elem)->width == 0)
-		{
-			(*elem)->width = ft_atoi(str + i);
-			i += ft_n_len((*elem)->width) - 1;
-		}
+			i += ft_width_mod(elem, i, (char *)str);
 		else if (str[i] == '.' && (*elem)->acc == -1)
 		{
 			(*elem)->acc = ft_atoi(str + i + 1);
@@ -79,7 +78,7 @@ int			ft_fill(t_printf **elem, const char *str)
 	return (i);
 }
 
-t_printf		*ft_printf_new(void)
+t_printf	*ft_printf_new(void)
 {
 	t_printf *tmp;
 

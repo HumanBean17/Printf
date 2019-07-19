@@ -6,7 +6,7 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 20:59:56 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/18 21:03:04 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:02:03 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ char		*ft_sign(t_printf *tmp, char s)
 	return (sign);
 }
 
-char		*ft_return_width(t_printf *tmp, char *line)
+char		*ft_return_field(t_printf *tmp, char *line)
 {
 	char	*width;
 	char	*spec;
@@ -82,12 +82,15 @@ char		*ft_return_width(t_printf *tmp, char *line)
 	spec = ft_spec(tmp);
 	sign = line ? ft_sign(tmp, line[0]) : ft_strdup("");
 	width = ft_width(tmp, line);
-	ft_condition_spec(tmp, &line, spec, width);
-	ft_condition_sign(tmp, &line, sign, width);
-	ft_condition_tab(tmp, &line, tab, width);
+	ft_condition_spec(tmp, &line, &spec, width);
+	ft_condition_sign(tmp, &line, &sign, width);
+	ft_condition_tab(tmp, &line, &tab, width);
 	ft_condition_width(tmp, &line, &width);
 	ft_char_zero(&width, line, tmp);
 	if (width)
+	{
+		ft_strdel(&line);
 		return (width);
+	}
 	return (line);
 }
