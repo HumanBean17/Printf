@@ -6,13 +6,13 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/09 19:30:12 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/07 12:57:50 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:21:37 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
-char 		*ft_strnew_n(size_t size, char c)
+char	*ft_strnew_n(size_t size, char c)
 {
 	char *str;
 
@@ -27,7 +27,7 @@ char 		*ft_strnew_n(size_t size, char c)
 	return (NULL);
 }
 
-char 		*ft_strnew(size_t size)
+char	*ft_strnew(size_t size)
 {
 	char *str;
 

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
 char		*ft_base_llong(unsigned long long int num, int base, int round)
 {

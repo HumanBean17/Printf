@@ -1,40 +1,40 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_put_int.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/19 11:26:53 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/19 11:32:37 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-char *ft_long_min(long int n)
+#include "libftprintf.h"
+
+char	*ft_long_min(long int n)
 {
-	char *c;
-
 	if (n == -2147483648)
-	{
-		c = ft_strdup("-2147483648");
-		return (c);
-	}
+		return (ft_strdup("-2147483648"));
 	else if (n == (-9223372036854775807 - 1))
-	{
-		c = ft_strdup("-9223372036854775808");
-		return (c);
-	}
+		return (ft_strdup("-9223372036854775808"));
 	return (NULL);
 }
 
-char *ft_putnbr_llong(long long int n, int round)
+char	*ft_putnbr_llong(long long int n, int round)
 {
 	long long int	num;
 	int				i;
 	char			*c;
-	char 			*result;
+	char			*result;
 
 	if (round == 0 && n == 0)
 		return (NULL);
 	if (n == -9223372036854775807 - 1)
-	{
-		c = ft_strdup("-9223372036854775808");
-		return (c);
-	}
+		return (ft_strdup("-9223372036854775808"));
 	c = ft_strnew(21);
 	i = 0;
-	if (n == 0)
-		c[0] = '0';
+	c[0] = n == 0 ? '0' : c[0];
 	if (n < 0)
 	{
 		c[ft_n_len(n)] = '-';
@@ -50,12 +50,12 @@ char *ft_putnbr_llong(long long int n, int round)
 	return (result);
 }
 
-char *ft_putnbr_long(long int n, int round)
+char	*ft_putnbr_long(long int n, int round)
 {
 	long int	num;
 	int			i;
 	char		*c;
-	char 		*result;
+	char		*result;
 
 	if (round == 0 && n == 0)
 		return (NULL);
@@ -63,8 +63,7 @@ char *ft_putnbr_long(long int n, int round)
 		return (c);
 	c = ft_strnew(21);
 	i = 0;
-	if (n == 0)
-		c[0] = '0';
+	c[0] = n == 0 ? '0' : c[0];
 	if (n < 0)
 	{
 		c[ft_n_len(n)] = '-';
@@ -80,24 +79,20 @@ char *ft_putnbr_long(long int n, int round)
 	return (result);
 }
 
-char *ft_putnbr_signed(signed char n, int round)
+char	*ft_putnbr_signed(signed char n, int round)
 {
 	signed char		num;
 	int				i;
 	char			*c;
-	char 			*result;
+	char			*result;
 
 	if (round == 0 && n == 0)
 		return (NULL);
 	if (n == -128)
-	{
-		c = ft_strdup("-128");
-		return (c);
-	}
+		return (ft_strdup("-128"));
 	c = ft_strnew(21);
 	i = 0;
-	if (n == 0)
-		c[0] = '0';
+	c[0] = n == 0 ? '0' : c[0];
 	if (n < 0)
 	{
 		c[ft_n_len(n)] = '-';
@@ -113,24 +108,20 @@ char *ft_putnbr_signed(signed char n, int round)
 	return (result);
 }
 
-char *ft_putnbr_short(short n, int round)
+char	*ft_putnbr_short(short n, int round)
 {
 	short	num;
-	int 	i;
-	char 	*c;
-	char 	*result;
+	int		i;
+	char	*c;
+	char	*result;
 
 	if (round == 0 && n == 0)
 		return (NULL);
 	if (n == -32768)
-	{
-		c = ft_strdup("-32768");
-		return (c);
-	}
+		return (ft_strdup("-32768"));
 	c = ft_strnew(21);
 	i = 0;
-	if (n == 0)
-		c[0] = '0';
+	c[0] = n == 0 ? '0' : c[0];
 	if (n < 0)
 	{
 		c[ft_n_len(n)] = '-';

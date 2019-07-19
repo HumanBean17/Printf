@@ -6,11 +6,11 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 21:18:52 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/19 10:17:40 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 10:22:52 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
 char		*ft_line(t_printf *list, va_list ap)
 {

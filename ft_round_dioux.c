@@ -1,11 +1,23 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_round_dioux.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/19 11:33:50 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/19 11:34:17 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-char 		*ft_round_dioux(char **num, int round)
+#include "libftprintf.h"
+
+char	*ft_round_dioux(char **num, int round)
 {
-	char 			*r;
-	char 			*result;
-	int 			len;
-	int 			flag;
+	char	*r;
+	char	*result;
+	int		len;
+	int		flag;
 
 	len = ft_strlen(*num);
 	flag = 0;

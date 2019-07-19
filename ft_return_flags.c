@@ -6,11 +6,11 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 20:59:56 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/19 11:02:03 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:02:43 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
 char		*ft_width(t_printf *tmp, char *line)
 {

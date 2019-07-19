@@ -6,15 +6,14 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 16:49:05 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/19 11:20:47 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:48:05 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef LIBFTPRINTF_H
+# define LIBFTPRINTF_H
 
 # include <limits.h>
-# include <float.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>

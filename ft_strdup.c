@@ -6,13 +6,13 @@
 /*   By: lcrawn <lcrawn@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/06 13:34:19 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/07 16:49:58 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:22:01 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
-char 	*ft_strdup_n(const char *str, int round)
+char	*ft_strdup_n(const char *str, int round)
 {
 	char	*cp_str;
 	int		i;

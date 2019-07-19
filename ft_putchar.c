@@ -6,19 +6,19 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 12:23:16 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/08 11:20:40 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:43:37 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
-char    *ft_putchar_2(char c)
+char	*ft_putchar_2(char c)
 {
-    char *s;
+	char	*s;
 
 	s = ft_strnew(1);
-    s[0] = c;
-    return (s);
+	s[0] = c;
+	return (s);
 }
 
 void	ft_putchar(char c)

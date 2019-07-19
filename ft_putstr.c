@@ -6,11 +6,11 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 12:23:46 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/19 10:11:52 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:43:01 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
 int		ft_printf_putstr(int type, char *field, const char *number)
 {
@@ -36,7 +36,7 @@ void	ft_putstr(char const *s)
 
 	i = 0;
 	if (!s)
-		return;
+		return ;
 	while (s[i] != '\0')
 	{
 		write(1, &s[i], 1);

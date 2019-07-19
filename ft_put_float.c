@@ -1,30 +1,46 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_put_float.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/07/19 11:22:21 by lcrawn            #+#    #+#             */
+/*   Updated: 2019/07/19 11:25:54 by lcrawn           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int             *ft_dec_initil(t_double *tmp)
+#include "libftprintf.h"
+
+int		*ft_dec_initil(t_double *tmp)
 {
 	if (tmp->exp - 16383 < 0)
 		return (ft_cast_2(0, 64));
-    else if ((tmp->exp - 16383) < 64)
-		return (ft_cast_2(tmp->man >> (unsigned long) (63 - ft_abs(tmp->exp - 16383)), ft_abs(tmp->exp - 16383)));
-    return (ft_cast_2(tmp->man , ft_abs(tmp->exp - 16383)));
+	else if ((tmp->exp - 16383) < 64)
+		return (ft_cast_2(tmp->man >>
+		(unsigned long)(63 - ft_abs(tmp->exp - 16383)),
+				ft_abs(tmp->exp - 16383)));
+	else
+		return (ft_cast_2(tmp->man, ft_abs(tmp->exp - 16383)));
 }
 
-int             *ft_fract_initil(t_double *tmp, int round)
+int		*ft_fract_initil(t_double *tmp, int round)
 {
-    tmp->man = tmp->exp - 16383 < 0 ? tmp->man >> (unsigned long)(ft_abs(tmp->exp - 16383)) :
-        tmp->man << (unsigned long)(ft_abs(tmp->exp - 16383));
-    if (ft_abs(tmp->exp - 16383) >= 64)
-    	tmp->man = 0;
-    return (ft_cast_1(tmp->man, round));
+	tmp->man = tmp->exp - 16383 < 0 ?
+			tmp->man >> (unsigned long)(ft_abs(tmp->exp - 16383)) :
+		tmp->man << (unsigned long)(ft_abs(tmp->exp - 16383));
+	if (ft_abs(tmp->exp - 16383) >= 64)
+		tmp->man = 0;
+	return (ft_cast_1(tmp->man, round));
 }
 
-char 			*ft_put_float_2(t_double *tmp, int round)
+char	*ft_put_float_2(t_double *tmp, int round)
 {
-	int 			*frac;
-	int 	        *dec;
-	char 			*str_frac;
-	char            *str_dec;
-	char            *result;
+	int		*frac;
+	int		*dec;
+	char	*str_frac;
+	char	*str_dec;
+	char	*result;
 
 	dec = ft_dec_initil(tmp);
 	frac = ft_fract_initil(tmp, round);
@@ -37,10 +53,10 @@ char 			*ft_put_float_2(t_double *tmp, int round)
 	return (result);
 }
 
-char 			*ft_put_float(long double num, int round)
+char	*ft_put_float(long double num, int round)
 {
 	t_uprintf	*tmp;
-	char 		*str;
+	char		*str;
 
 	tmp = (t_uprintf *)malloc(sizeof(t_uprintf));
 	tmp->number = num;

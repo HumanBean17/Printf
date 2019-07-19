@@ -6,14 +6,14 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 21:16:35 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/19 11:09:42 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:45:42 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
 void		ft_condition_sign(t_printf *tmp, char **line,
-							  char **sign, char *width)
+	char **sign, char *width)
 {
 	char *ptr;
 
@@ -31,7 +31,7 @@ void		ft_condition_sign(t_printf *tmp, char **line,
 }
 
 void		ft_condition_tab(t_printf *tmp, char **line,
-							 char **tab, char *width)
+	char **tab, char *width)
 {
 	char *ptr;
 
@@ -70,7 +70,7 @@ void		ft_condition_width(t_printf *tmp, char **line, char **width)
 }
 
 void		ft_condition_spec(t_printf *tmp, char **line,
-							  char **spec, char *width)
+	char **spec, char *width)
 {
 	char *ptr;
 

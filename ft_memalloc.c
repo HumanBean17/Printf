@@ -6,13 +6,13 @@
 /*   By: lcrawn <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/09 19:14:03 by lcrawn            #+#    #+#             */
-/*   Updated: 2019/07/19 10:11:58 by lcrawn           ###   ########.fr       */
+/*   Updated: 2019/07/19 11:45:11 by lcrawn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libftprintf.h"
 
-int 			*ft_new_malloc(size_t size)
+int	*ft_new_malloc(size_t size)
 {
 	int *ar;
 	int i;
